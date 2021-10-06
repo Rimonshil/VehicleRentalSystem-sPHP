@@ -2,8 +2,8 @@
 	namespace sPHP; // Use framework namespace for shortcut to constants
 
     #region Reusable shortcut variable
-    $Name = "sPHP X UI Template";
-    $ShortName = "sPHPXUIT";
+    $Name = "Vehicale Rental System";
+    $ShortName = "VRS";
     $Domain = $_SERVER["SERVER_NAME"];
 	$LocalHost = "127.0.0.1, ::1, LocalHost, 192.168.1.1, 192.168.1.10, 192.168.137.1";
     #endregion Reusable shortcut variable
@@ -68,12 +68,13 @@
 		"DatabaseUserAuthentication"	=>	false,
 
 		"DatabaseTable"					=>	[ // Defaine database tables for automatic preset operations
-			"" . ($Entity = "Person") . "" => new Database\Table("{$Entity}", null, null, null, null, null, "ab_"),
-			"" . ($Entity = "Currency") . "" => new Database\Table("{$Entity}", null, null, null, null, null, "sphp_"),
+		/*	"" . ($Entity = "Person") . "" => new Database\Table("{$Entity}", null, null, null, null, null, "ab_"),
+			"" . ($Entity = "Currency") . "" => new Database\Table("{$Entity}", null, null, null, null, null, "sphp_"),*/
+			"" . ($Entity = "Vehicle") . "" => new Database\Table("{$Entity}", null, null, null, null, null, "vrs_"),
 			"" . ($Entity = "Gender") . "" => new Database\Table("{$Entity}", null, null, null, null, null, "sphp_"),
-			"" . ($Entity = "Person") . "Phone" => new Database\Table("{$Entity} phone", null, null, null, null, null, "ab_"),
+		/*	"" . ($Entity = "Person") . "Phone" => new Database\Table("{$Entity} phone", null, null, null, null, null, "ab_"),
 			"" . ($Entity = "Person") . "Address" => new Database\Table("{$Entity} Address", null, null, null, null, null, "ab_"),
-			"" . ($Entity = "Person") . "Note" => new Database\Table("{$Entity} Note", null, null, null, null, null, "ab_"),
+			"" . ($Entity = "Person") . "Note" => new Database\Table("{$Entity} Note", null, null, null, null, null, "ab_"),	*/
 											],
 
 
