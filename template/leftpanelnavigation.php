@@ -7,7 +7,7 @@ $LeftPanelLinkHTML[] = HTML\UI\Accordion("LeftPanelNavigation", [
 	$User->UserGroupIdentifierHighest() == "ADMINISTRATOR" ? new HTML\UI\Accordion\Pad([
 		new HTML\UI\Accordion\Item($Caption = "User", null, $Application->URL("Management/Generic/{$Caption}"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "User")) . "", "{$Caption}", null, "{$Key}"),
 		new HTML\UI\Accordion\Item($Caption = "User group", null, $Application->URL("Management/Generic/UserGroup"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "UserGroup")) . "", "{$Caption}", null, "{$Key}"),
-		new HTML\UI\Accordion\Item($Caption = "Person", null, $Application->URL("Management/Generic/Person"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "Person")) . "", "{$Caption}", null, "{$Key}"),
+		new HTML\UI\Accordion\Item($Caption = "Vehicle", null, $Application->URL("Management/Generic/Vehicle"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "Vehicle")) . "", "{$Caption}", null, "{$Key}"),
 		new HTML\UI\Accordion\Item($Caption = "Address", null, $Application->URL("Management/Generic/Address"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "Address")) . "", "{$Caption}", null, "{$Key}"),
 		new HTML\UI\Accordion\Item($Caption = "Phone", null, $Application->URL("Management/Generic/Phone"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "Phone")) . "", "{$Caption}", null, "{$Key}"),
 		new HTML\UI\Accordion\Item($Caption = "Note", null, $Application->URL("Management/Generic/Note"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "note")) . "", "{$Caption}", null, "{$Key}"),
