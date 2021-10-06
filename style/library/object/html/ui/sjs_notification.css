@@ -1,0 +1,12 @@
+html > body > #__sJS_Notification{position: fixed; right: 0; bottom: -1px; width: 250px; box-shadow: 0 0 5px 0 White; border: 1px White solid; border-right-width: 0; border-bottom-width: 0; background-color: rgba(0, 0, 0, 0.70); color: White; z-index: 1;}
+html > body > #__sJS_Notification > #__sJS_NotificationSwitch{display: none;}
+html > body > #__sJS_Notification > #__sJS_NotificationItemContainer{max-height: 75vh; overflow-y: auto;}
+html > body > #__sJS_Notification > #__sJS_NotificationItemContainer > .Item{border-bottom: 1px White solid; line-height: 1.62; text-align: justify; text-shadow: -1px -1px Black;}
+html > body > #__sJS_Notification > #__sJS_NotificationItemContainer > .Item > .Title{border-bottom: 1px Grey solid; background: linear-gradient(to bottom, Transparent, rgba(255, 255, 255, 0.1) 50%, Transparent 50%, rgba(255, 255, 255, 0.1)); background-color: rgba(255, 255, 255, 0.25); padding: 5px; padding-left: 10px; padding-right: 10px; font-style: italic; font-weight: bold; text-align: right;}
+html > body > #__sJS_Notification > #__sJS_NotificationItemContainer > .Item > .Message{padding: 15px;}
+html > body > #__sJS_Notification > #__sJS_NotificationItemContainer > .Error{border-color: Red; background-color: rgba(255, 0, 0, 0.25);}
+html > body > #__sJS_Notification > #__sJS_NotificationItemContainer > .Warning{border-color: Yellow; background-color: rgba(255, 255, 0, 0.25);}
+html > body > #__sJS_Notification > #__sJS_NotificationItemCounter{position: absolute; left: calc((-1) * (2em + 12px) / 2); top: calc((-1) * (2em + 12px) / 2); width: calc(2em + 12px); height: calc(2em + 12px); box-shadow: 0 0 5px 0 White; border-radius: 50%; border: 1px White solid; background-color: Black; padding: 5px; color: White; font-weight: bold; line-height: 2em; text-align: center; transition: all 2s;}
+html > body > #__sJS_Notification > #__sJS_NotificationSwitch:not(:checked) + #__sJS_NotificationItemContainer{display: none;}
+html > body > #__sJS_Notification > #__sJS_NotificationSwitch:not(:checked) + #__sJS_NotificationItemContainer + #__sJS_NotificationItemCounter{position: fixed; left: initial; top: 57px; right: 17px; background-color: rgba(255, 255, 255, 0.25); text-shadow: -1px -1px Black;}
+html > body > #__sJS_Notification > #__sJS_NotificationItemContainer:empty + #__sJS_NotificationItemCounter{display: none;}

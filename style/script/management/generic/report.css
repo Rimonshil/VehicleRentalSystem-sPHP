@@ -1,0 +1,5 @@
+.ReportTable { width: 100%; border: 1px Silver solid; border-width: 1px; }
+.ReportTable > thead { border-top: 1px Silver solid; background-color: transparent; text-shadow: none }
+.ReportTable > thead > tr > th { border-width: 0; padding: 15px; text-align: left; }
+.ReportTable > tbody > tr > td { border-width: 0; padding: 15px;}
+.Bolder { font-weight: bolder; text-align: center;}

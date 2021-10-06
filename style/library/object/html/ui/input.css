@@ -1,0 +1,8 @@
+.InputExistingFile{text-align: center;}
+.InputExistingFile > a{}
+.InputExistingFile > a > img{margin-right: 5px; margin-bottom: 5px; max-width: 250px; max-height: 128px; box-shadow: 0 0 5px 0 Black; border-radius: 5px; border: 1px White solid; }
+.InputExistingFile > label{display: block; margin-bottom: 5px; cursor: pointer;}
+.InputExistingFile > label > input{display: none;}
+.InputExistingFile > label > .Caption{border: 1px Black solid; padding: 5px; padding-left: 15px; padding-right: 15px;}
+.InputExistingFile > label > input:checked + .Caption{background-color: Black; color: White;}
+

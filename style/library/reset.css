@@ -1,0 +1,62 @@
+html{height: 100%; scroll-behavior: smooth;}
+html > body{margin: 0; box-sizing: border-box; min-height: 100%; background-color: White; background-size: cover; background-position: center; color: Black; font-family: Consolas, Verdana, Tahoma, Arial, Sans, Monospace; font-size: 16px; line-height: 1.62;}
+html > body > header{position: relative; box-sizing: border-box; background-color: Silver; padding: 15px; color: Black;}
+html > body > main{display: block; position: relative; box-sizing: border-box; padding: 15px;}
+html > body > footer{position: relative; box-sizing: border-box; padding: 15px; color: White;}
+
+section{position: relative; box-sizing: border-box; vertical-align: top;}
+
+div{position: relative; box-sizing: border-box; vertical-align: top;}
+
+p{position: relative; margin-top: 0; margin-bottom: 1em; box-sizing: border-box; vertical-align: top;}
+p:first-child{margin-top: 0;}
+p:last-child{margin-bottom: 0;}
+
+pre{position: relative; box-sizing: border-box; font-family: inherit; vertical-align: top; white-space: pre-wrap;}
+pre:first-child{margin-top: 0;}
+pre:last-child{margin-bottom: 0;}
+
+a{display: inline-block; position: relative; box-sizing: border-box; color: Blue; text-decoration: none; vertical-align: top;}
+a:hover{text-decoration: underline;}
+
+span{display: inline-block; position: relative;  box-sizing: border-box; vertical-align: top;}
+
+img{box-sizing: border-box; vertical-align: top;}
+
+h1{position: relative; margin-top: 0;}
+h2{position: relative; margin-top: 0;}
+h3{position: relative; margin-top: 0;}
+
+table{position: relative; box-sizing: border-box; border: 1px Black solid; border-collapse: collapse; vertical-align: top;}
+table > thead{box-sizing: border-box; background-color: Grey; color: White; text-shadow: 1px 1px Black;}
+table > thead > tr > th{box-sizing: border-box; border: 1px White solid; padding: 5px;}
+table > thead > tr:first-child > th{border-top-color: Black;}
+table > thead > tr > th:first-child{border-left-color: Black;}
+table > thead > tr > th:last-child{border-right-color: Black;}
+table > tbody{vertical-align: top;}
+table > tbody > tr > td{box-sizing: border-box; border: 1px Black solid; padding: 5px;}
+table > tfoot{box-sizing: border-box; background-color: Silver;}
+table > tfoot > tr > td{box-sizing: border-box; border: 1px Black solid; padding: 5px; text-shadow: 1px 1px White;}
+
+nav{display: inline-block; position: relative; box-sizing: border-box; vertical-align: top;}
+
+form{display: inline-block; position: relative; box-sizing: border-box; text-align: left; vertical-align: top;}
+label{display: inline-block; position: relative;  box-sizing: border-box; vertical-align: top;}
+
+input{display: inline-block; box-sizing: border-box; border: 1px Grey solid; background-color: transparent; padding: 5px; color: inherit; font-family: inherit; font-size: inherit; line-height: inherit; vertical-align: top;}
+input:hover{border-color: #6b6bff;}
+input[type = 'color']{padding: 0;}
+input[type = 'number']{text-align: right;}
+
+textarea{display: inline-block; box-sizing: border-box; border: 1px Grey solid; background-color: transparent; padding: 5px; color: inherit; font-family: inherit; font-size: inherit; line-height: 1.62; vertical-align: top;}
+textarea:hover{border-color: #6b6bff;}
+
+select{display: inline-block; box-sizing: border-box; border: 1px Grey solid; background-color: transparent; padding: 6px; padding-left: 5px; padding-right: 5px; color: inherit; font-family: inherit; font-size: inherit; line-height: inherit; cursor: pointer; vertical-align: top;}
+select:hover{border-color: #6b6bff;}
+
+button{display: inline-block; box-sizing: border-box; border: 1px Black solid; background-color: Black; padding: 5px; padding-left: 15px; padding-right: 15px; color: White; font-family: inherit; font-size: inherit; line-height: inherit; cursor: pointer; vertical-align: top;}
+button:hover{background-color: White; color: Black;}
+button > img{margin-right: 15px; height: 22px; vertical-align: top;}
+
+iframe{display: inline-block; box-sizing: border-box; border-width: 0;}
+

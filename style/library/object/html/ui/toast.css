@@ -1,0 +1,5 @@
+.ToastContainer{position: absolute; top: 15px; right: 15px; width: 300px; z-index: 99999;}
+.ToastContainer:empty{display: none;}
+.ToastContainer > .Toast{margin-bottom: 15px; width: 100%; box-shadow: 0 0 5px 0 Black; border-radius: 5px; border: 1px White solid; background: linear-gradient(to bottom, Grey, Black); padding: 15px; color: White; text-shadow: -1px -1px Black; overflow: hidden; animation-name: ToastAnimation; animation-delay: 2s; animation-duration: 2s;}
+.ToastContainer > .Toast_Error{background: linear-gradient(to bottom, Pink, Red);}
+@keyframes ToastAnimation{100%{opacity: 0;}}

@@ -1,0 +1,24 @@
+.DebugDump{display: inline-block; margin: 5px; box-shadow: 0 0 5px 0 Grey; border-radius: 5px; border: 1px White solid; color: White; font-family: monospace, Consolas, Verdana, Tahoma, Arial; font-size: 16px; line-height: 1; overflow: hidden; overflow-y: auto;}
+.DebugDump > .Source{background-color: Orange; padding: 5px; text-shadow: 1px 1px Black;}
+.DebugDump > .Source > .Icon{margin-right: 5px; color: Red;}
+.DebugDump .Item{border: 1px White solid; border-bottom-width: 0; background-color: Black; padding: 5px;}
+.DebugDump > .Item{border-right-width: 0;}
+.DebugDump .Item:hover{background-color: #222222;}
+.DebugDump .Item > .Name{float: left; margin: -5px; margin-right: 5px; background-color: Cyan; padding: 5px; color: Black; font-weight: bold; text-shadow: 1px 1px White;}
+.DebugDump .Item > .Type{float: left; margin: -5px; margin-right: 5px; background-color: Yellow; padding: 5px; color: Black; font-style: italic; text-shadow: 1px 1px White;}
+.DebugDump .Item > .Type > .Information{display: inline-block; margin: -5px; margin-left: 5px; background-color: Lime; padding: 5px;}
+.DebugDump .Item > .Value{float: left;}
+.DebugDump .Item > .Value > .Toggle{display: none;}
+.DebugDump .Item > .Value > .ToggleNotch:before{content: '▲';}
+.DebugDump .Item > .Value > .ToggleNotch{margin: -5px; width: 2em; padding: 5px; color: White; text-align: center; cursor: pointer;}
+.DebugDump .Item > .Value > .Array{margin: -5px; margin-top: 5px;}
+.DebugDump .Item > .Value > .Object{margin: -5px; margin-top: 5px;}
+.DebugDump .Item > .Value > .Boolean{color: Yellow;}
+.DebugDump .Item > .Value > .Empty{color: Silver;}
+.DebugDump .Item > .Value > .NULL{color: Orange;}
+.DebugDump .Item:after{display: block; clear: both; content: '';}
+.DebugDump:after{display: block; clear: both; content: '';}
+
+.DebugDump .Item > .Value > .Toggle:not(:checked) + .ToggleNotch:before{content: '►';}
+.DebugDump .Item > .Value > .Toggle:not(:checked) + .ToggleNotch + .Array{display: none;}
+.DebugDump .Item > .Value > .Toggle:not(:checked) + .ToggleNotch + .Object{display: none;}

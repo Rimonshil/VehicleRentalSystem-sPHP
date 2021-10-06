@@ -1,0 +1,20 @@
+.Field{float: left; margin-bottom: 15px;}
+.Field > .Header{margin-bottom: 5px;}
+.Field > .Body:after{display: block; clear: both; content: '';}
+.Field > .Body > .Prefix{float: left; margin-top: 6px; margin-right: 5px;}
+.Field > .Body > .Caption{float: left; margin-top: 6px; margin-right: 15px;}
+.Field > .Body > .Content{float: left;}
+.Field > .Body > .Suffix{float: left; margin-left: 5px; margin-top: 6px;}
+.Field > .Footer{margin-top: 5px; color: Grey; font-size: 75%; text-align: right;}
+.Field > .Footer > .Warning{color: Red;}
+
+.FieldNewLine{clear: both;}
+.FieldSeparator{float: left; width: 15px; height: 1px;}
+.FieldTitle{clear: both; margin-bottom: 15px; border-bottom: 1px Silver solid; padding-bottom: 5px; font-weight: bold;}
+.FieldDescription{clear: both; margin-bottom: 15px; border-bottom: 1px Silver solid; padding-bottom: 5px; font-size: 75%;}
+
+.FieldSection{clear: both;}
+.FieldSection > .Title{margin-bottom: 15px; width: 100%; border-bottom: 1px Silver solid; padding-bottom: 5px; font-weight: bold;}
+.FieldSection:after{display: block; clear: both; content: '';}
+
+.Field .Icon{height: 22px;}

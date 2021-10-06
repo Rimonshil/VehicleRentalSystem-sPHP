@@ -1,0 +1,73 @@
+html > body > .Beta{display: none; left: 182px; width: auto; box-shadow: none; border-width: 0; background-color: transparent; color: White; transform: none; z-index: 3;}
+html > body > main{margin-bottom: 15px;}
+html > body > main > .Content{border-width: 0; padding: 5px;}
+
+html > body > header > .Fixed{background-color: #FB404B;}
+html > body > header > .Fixed > .Logo{color: White;}
+html > body > header > .Fixed > .Logo > img{border-radius: 50%; background-color: White; padding: 1px;}
+
+html > body > header > .Fixed > .Right{margin-top: 5px;}
+html > body > header > .Fixed > .Right > .Link{margin-left: 0px;}
+html > body > header > .Fixed > .Right > .Link > .Icon{height: 22px; filter: invert(100%);}
+html > body > header > .Fixed > .Right > .Popper > .Caption{margin-left: 0px;}
+html > body > header > .Fixed > .Right > .Popper > .Caption > .Icon{height: 22px; filter: invert(100%);}
+
+html > body > .LeftPanel:hover{box-shadow: 0 0 5px 0 Black;}
+html > body > .LeftPanel > .Marker{top: -10px;}
+html > body > .LeftPanel > .Beta{display: none;}
+
+html > body > footer > .Fixed{margin: 0; text-align: center;}
+html > body > footer > .Fixed > .Copyright{display: block; float: none; margin-bottom: 15px;}
+html > body > footer > .Fixed > .Developer{display: block; float: none; margin: 0; border-top: 1px Silver solid; padding-top: 15px;}
+html > body > footer > .Fixed > .Developer > .Logo{height: 32px;}
+
+form > .Content > .Field{width: 100%;}
+form > .Content > .Field > .Body > .Content{width: 100% !important;}
+form > .Content > .Field > .Body > .Content > input{width: 100% !important;}
+form > .Content > .Field > .Body > .Content > input[type = 'date']{width: initial !important;}
+form > .Content > .Field > .Body > .Content > input[type = 'time']{width: initial !important;}
+form > .Content > .Field > .Body > .Content > button[type = 'reset']{display: none;}
+form > .Content > .Field > .Body > .Content > .Clear{display: none;}
+form > .Content > .Field > .Body > .Content > .Autofill{width: 100%;}
+form > .Content > .Field > .Body > .Content > .Autofill > input{width: 100% !important;}
+form > .Content > .FieldSeparator{display: none;}
+
+.Datagrid > .Content > .Grid{display: block;}
+.Datagrid > .Content > .Grid > thead > .PreHTML > th > .Field{width: 100%;}
+.Datagrid > .Content > .Grid > thead > .PreHTML > th > .Field > .Body > .Content{width: 100%;}
+.Datagrid > .Content > .Grid > thead > .PreHTML > th input{width: 100% !important;}
+.Datagrid > .Content > .Grid > thead > .Page > th > .Paginator{float: none !important; text-align: center;}
+.Datagrid > .Content > .Grid > thead > .Page > th > .Paginator > .Link{float: none;}
+.Datagrid > .Content > .Grid > thead > .Page > th > .Paginator > .ActiveLink{float: none;}
+.Datagrid > .Content > .Grid > thead > .Page > th > .Suffix{float: none !important; margin: 0; margin-top: 5px; text-align: center;}
+.Datagrid > .Content > .Grid > thead > .Column{display: block; position: relative;}
+.Datagrid > .Content > .Grid > thead > .Column:before{padding-top: 5px; padding-right: 15px; font-weight: bold; content: 'Sort on';}
+.Datagrid > .Content > .Grid > thead > .Column > th{display: inline-block; padding-left: 0;}
+.Datagrid > .Content > .Grid > thead > .Column > th:before{content: '| ';}
+.Datagrid > .Content > .Grid > thead > .Column > th:last-child{display: none;}
+.Datagrid > .Content > .Grid > thead > .Column > .Serial{display: none;}
+.Datagrid > .Content > .Grid > tbody > tr{display: block; position: relative; border-bottom: 1px Black solid;}
+.Datagrid > .Content > .Grid > tbody > tr > td{display: block; padding: 5px; padding-left: 30px;}
+.Datagrid > .Content > .Grid > tbody > tr > td > .FieldCaption{display: inline-block; margin-left: -30px;}
+.Datagrid > .Content > .Grid > tbody > tr > td > .FieldCaption::after{content: " : ";}
+.Datagrid > .Content > .Grid > tbody > tr > .Serial{padding-left: 0; font-size: 150%; font-weight: bold; text-align: left;}
+.Datagrid > .Content > .Grid > tbody > tr > .Serial:before{content: '#';}
+.Datagrid > .Content > .Grid > tbody > tr > .Serial > label > input{margin-top: 9px;}
+.Datagrid > .Content > .Grid > tbody > tr > .Serial:after{content: none;}
+.Datagrid > .Content > .Grid > tbody > tr > .Action{position: absolute; top: 2px; right: 5px; width: auto; border-bottom: none; padding: 0;}
+.Datagrid > .Content > .Grid > tbody > tr > .Action > a:not(:first-child){margin-left: 5px;}
+
+.ReportTable{display: block; border-top: 1px Black solid;}
+.ReportTable > thead > .Column{color: Silver; text-transform: uppercase;}
+.ReportTable > thead > .Column:before{color: Black; content: 'Sort on ';}
+.ReportTable > thead > .Column > th{display: inline-block; margin-left: 5px;} 
+.ReportTable > thead > .Column > th:before{content: '| ';}
+
+.ReportTable > tbody{display: block;}
+.ReportTable > tbody > tr{display: block; position: relative; border-bottom: 1px Black solid;}
+.ReportTable > tbody > tr > td{display: block; padding: 5px; padding-left: 30px; text-align: left !important;}
+.ReportTable > tbody > tr > td:first-child{padding-left: 0; font-size: 125%; font-weight: bold; text-align: left;}
+.ReportTable > tbody > tr > td:first-child:before{content: '#';}
+.ReportTable > tbody > tr > td:empty{display: none;}
+.ReportTable > tbody > tr > td > .FieldCaption{display: inline-block; margin-left: -30px;}
+.ReportTable > tbody > tr > td > .FieldCaption::after{content: " : ";}

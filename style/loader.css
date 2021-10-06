@@ -1,0 +1,9 @@
+@import './library.css';
+@import './fontface.css';
+@import './element.css';
+@import './header.css';
+@import './footer.css';
+@import './main.css';
+@import './print.css';
+@import './laptop.css' only screen and (max-width: 1365px); /* Laptop */
+@import './phone.css' only screen and (max-width: 11cm); /* Phone */

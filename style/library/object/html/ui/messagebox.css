@@ -1,0 +1,14 @@
+.MessageBox{margin: 15px; text-align: center;}
+.MessageBox > .Container{display: inline-block; border-radius: 5px; box-shadow: 0 0 15px 0 Black; background-color: White; color: Black; overflow: hidden;}
+.MessageBox > .Container > .Title{border-bottom: 1px Grey solid; background-color: Silver; padding: 5px; padding-left: 15px; color: Black; font-size: 110%; font-weight: bold; text-align: left; text-shadow: 1px 1px White;}
+.MessageBox > .Container > .Title > a{color: White;}
+.MessageBox > .Container > .Title > a:hover{text-decoration: none;}
+.MessageBox > .Container > .Content{padding: 15px; text-align: justify; line-height: 1.62; overflow: auto;}
+.MessageBox > .Container > .Content > .Code{background-color: Black; padding: 5px; color: White; font-family: Monospace, Consolas, Courier new, Arial, Verdana, Tahoma;}
+.MessageBox > .Container > .Content > .Field > .Caption{float: left; margin-right: 15px; width: 120px; color: Red;}
+.MessageBox > .Container > .Content > .Field > .Caption:after{display: inline-block; margin-left: 5px; margin-right: 15px; content: ':';}
+.MessageBox > .Container > .Content > .Field > .Value{float: left;}
+.MessageBox > .Container > .Content > table > tbody > tr > td:nth-child(3){text-align: center;}
+.MessageBox > .Container > .Content > table > tbody > tr > td:nth-child(5){text-align: center;}
+
+.MessageBoxError > .Container > .Title{background-color: Red; color: White; text-shadow: -1px -1px Black;}

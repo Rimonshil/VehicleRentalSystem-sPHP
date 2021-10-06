@@ -1,0 +1,18 @@
+.Slider{height: 500px; overflow: hidden;}
+.Slider > .Slide{left: 0; height: 100%; white-space: nowrap; transition: all 1s;}			
+.Slider > .Slide > .Item{display: inline-block; margin-right: 15px; width: 100%; height: 100%; background-position: center; background-size: cover;}
+.Slider > .Slide > .Item > .Overlay{position: absolute; width: 100%; height: 100%;}
+.Slider > .Slide > .Item > .Content{position: absolute; left: 450px; top: 250px; color: White; text-align: left; text-shadow: -1px -1px Black, 1px -1px Black, 1px 1px Black, -1px 1px Black; z-index: 1;}
+.Slider > .Slide > .Item > .Content > .Caption{font-size: 40px; font-weight: 600; text-transform: uppercase;}
+.Slider > .Slide > .Item > .Content > .Description{margin-top: 15px; line-height: 1.62; white-space: normal;}
+.Slider > .Slide > .Item > .Content > .Button3{margin-top: 60px; font-size: 13px; font-weight: 600;}
+.Slider > .Slide > .Item > .Content > .Button3:hover{text-shadow: none;}
+.Slider > .Overlay{position: absolute; top: 0; width: 100%; height: 100%;}
+.Slider > .Indicator{position: absolute; left: 450px; bottom: 75px;}
+.Slider > .Indicator > .Item{display: inline-block; margin: 2px; margin-right: 30px; width: 8px; height: 8px; background-color: Grey; transition: all 1s;}
+.Slider > .Indicator > .Active{margin: 0; margin-right: 30px; width: 12px; height: 12px; background-color: White;}
+.Slider > .Indicator:after{display: block; clear: both; content: '';}
+.Slider > .Navigate{position: absolute; top: 250px; margin: 30px; padding: 15px; color: White; font-size: 400%; font-weight: bold; text-shadow: -1px -1px Black, 1px -1px Black, 1px 1px Black, -1px 1px Black; cursor: pointer;}
+.Slider > .Navigate:hover{background-color: rgba(255, 255, 255, 0.25); font-weight: normal;}
+.Slider > .NavigateBack{left: 0;}
+.Slider > .NavigateForward{right: 0;}

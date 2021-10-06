@@ -1,0 +1,213 @@
+:root {
+	--MaximumWidthPhone: 11cm;
+}
+
+html > body > #PageLocation_Top{display: inline;}
+html > body > .Beta{position: fixed; left: -50px; top: 4px; width: 150px; border: 1px White solid; background-color: Red; padding: 7.5px; color: White; font-weight: bold; text-align: center; letter-spacing: 3px; transform: rotate(-45deg); z-index: 1;}
+
+html > body > .LeftPanel{position: fixed; left: 0; top: 0; bottom: 0; color: White; text-align: center; text-transform: uppercase;}
+html > body > .LeftPanel > .Marker{position: absolute; left: 8px; top: -13px; color: White; font-size: 400%; font-weight: bold; text-shadow: 1px 1px black;}
+html > body > .LeftPanel > .Content{width: 282px; height: 100%; border-right: 1px Black solid; background-image: url('../image/layout/bodybackground.png'); background-position: center; background-size: cover; padding: 15px; overflow-y: auto;}
+html > body > .LeftPanel > .Content:before{display: block; position: fixed; left: 0; top: 0; width: 282px; height: 100%; background: linear-gradient(to bottom, #5c5c5c 0%, rgba(187, 5, 2, 0.6) 100%); content: '';}
+html > body > .LeftPanel > .Content > .Customer{margin-bottom: 15px; border-bottom: 1px rgba(255, 255, 255, 0.3) solid; padding-bottom: 16px; font-size: 120%; font-weight: bold;} /* font-size: 136% padding-bottom: 16px */
+
+html > body > ._Overlapper{position: fixed; left: 0; top: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.75); z-index: 99999;}
+html > body > ._Overlapper > .Content{position: absolute; left: 90px; top: 90px; right: 90px; bottom: 90px; box-shadow: 0 0 5px 0 Black; border-radius: 15px; background-color: White; padding: 15px;}
+html > body > ._Overlapper > .Content > iframe{width: 100%; height: 100%;}
+html > body > ._Overlapper > .Button{width: 30px; height: 30px; box-shadow: 0 0 5px 0 Black; border-radius: 50%; border-width: 0; background-color: White; padding: 5px;}
+html > body > ._Overlapper > .Button_Close{position: absolute; top: 75px; right: 75px;}
+html > body > ._Overlapper > .Button_Close > .Icon{margin: 0; width: 100%; height: 100%;}
+html > body > ._Overlapper > .Button_Close > .Caption{display: none;}
+
+h1 > .Icon{height: 32px;}
+
+.LinkButton{display: inline-block; box-sizing: border-box; border-radius: 3px; border-width: 0; background-color: #19B5FE; color: White; padding: 15px; padding-top: 6px; padding-bottom: 6px; text-transform: uppercase; letter-spacing: inherit; cursor: pointer;}
+.LinkButton:hover{background-color: #5bc0de; color: White; text-shadow: none; text-decoration: none;}
+.LinkButton > .Icon{height: 20px;}
+
+/* LeftPanelNavigation: BEGIN */
+.LeftPanelNavigation{display: block; position: absolute; left: 5px; top: 85px; right: 0; bottom: 0; overflow-y: auto;}
+.LeftPanelNavigation .Pad{margin-right: 5px; border-bottom-width: 0 !important;}
+.LeftPanelNavigation .Pad > .Title{border-radius: 5px; border-width: 0; background-color: transparent; padding: 15px; text-transform: uppercase;}
+.LeftPanelNavigation .Pad > .Title > .Icon{width: 30px; height: 30px; background-color: transparent; padding: 0; filter: grayscale(100%) invert(100%);}
+.LeftPanelNavigation .Pad > .Title > .Caption{margin-left: 45px;}
+.LeftPanelNavigation .Pad > .Option > .Item{border-radius: 5px; border-width: 0; padding: 15px;}
+.LeftPanelNavigation .Pad > .Option > .Item > .Icon{width: 30px; height: 30px; background-color: transparent; padding: 0; filter: grayscale(100%) invert(100%);}
+.LeftPanelNavigation .Pad > .Option > .Item > .Caption{margin-left: 45px; color: White; text-transform: uppercase;}
+.LeftPanelNavigation .Pad > .Visible + .Option > .Item{border-width: 0 !important; padding: 15px !important;}
+
+.LeftPanelNavigation .Pad > .Title:after{right: 10px;}
+.LeftPanelNavigation .Pad > .Title:hover{background-color: rgba(255, 255, 255, 0.2);}
+.LeftPanelNavigation .Pad > .Option > .Item:hover{background-color: rgba(255, 255, 255, 0.2);}
+
+.LeftPanelNavigation .Pad > .Option > .Active{background-color: rgba(255, 255, 255, 0.25) !important;}
+/* LeftPanelNavigation: END */
+
+html > body > main > .Content{border-radius: 5px; border: 1px Silver solid; background-color: White; background-position: bottom right; background-size: 25%; background-repeat: no-repeat; padding: 15px;}
+
+.InputLabel{border-radius: 3px; border: 1px Silver solid; padding: 5px;}
+.InputLabel_Error{border-radius: 3px; border: 1px Red solid; padding: 5px; color: Red;}
+
+.LoadingPopup{display: none; position: absolute; left: 0; top: 0; width: 100%; margin-top: 150px; text-align: center;}
+.LoadingPopup > .Dialog{display: inline-block; border-radius: 15px; box-shadow: 0 0 15px 0 Black; background-color: White; padding: 45px; text-transform: uppercase;}
+
+.Anchor_PageLocationTop{position: fixed; right: 7px; bottom: 6px; border-radius: 50%; background-color: Black; padding: 5px; padding-left: 10px; padding-right: 10px; color: White; font-weight: bold; text-shadow: -1px -1px White; z-index: 1;}
+.Anchor_PageLocationTop:hover{background-color: Black; text-decoration: none;}
+
+.ContentEditAnchor{box-shadow: 0 0 5px 0 Black; border-radius: 50%; background-color: #F7DD17; padding: 2px; color: Black; font-size: 24px; font-weight: normal; text-align: center; text-shadow: -1px -1px White; line-height: 1;}
+.ContentEditAnchor:hover{background-color: Cyan; text-decoration: none;}
+
+.Autofill{display: inline-block; position: relative;}
+.Autofill > .Option{display: none; position: absolute; max-height: 400px; box-shadow: 0 0 5px 0 Black; border-radius: 3px; border: 1px Silver solid; background-color: White; overflow-y: auto; z-index: 1;}
+.Autofill > .Option > .Item{display: block; width: 100%; border-width: 0; background-color: Transparent; color: Black; font-weight: normal; text-align: left; text-shadow: none; text-transform: none;}
+.Autofill > .Option > .Item > .Highlight{} /*background-color: #F7DD17;*/
+.Autofill > .Option > .Item:hover{background-color: Silver;}
+.Autofill > .Option > .Item:hover > .Highlight{background-color: Transparent;}
+.Autofill > .Option > .Item:focus{background-color: Silver;}
+.Autofill > .Option > .Item:focus > .Highlight{background-color: Transparent;}
+.Autofill > .OptionContainer{border-radius: 3px; background-color: rgba(127, 127, 127, 0.2);}
+.Autofill > .OptionContainer > .Counter{margin: 1px; border-radius: 3px; border: 1px Silver solid; background: linear-gradient(to bottom, transparent 0, White 49%, rgba(127, 127, 127, 0.2) 50%, transparent 100%); background-color: White; padding: 4px; padding-left: 9px; padding-right: 9px; font-weight: bold;}
+.Autofill > .OptionContainer > .Option{margin: 1px; border-radius: 3px; border: 1px Silver solid; background: linear-gradient(to bottom, transparent 0, White 49%, rgba(127, 127, 127, 0.2) 50%, transparent 100%); background-color: White; padding: 4px; padding-left: 9px;}
+.Autofill > .OptionContainer > .Option > .Caption{color: Black; text-shadow: 1px 1px White;}
+.Autofill > .OptionContainer > .Option > .Remove{margin-left: 5px; background-color: Maroon; padding: 2px; line-height: 1;}
+.Autofill > .OptionContainer > .Option > .Remove:hover{background-color: Red !important; color: White;}
+
+.Popper{display: inline-block;}
+.Popper > .Caption{}
+.Popper > .Caption > .Icon{height: 24px;}
+.Popper > .Content{display: none; position: absolute; box-shadow: 0 0 5px 0 Black; border-radius: 5px; background-color: White; padding: 15px; overflow: hidden;}
+.Popper:hover > .Caption + .Content{display: block;}
+
+/* TinyMCE toolbar extra space fix */
+.mceEditor > .mceLayout > tbody > .mceFirst > td > div > span{display: inline;}
+.mceEditor > .mceLayout > tbody > .mceFirst > td > a{display: inline;}
+
+/* BEGIN: Customize default library styles */
+button[class |= 'Clear']{background-color: #D91E18;}
+button[class |= 'Clear']:hover{background-color: #EE2222;}
+button[class |= 'Download']{background-color: #00AAAA;}
+button[class |= 'Download']:hover{background-color: #22CCCC;}
+
+button[class |= 'Print']{border: 1px Silver solid; background-color: #DDDDDD; padding-top: 5px; padding-bottom: 5px; color: Black;}
+button[class |= 'Print']:hover{background-color: #FFFFFF;}
+button[class |= 'Print'] > img{filter: none;}
+
+button > .Icon{margin: 0; height: 20px !important; filter: invert(100%);}
+button > .Caption > .Icon{margin-right: 10px; height: 22px; padding-top: 4px; padding-bottom: 4px;}
+
+.RadioGroup > .Radio > label:hover{background-color: #F7DD17; color: Black;}
+form > .Title > .Icon{border-color: #FB404B;}
+form > .Content > .FieldDescription{font-size: inherit;}
+
+.RadioGroupSwitch{margin-top: 8px; border-radius: 7.5px; border: 1px Black solid; background-color: Silver; background: linear-gradient(to right, Black, White);}
+.RadioGroupSwitch > .Radio{float: right; margin-top: -3px; margin-bottom: -6px;} /* Set switch notch direction and style */
+.RadioGroupSwitch > .Radio:first-child{margin-right: -3px;} /* Margin side depends on Radio float attribute */
+.RadioGroupSwitch > .Radio:last-child{margin-left: -3px;} /* Margin side depends on Radio float attribute */
+.RadioGroupSwitch > .Radio > label{height: 18px; width: 18px; border-radius: 50%; border-width: 0; padding: 0; overflow: hidden; transition: all 0.25s;} /* Resize to be switch notch */
+.RadioGroupSwitch > .Radio > label:before{display: none;} /* Hide the tick/cross mark */
+.RadioGroupSwitch > .Radio > label > .Caption{display: none;} /* Hide yes/no caption */
+.RadioGroupSwitch > .Radio > label:after{display: block; position: absolute; left: 0; top: 0; width: 100%; height: 100%; content: '';}
+.RadioGroupSwitch > .Radio > label:hover{background-color: transparent;} /* Disable button highlight on hover */
+.RadioGroupSwitch > .Radio > input:checked + label{box-shadow: 0 0 5px 0 black;} /* Make the active button switch notch */
+.RadioGroupSwitch > .Radio > input:checked + label:after{background-color: White;} /* Decorate switch notch */
+/* Decorate individual switch notches */
+.RadioGroupSwitch > .Radio:nth-child(1) > input:checked + label:after{background-color: Cyan; background: radial-gradient(Cyan, White);}
+.RadioGroupSwitch > .Radio:nth-child(2) > input:checked + label:after{background-color: Lime; background: radial-gradient(Lime, White);}
+.RadioGroupSwitch > .Radio:nth-child(3) > input:checked + label:after{background-color: White; background: radial-gradient(White, White);}
+.RadioGroupSwitch > .Radio:nth-child(4) > input:checked + label:after{background-color: Yellow; background: radial-gradient(Yellow, White);}
+.RadioGroupSwitch > .Radio:nth-child(5) > input:checked + label:after{background-color: Red; background: radial-gradient(Red, White);}
+/* Decorate the last switch notch to express disabled/no/false/off */
+.RadioGroupSwitch > .Radio:nth-last-child(1) > input:checked + label:after{background-color: Grey; background: radial-gradient(Silver, Grey);}
+
+.CheckboxSwitch{margin-top: 8px; width: 34px;}
+.CheckboxSwitch > input{display: none;}
+.CheckboxSwitch > label{width: 100%; border-radius: 7.5px; border: 1px Black solid; background-color: Silver; background: linear-gradient(to right, Black, White); cursor: pointer;}
+.CheckboxSwitch > label:before{float: left; margin-left: -1px; margin-top: -3px; margin-right: -1px; margin-bottom: -3px; width: 18px; height: 18px; box-shadow: 0 0 5px 0 black; border-radius: 50%; background-color: Grey; background: radial-gradient(Silver, Grey); content: '';}
+.CheckboxSwitch > label > .Caption{display: none;}
+.CheckboxSwitch > input:checked + label:before{float: right; background-color: Cyan; background: radial-gradient(Cyan, White);}
+.CheckboxSwitch:after{display: block; clear: both; content: '';}
+
+.Datagrid{display: block;}
+.Datagrid > .Content > .Grid > thead{border-width: 0;}
+.Datagrid > .Content > .Grid > thead > .Title{color: Grey;}
+.Datagrid > .Content > .Grid > thead > .Title > th > .Caption > .Icon{border-color: #F7DD17;}
+.Datagrid > .Content > .Grid > thead > .PreHTML > th{border-color: Black;}
+.Datagrid > .Content > .Grid > thead > .Page{border-width: 0; border-top: 1px Silver solid; border-bottom: 1px Silver solid; background-color: White; color: Grey; text-shadow: none; text-transform: uppercase;}
+.Datagrid > .Content > .Grid > thead > .Page > th{border-width: 0; font-weight: normal;}
+.Datagrid > .Content > .Grid > thead > .Page > th > .Paginator > .Link{border-radius: 3px; border-color: Silver; padding: 5px; padding-left: 10px; padding-right: 10px; color: Grey;}
+.Datagrid > .Content > .Grid > thead > .Page > th > .Paginator > .ActiveLink{border-radius: 3px; border-color: Grey; background-color: Silver; padding: 5px; padding-left: 10px; padding-right: 10px; color: Black;}
+.Datagrid > .Content > .Grid > thead > .Column{border-bottom: 1px Black solid; background-color: White; color: Grey; text-shadow: none; text-transform: uppercase;}
+.Datagrid > .Content > .Grid > thead > .Column > th{border-width: 0; border-color: #83D7FF; padding-left: 15px; padding-right: 15px; font-weight: normal;}
+.Datagrid > .Content > .Grid > thead > .Column > th > a{color: Grey;}
+.Datagrid > .Content > .Grid > tbody > tr:hover{background-color: rgba(0, 0, 0, 0.1);}
+.Datagrid > .Content > .Grid > tbody > tr > td{border-width: 0; border-bottom: 1px Silver solid; padding: 15px;}
+.Datagrid > .Content > .Grid > tbody > tr > td > .Safe:before{margin-left: 5px; margin-right: 5px; color: Green; font-weight: bold; content: '⚑';}
+.Datagrid > .Content > .Grid > tbody > tr > td > .Warning:before{margin-left: 5px; margin-right: 5px; color: Orange; font-weight: bold; content: '⚑';}
+.Datagrid > .Content > .Grid > tbody > tr > td > .Danger:before{margin-left: 5px; margin-right: 5px; color: Red; font-weight: bold; content: '⚑';}
+.Datagrid > .Content > .Grid > tbody > tr > .Serial:after{content: '.';}
+.Datagrid > .Content > .Grid > tbody > tr > .Expander{background-color: White;}
+.Datagrid > .Content > .Grid > tbody > tr > .Expander:hover{background-color: Silver;}
+.Datagrid > .Content > .Grid > tbody > tr > .Action{padding: 8px;}
+.Datagrid > .Content > .Grid > tbody > tr > .Action > a > .Icon{height: 36px; border: 2px Black solid; padding: 2px;}
+.Datagrid > .Content > .Grid > tbody > tr > .Action > a:hover > .Icon{border-color: #00FFFF; background-color: #00FFFF; filter: invert(100%);}
+.Datagrid > .Content > .Grid > tbody > .Expansion > td > iframe{box-shadow: 0 4px 5px -2px black;}
+.Datagrid > .Content > .Grid > tfoot > .Footer{border-width: 0; background-color: White; color: Grey;}
+.Datagrid > .Content > .Grid > tfoot > .Footer > td{border-width: 0; padding: 15px; text-shadow: none;}
+
+.Datagrid > .Content > .Grid > thead > .Column > th > a:hover{font-weight: bold;}
+/* END: Customize default library styles */
+
+.ReportTable{width: 100%; border-width: 0;}
+.ReportTable > thead{border-top: 1px Silver solid; background-color: transparent; text-shadow: none;}
+.ReportTable > thead > tr{border-bottom: 1px Silver solid;}
+.ReportTable > thead > tr > th{border-width: 0; padding: 0; padding-top: 5px; padding-bottom: 5px; color: Silver; text-transform: uppercase;}
+.ReportTable > thead > tr > .Serial{text-align: right;}
+.ReportTable > thead > .Page > th > .Paginator > .Link:nth-child(1n + 5){display:none;}
+.ReportTable > tbody > tr{border-bottom: 1px Silver solid;}
+.ReportTable > tbody > tr:nth-child(even){background-color: #FAFAFA;}
+.ReportTable > tbody > tr > td{border-width: 0; padding: 15px;}
+.ReportTable > tbody > tr > td > .FieldCaption{display: none; margin-right: 15px; min-width: 80px; font-weight: bold;}
+.ReportTable > tbody > tr > td > .FieldCaption:after{content: ':';}
+.ReportTable > tbody > tr > td > .Action > .Icon{height: 24px;}
+.ReportTable > tbody > tr > .Serial{text-align: right;}
+.ReportTable > tbody > tr > .Serial:after{content: '.';}
+.ReportTable > tbody > tr > .Action{white-space: nowrap;}
+.ReportTable > tbody > tr > .Action > a > .Icon{height: 36px; border-radius: 50%; border: 2px Black solid; background-color: White; padding: 2px;}
+.ReportTable > tbody > tr > .Action > a:hover > .Icon{border-color: White; filter: invert(100%);}
+.ReportTable > tbody > tr > .Distance{text-align: right; white-space: nowrap;}
+.ReportTable > tbody > tr > .Velocity{text-align: right; white-space: nowrap;}
+.ReportTable > tbody > tr > .Number{text-align: right; white-space: nowrap;}
+.ReportTable > tfoot{background-color: transparent;}
+.ReportTable > tfoot > tr{border-bottom: 1px Silver solid;}
+.ReportTable > tfoot > tr > td{border-width: 0; padding: 15px;}
+.ReportTable > thead > .Title > th > .Caption > .Icon{display: none;}
+
+.Datagrid > .Content > .ReportTable > thead{border-width: 0;}
+.Datagrid > .Content > .ReportTable > thead > tr > th{color: Grey;}
+.Datagrid > .Content > .ReportTable > thead > .PreHTML > th{border-color: Silver;}
+.Datagrid > .Content > .ReportTable > thead > .Page{border-width: 0; border-bottom: 1px Silver solid; background-color: transparent;}
+.Datagrid > .Content > .ReportTable > thead > .Page > th{border-width: 0;}
+.Datagrid > .Content > .ReportTable > thead > .Page > th > .Paginator > .Link{border-radius: 3px; border-color: Grey; background-color: White; padding: 5px; padding-left: 10px; padding-right: 10px;}
+.Datagrid > .Content > .ReportTable > thead > .Page > th > .Paginator > .ActiveLink{border-radius: 3px; border-color: Grey; background-color: Silver; padding: 5px; padding-left: 10px; padding-right: 10px; color: Black;}
+.Datagrid > .Content > .ReportTable > thead > .Column{border-width: 0; border-bottom: 1px Grey solid; background-color: transparent; text-align: left; text-shadow: none;}
+.Datagrid > .Content > .ReportTable > thead > .Column > th{border-width: 0;}
+.Datagrid > .Content > .ReportTable > thead a{color: Grey;}
+.Datagrid > .Content > .ReportTable > tbody > tr > .Action > a > .Icon{height: 36px;}
+.Datagrid > .Content > .ReportTable > tfoot > .Footer{border-width: 0; background-color: transparent; color: Grey;}
+.Datagrid > .Content > .ReportTable > tfoot > .Footer > td{border-width: 0; text-shadow: none;}
+
+.MapInformation{}
+.MapInformation > .Field{float: none; margin: 0;}
+.MapInformation > .Field > .Caption{float: left; margin-right: 5px; font-weight: bold;}
+.MapInformation > .Field > .Caption:after{content: ':';}
+.MapInformation > .Field > .Value{float: left; }
+.MapInformation > .Field:after{display: block; clear: both; content: '';}
+
+.MessageListContent{}
+.MessageListContent > .Field{float: none; margin-right: 15px; margin-bottom: 5px; border-bottom: 1px Silver dotted; padding-bottom: 5px;}
+.MessageListContent > .Field > .Caption{float: left; width: 150px; font-weight: bold;}
+.MessageListContent > .Field > .Caption:after{margin-right: 5px; content: ':';}
+.MessageListContent > .Field > .Data{float: left;}
+.MessageListContent > .Field:after{display: block; clear: both; content: '';}
+.ReportTable .MessageListContent > .Field{float: left; margin-bottom: 0; border-bottom-width: 0; padding-bottom: 0;}
+.ReportTable .MessageListContent > .Field > .Caption{width: auto;}

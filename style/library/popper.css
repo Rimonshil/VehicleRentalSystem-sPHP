@@ -1,0 +1,13 @@
+.Popper > .Anchor{padding-right: 15px;}
+.Popper > .Anchor > .Icon{float: left; margin-right: 7.5px; height: 25px; border-radius: 50%; border: 1px Silver solid; padding: 2px;}
+.Popper > .Anchor:hover > .Icon{border-color: Black; background-color: Navy;}
+.Popper > .Anchor > .Caption{float: left;}
+.Popper > .Anchor:after{display: block; clear: both; content: '';}
+.Popper > .Content{display: none; position: absolute; box-shadow: 0 0 5px 0 Black; border-radius: 5px; background-color: White; padding: 5px;}
+.Popper:hover > .Content{display: block;}
+.Popper > .Content > .Item{display: block; border-radius: 5px; border: 1px Silver solid; padding: 5px; color: Black; text-shadow: none;}
+.Popper > .Content > .Item:not(:first-child){margin-top: 5px;}
+.Popper > .Content > .Item:hover{background-color: #0089ff; color: White; text-shadow: 1px 1px Black;}
+.Popper > .Content > .Item > .Icon{float: left; margin-right: 7.5px; height: 25px;}
+.Popper > .Content > .Item > .Caption{float: left;}
+.Popper > .Content > .Item:after{display: block; clear: both; content: '';}

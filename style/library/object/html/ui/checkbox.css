@@ -1,0 +1,6 @@
+.Checkbox{display: inline-block;}
+.Checkbox > input[type = 'checkbox']{display: none;}
+.Checkbox > input[type = 'checkbox'] + label{border: 1px Grey solid; padding: 5px; padding-left: 15px; padding-right: 15px; cursor: pointer;}
+/*.Checkbox > input[type = 'checkbox'] + label:before{margin-right: 5px; color: White; content: '✔';}*/
+.Checkbox > input[type = 'checkbox'] + label:hover{background-color: Grey; color: White;}
+.Checkbox > input[type = 'checkbox']:checked + label{border-color: Black; background-color: Black; color: White;}

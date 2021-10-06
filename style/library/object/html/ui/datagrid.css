@@ -1,0 +1,55 @@
+.Datagrid{min-width: 100%; background-color: White;}
+.Datagrid > .Content > .Grid{min-width: 100%; border-width: 0;}
+.Datagrid > .Content > .Grid > thead{background-color: White; color: Black; text-shadow: none;}
+.Datagrid > .Content > .Grid > thead a{color: White;}
+.Datagrid > .Content > .Grid > thead a:hover{color: Cyan;}
+.Datagrid > .Content > .Grid > thead > tr > th{border-width: 0;}
+.Datagrid > .Content > .Grid > thead > .Title > th > .Caption{float: left; font-size: 150%;}
+.Datagrid > .Content > .Grid > thead > .Title > th > .Caption > .Icon{margin-right: 5px; height: 34px; border-radius: 50%; border: 2px #0089ff solid; padding: 3px;}
+.Datagrid > .Content > .Grid > thead > .Title > th > .Caption > a{color: Blue;}
+.Datagrid > .Content > .Grid > thead > .Title > th > .Action{float: right;}
+.Datagrid > .Content > .Grid > thead > .PreHTML > th{border-top: 1px #0089ff solid; background-color: White; padding: 0; padding-top: 15px; color: Black; font-weight: normal; text-shadow: none;}
+.Datagrid > .Content > .Grid > thead > .PreHTML > th > .ButtonRow{margin-bottom: 10px; text-align: right;}
+.Datagrid > .Content > .Grid > thead > .PreHTML > th > .ButtonRow:after{display: block; clear: both; content: '';}
+.Datagrid > .Content > .Grid > thead > .PreHTML:after{display: block; clear: both; content: '';}
+.Datagrid > .Content > .Grid > thead > .Page{background-color: #0089ff; color: White; text-shadow: 1px 1px Black;}
+.Datagrid > .Content > .Grid > thead > .Page > th{border-right: 1px #0089ff solid;}
+.Datagrid > .Content > .Grid > thead > .Page > th > .Paginator{float: left;}
+.Datagrid > .Content > .Grid > thead > .Page > th > .Paginator > .Link{float: left; border: 1px White solid; padding-left: 5px; padding-right: 5px;}
+.Datagrid > .Content > .Grid > thead > .Page > th > .Paginator:after{display: block; clear: both; content: '';}
+.Datagrid > .Content > .Grid > thead > .Page > th > .Paginator > .ActiveLink{float: left; border: 1px White solid; background-color: Grey; padding-left: 5px; padding-right: 5px;}
+.Datagrid > .Content > .Grid > thead > .Page > th > .Suffix{float: left; margin-left: 5px;}
+.Datagrid > .Content > .Grid > thead > .Page > th:after{display: block; clear: both; content: '';}
+.Datagrid > .Content > .Grid > thead > .Column{background-color: #006bc7; color: White; text-align: center; text-shadow: 1px 1px Black;}
+.Datagrid > .Content > .Grid > thead > .Column > .Serial{width: 1px; text-align: right;}
+.Datagrid > .Content > .Grid > thead > .Column > .Serial > label{cursor: pointer; white-space: nowrap;}
+.Datagrid > .Content > .Grid > thead > .Column > .Serial > label > input{cursor: pointer;}
+.Datagrid > .Content > .Grid > thead > .Column > th{border-right: 1px #006bc7 solid;}
+.Datagrid > .Content > .Grid > thead > .Column > th > a > .OrderDirectionAscending:after{margin-left: 5px; content: '△';}
+.Datagrid > .Content > .Grid > thead > .Column > th > a > .OrderDirectionDescending:after{margin-left: 5px; content: '▼';}
+.Datagrid > .Content > .Grid > tbody > tr:nth-child(even){background-color: #FCFCFC;}
+.Datagrid > .Content > .Grid > tbody > tr:hover{background-color: Cyan;}
+.Datagrid > .Content > .Grid > tbody > tr > .Serial{text-align: right; white-space: nowrap;}
+.Datagrid > .Content > .Grid > tbody > tr > .Serial > label{cursor: pointer;}
+.Datagrid > .Content > .Grid > tbody > tr > .Serial > label > input{cursor: pointer;}
+.Datagrid > .Content > .Grid > tbody > tr > td > .Icon{height: 22px;}
+.Datagrid > .Content > .Grid > tbody > tr > td > .Picture{height: 64px; border: 1px Black solid;}
+.Datagrid > .Content > .Grid > tbody > tr > td > .Color{width: 1em; height: 1em; border: 1px #7F7F7F solid; vertical-align: middle;}
+.Datagrid > .Content > .Grid > tbody > tr > td > a > .Icon{height: 22px;}
+.Datagrid > .Content > .Grid > tbody > tr > td > a > .Picture{height: 64px; border: 1px Black solid;}
+.Datagrid > .Content > .Grid > tbody > tr > .Expander{width: 1px; background-color: Silver; cursor: pointer;}
+.Datagrid > .Content > .Grid > tbody > tr > .Expander:after{content: '▼';}
+.Datagrid > .Content > .Grid > tbody > tr > .Expander:hover{background-color: Yellow;}
+.Datagrid > .Content > .Grid > tbody > .Expansion > td{padding: 0;}
+.Datagrid > .Content > .Grid > tbody > .Expansion > td > iframe{display: block; width: 100%; height: 50vh; border: 0;}
+.Datagrid > .Content > .Grid > tbody > tr > .Action{width: 1px; padding: 3px; text-align: right; white-space: nowrap;}
+.Datagrid > .Content > .Grid > tbody > tr > .Action > a{color: Blue;}
+.Datagrid > .Content > .Grid > tbody > tr > .Action > a:not(:first-child){margin-left: 1px;}
+.Datagrid > .Content > .Grid > tbody > tr > .Action > a:hover{color: Navy;}
+.Datagrid > .Content > .Grid > tbody > tr > .Action > a > .Icon{height: 32px; border-radius: 50%; border: 1px #0089ff solid; padding: 1px; overflow: hidden;}
+.Datagrid > .Content > .Grid > tbody > tr > .Action > a > .Icon:hover{background-color: Yellow;}
+.Datagrid > .Content > .Grid > tfoot > .Footer{background-color: #0089ff; color: White; text-align: right;}
+.Datagrid > .Content > .Grid > tfoot > .Footer > td{border-width: 0; border-right: 1px #0089ff solid; text-shadow: -1px -1px Black;}
+.Datagrid > .Content > .Grid a:hover{text-decoration: none;}
+
+

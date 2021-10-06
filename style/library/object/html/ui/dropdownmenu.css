@@ -1,0 +1,20 @@
+.DropdownMenu{display: inline-block; box-shadow: 0 0 5px 0 Black; border: 1px White solid; color: White; line-height: 1;}
+.DropdownMenu .Item{min-width: 120px; background-color: Black; background: linear-gradient(to right, Grey, Black 33px);}
+.DropdownMenu .Item > .Caption{padding: 5px; padding-left: 33px; padding-right: 15px; white-space: nowrap;}
+.DropdownMenu .Item:hover > .Caption{background-color: White; background: linear-gradient(to right, Silver, White 33px); color: Black;}
+.DropdownMenu .Item > .Caption > img{position: absolute; left: 5px; top: 5px; width: 18px; height: 18px; vertical-align: middle;}
+.DropdownMenu .Item > .Caption > a{display: block; margin: -5px; padding: 5px; color: White;}
+.DropdownMenu .Item:hover > .Caption > a{color: Black; text-decoration: none;}
+.DropdownMenu .Item > .Pad{display: none; position: absolute; left: 120px; top: -1px; box-shadow: 0 0 5px 0 Black; border: 1px White solid; background-color: Black; background: linear-gradient(to right, Grey, Black 33px); color: White; z-index: 99999;}
+.DropdownMenu .Item:hover > .Pad{display: block;}
+.DropdownMenu .Item:empty{border-top: 1px White solid;}
+
+.DropdownMenuHorizontal > .Item{float: left; min-width: auto;}
+.DropdownMenuHorizontal > .Item > .Caption{padding-right: 45px;}
+.DropdownMenuHorizontal > .Item > .Pad{left: auto; top: auto;}
+.DropdownMenuHorizontal > .Item:empty{float: left; border-width: 0; border-left: 1px White solid; padding-top: 10px;}
+.DropdownMenuHorizontal > .Item:empty:before{display: block; width: 0; overflow: hidden; content: '|';}
+
+.DropdownMenuAccordion .Item{min-width: auto;}
+.DropdownMenuAccordion .Item:hover{background: linear-gradient(to right, Black, Silver 15px);}
+.DropdownMenuAccordion .Item > .Pad{display: block; position: relative; left: auto; top: auto; margin-left: 15px;}

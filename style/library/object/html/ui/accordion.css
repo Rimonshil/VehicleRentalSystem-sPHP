@@ -1,0 +1,39 @@
+.Accordion{display: inline-block; text-align: left;}
+.Accordion .Pad{}
+.Accordion .Pad > .Switch{display: none;}
+
+.Accordion .Pad > .Title{display: block; border-radius: 3px; border: 1px Black solid; background-color: Black; padding: 5px; color: White; font-weight: bold; cursor: pointer;}
+.Accordion .Pad > .Title > .Icon{position: absolute; top: 0; bottom: 0; margin: auto; width: 24px; height: 24px; border-radius: 3px; background-color: White; padding: 1px;}
+.Accordion .Pad > .Title > .Caption{margin-left: 34px;}
+
+.Accordion .Pad > .Option{margin-left: 15px;}
+.Accordion .Pad > .Option > .Item{display: block; margin: 5px; margin-right: 0; border-radius: 3px; border: 1px Black solid; padding: 5px; transition: all 0.25s; overflow: hidden;}
+.Accordion .Pad > .Option > .Item > .Icon{position: absolute; top: 0; bottom: 0; margin: auto; width: 24px; height: 24px; border-radius: 3px; background-color: White; padding: 1px;}
+.Accordion .Pad > .Option > .Item > .Icon[src = '']{display: none;}
+.Accordion .Pad > .Option > .Item > .Caption{margin-left: 34px; color: Black; text-decoration: none;}
+
+.Accordion .Pad > .Option > .Active{background-color: Navy !important;}
+.Accordion .Pad > .Option > .Active > .Caption{color: White !important;}
+
+.Accordion .Pad > .Option > .Devider{margin: 5px; margin-right: 0; height: 1px; border-bottom: 1px Grey dotted;}
+
+.Accordion .Pad > .Title:after{position: absolute; right: 5px; content: '▼'; transition: all 0.25s;}
+.Accordion .Pad > .Title:hover{background-color: Orange;}
+
+.Accordion .Pad:not(:last-child){border-bottom: 1px White solid;}
+.Accordion .Pad:after{display: block; clear: both; content: '';}
+
+.Accordion .Pad > .Option > .Item:hover{background-color: Black; color: White;}
+.Accordion .Pad > .Option > .Item:hover > .Caption{color: White;}
+
+.Accordion .Pad > .Switch:checked + .Title{cursor: default;}
+.Accordion .Pad > .Switch:checked + .Title:after{transform: rotate(180deg);}
+.Accordion .Pad > .Switch:not(:checked) + .Title + .Option > .Item{margin: 0; width: 0; height: 0; border-width: 0; padding: 0;}
+.Accordion .Pad > .Switch:not(:checked) + .Title + .Option > .Devider{margin: 0; width: 0; height: 0;}
+
+.Accordion .Pad > .Visible{display: none;}
+.Accordion .Pad > .Visible + .Option{margin-left: 0;}
+.Accordion .Pad > .Visible + .Option > .Item{margin: 0; width: auto !important; height: auto !important; border-width: 1px !important; padding: 5px !important; font-weight: bold;}
+.Accordion .Pad > .Visible + .Option > .Item:not(:last-child){margin-bottom: 1px !important;}
+
+.Accordion .Active > .Title{background-color: Navy;}

@@ -1,0 +1,92 @@
+.ColumnEnder, .ColumnWrapper, .EndColumn{display: block; clear: both; content: '';}
+
+.Shadow{box-shadow: 0 0 5px 0 Black;}
+.Glow{box-shadow: 0 0 5px 0 White;}
+
+.Embose{border: 1px Black solid; border-left-color: White; border-top-color: White;}
+.Engrave{border: 1px Black solid; border-right-color: White; border-bottom-color: White;}
+
+.TextShadow{text-shadow: -1px -1px Black, 1px 1px Black;}
+.TextGlow{text-shadow: -1px -1px White, 1px 1px White;}
+
+.TextEmbose{text-shadow: -1px -1px White, 1px 1px Black;}
+.TextEngrave{text-shadow: -1px -1px Black, 1px 1px White;}
+
+.TextEtch{text-shadow: 1px 1px Black;}
+.TextChisle{text-shadow: -1px -1px Black;}
+
+.WhiteBorder{border: 1px White solid;}
+.BlackBorder{border: 1px Black solid;}
+
+.WhiteBackground{background-color: White;}
+.BlackBackground{background-color: Black;}
+.SilverBackground{background-color: Silver;}
+.GreyBackground{background-color: Grey;}
+.RedBackground{background-color: Red;}
+.GreenBackground{background-color: Green;}
+.BlueBackground{background-color: Blue;}
+
+.White{color: White;}
+.Black{color: Black;}
+.Silver{color: Silver;}
+.Grey{color: Grey;}
+.Red{color: Red;}
+.Green{color: Green;}
+.Blue{color: Blue;}
+
+.DoubleFont{font-size: 200%;}
+.HalfFont{font-size: 50%;}
+.QuarterFont{font-size: 25%;}
+
+.Circle, .Round{border-radius: 50%;}
+
+.Left{float: left;}
+.Right{float: right;}
+
+.AlignLeft{text-align: left;}
+.AlignCenter{text-align: center;}
+.AlignRight{text-align: right;}
+.AlignJustify{text-align: justify;}
+
+.Pad5{padding: 5px;}
+.Pad10{padding: 10px;}
+.Pad15{padding: 15px;}
+
+.Margin5{margin: 5px;}
+.Margin10{margin: 10px;}
+.Margin15{margin: 15px;}
+
+.FullHeight{height: 100%;}
+.HalfHeight{height: 50%;}
+.QuarterHeight{height: 25%;}
+
+.NoWrap{white-space: nowrap;}
+
+.GlassToBottom{background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.25) 50%, rgba(0, 0, 0, 0.25) 50%, rgba(0, 0, 0, 0) 100%);}
+
+.TornPaper{box-shadow:	inset 0 0 75px rgba(255,210,0,0.15), inset 0 0 20px rgba(255,210,0,0.2), inset 0 0 30px rgba(220,120,0,0.4); background-image: linear-gradient(to right, rgba(255,210,0,0.4), rgba(200, 160, 0, 0.1) 11%, rgba(0,0,0,0) 35%, rgba(200, 160, 0, 0.1) 65%);}
+
+.Table{display: table; border: 1px Black solid;}
+.Table > .Head{background-color: Black; color: White;}
+.Table > .Head > .Row{display: table-row;}
+.Table > .Head > .Row > .Cell{display: table-cell; width: 100%; border: 1px Black solid; padding: 5px;}
+.Table > .Row{display: table-row;}
+.Table > .Row > .Cell{display: table-cell; width: 100%; border: 1px Black solid; padding: 5px;}
+.Table > .Body{background-color: White; color: Black;}
+.Table > .Body > .Row{display: table-row;}
+.Table > .Body > .Row > .Cell{display: table-cell; width: 100%; border: 1px Black solid; padding: 5px;}
+.Table > .Foot{background-color: Grey; color: White;}
+.Table > .Foot > .Row{display: table-row;}
+.Table > .Foot > .Row > .Cell{display: table-cell; width: 100%; border: 1px Black solid; padding: 5px;}
+
+.Columns1, .FullWidth{width: 100%;}
+.Columns2, .HalfWidth{float: left; width: 50%;}
+.Columns3{float: left; width: 33.33%;}
+.Columns4, .QuarterWidth{float: left; width: 25%;}
+.Columns5{float: left; width: 20%;}
+.Columns6{float: left; width: 16.66%;}
+.Columns7{float: left; width: 14.28%;}
+.Columns8{float: left; width: 12.5%;}
+.Columns9{float: left; width: 11.11%;}
+.Columns10{float: left; width: 10%;}
+

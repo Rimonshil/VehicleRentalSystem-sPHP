@@ -1,0 +1,21 @@
+html > body > header{padding: 0;}
+html > body > header > .Fixed{position: fixed; left: 282px; top: 0; right: 0; border-bottom: 1px Silver solid; background-color: White; padding: 15px; z-index: 2;}
+html > body > header > .Fixed > .Logo{display: block; float: left; margin-top: -14px; margin-bottom: -10px; color: Black; font-size: 226%; text-decoration: none;}
+html > body > header > .Fixed > .Logo > img{height: 48px; vertical-align: middle;}
+html > body > header > .Fixed > .Logo > .Caption{margin-left: 2px; font-weight: bold; vertical-align: middle;}
+html > body > header > .Fixed > .Right{float: right; margin-top: -3px; margin-bottom: -3px;}
+html > body > header > .Fixed > .Right > .Link{margin-left: 10px;}
+html > body > header > .Fixed > .Right > .Link > .Icon{height: 32px; xborder-radius: 50%; xborder: 1px Silver solid; padding: 1px;}
+html > body > header > .Fixed > .Right > .Link > .Counter{position: absolute; top: -10px; right: -10px; border-radius: 5px; background-color: Red; padding: 3px; color: White; line-height: 1;}
+html > body > header > .Fixed > .Right > .Popper > .Caption{padding-left: 10px; cursor: default;}
+html > body > header > .Fixed > .Right > .Popper > .Caption > .Icon{height: 32px; xborder-radius: 50%; xborder: 1px Silver solid; padding: 1px;}
+html > body > header > .Fixed > .Right > .Popper > .Content{right: 0; box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.125); border: 1px Silver solid; padding: 0;}
+html > body > header > .Fixed > .Right > .Popper > .Content > a{display: block; padding: 15px; color: Black; text-decoration: none; white-space: nowrap;}
+html > body > header > .Fixed > .Right > .Popper > .Content > a:hover{background-color: #EEEEEE;}
+html > body > header > .Fixed > .Right > .Popper > .Content > a > .Icon{margin-right: 15px; height: 24px;}
+html > body > header > .Fixed > .Right > .Popper > .Content > hr{margin: 0; border-width: 0; border-top: 1px Silver solid;}
+html > body > header > .Fixed:after{display: block; clear: both; content: '';}
+
+html > body > header > .Fixed > .Right > .Link:hover > .Icon{filter: invert(18%) sepia(79%) saturate(7444%) hue-rotate(359deg) brightness(100%) contrast(100%);}
+html > body > header > .Fixed > .Right > .Link > .Counter:empty{display: none;}
+html > body > header > .Fixed > .Right > .Popper:hover > .Caption > .Icon{filter: invert(18%) sepia(79%) saturate(7444%) hue-rotate(359deg) brightness(100%) contrast(100%);}

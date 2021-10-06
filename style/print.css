@@ -1,0 +1,28 @@
+.PrintOnly{display: none;}
+
+@media print {			
+	html > body{padding: 0;}
+	html > body > header{display: none;}
+	html > body > main{margin: 0; padding: 0;}
+	html > body > footer{display: none;}	
+
+	form{display: none;}
+
+	.PrintOnly{display: initial;}
+	.NoPrint{display: none;}
+
+	html > body > .Beta{display: none;}
+	html > body > .LeftPanel{display: none;}
+	html > body > main > .Content{border-width: 0; padding: 0;}
+	
+	.Anchor_PageLocationTop{display: none;}
+	.ReportTable > thead > tr > th {
+		font-size: 9px;
+		color: black;
+	}
+	.ReportTable > tbody > tr > td { 
+		font-size: 9px;
+		padding: 5px;
+	}
+
+}

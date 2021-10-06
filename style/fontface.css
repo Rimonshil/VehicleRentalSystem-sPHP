@@ -1,0 +1,45 @@
+/* Google font: https://www.google.com/fonts */
+/*@import url(https://fonts.googleapis.com/css?family=Voces);*/
+
+/*
+@import url(https://fonts.googleapis.com/css?family=Domine);
+@import url(https://fonts.googleapis.com/css?family=Coda);
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro);
+@import url(https://fonts.googleapis.com/css?family=Comfortaa);
+@import url(https://fonts.googleapis.com/css?family=Overlock);
+@import url(https://fonts.googleapis.com/css?family=Nixie+One);
+@import url(https://fonts.googleapis.com/css?family=Corben);
+@import url(https://fonts.googleapis.com/css?family=Gruppo);
+*/
+
+/*
+	Create fonts using following online services;
+
+	http://www.fontsquirrel.com/tools/webfont-generator
+	https://www.web-font-generator.com/
+*/
+
+/*
+@font-face{font-family: 'Airstrip'; src: url('../font/Airstrip.eot'); src: url('../font/Airstrip.eot?#iefix') format('embedded-opentype'), url('../font/Airstrip.woff') format('woff'), url('../font/Airstrip.ttf') format('truetype'), url('../font/Airstrip.svg#Airstrip') format('svg'); font-weight: normal; font-style: normal;}
+@font-face{font-family: 'Berlin Sans FB'; src: url('../font/BRLNSR.eot'); src: url('../font/BRLNSR.eot?#iefix') format('embedded-opentype'), url('../font/BRLNSR.woff') format('woff'), url('../font/BRLNSR.ttf') format('truetype'), url('../font/BRLNSR.svg#BRLNSR') format('svg'); font-weight: normal; font-style: normal;}
+@font-face{font-family: 'Bolt Bd BT'; src: url('../font/Bolt Bd BT.eot'); src: url('../font/Bolt Bd BT.eot?#iefix') format('embedded-opentype'), url('../font/Bolt Bd BT.woff') format('woff'), url('../font/Bolt Bd BT.ttf') format('truetype'), url('../font/Bolt Bd BT.svg#Bolt Bd BT') format('svg'); font-weight: normal; font-style: normal;}
+@font-face{font-family: 'Computer'; src: url('../font/Computer.eot'); src: url('../font/Computer.eot?#iefix') format('embedded-opentype'), url('../font/Computer.woff') format('woff'), url('../font/Computer.ttf') format('truetype'), url('../font/Computer.svg#Computer') format('svg'); font-weight: normal; font-style: normal;}
+@font-face{font-family: 'Consolas'; src: url('../font/Consolas.eot'); src: url('../font/Consolas.eot?#iefix') format('embedded-opentype'), url('../font/Consolas.woff') format('woff'), url('../font/Consolas.ttf') format('truetype'), url('../font/Consolas.svg#Consolas') format('svg'); font-weight: normal; font-style: normal;}
+@font-face{font-family: 'Dot Matrix'; src: url('../font/Dot Matrix.eot'); src: url('../font/Dot Matrix.eot?#iefix') format('embedded-opentype'), url('../font/Dot Matrix.woff') format('woff'), url('../font/Dot Matrix.ttf') format('truetype'), url('../font/Dot Matrix.svg#Dot Matrix') format('svg'); font-weight: normal; font-style: normal;}
+@font-face{font-family: 'DS Digital'; src: url('../font/DS Digital.eot'); src: url('../font/DS Digital.eot?#iefix') format('embedded-opentype'), url('../font/DS Digital.woff') format('woff'), url('../font/DS Digital.ttf') format('truetype'), url('../font/DS Digital.svg#DS Digital') format('svg'); font-weight: normal; font-style: normal;}
+@font-face{font-family: 'Exo'; src: url('../font/Exo.eot'); src: url('../font/Exo.eot?#iefix') format('embedded-opentype'), url('../font/Exo.woff') format('woff'), url('../font/Exo.ttf') format('truetype'), url('../font/Exo.svg#Exo') format('svg'); font-weight: normal; font-style: normal;}
+@font-face{font-family: 'Game Over'; src: url('../font/Game Over.eot'); src: url('../font/Game Over.eot?#iefix') format('embedded-opentype'), url('../font/Game Over.woff') format('woff'), url('../font/Game Over.ttf') format('truetype'), url('../font/Game Over.svg#Game Over') format('svg'); font-weight: normal; font-style: normal;}
+@font-face{font-family: 'Geneva'; src: url('../font/Geneva.eot'); src: url('../font/Geneva.eot?#iefix') format('embedded-opentype'), url('../font/Geneva.woff') format('woff'), url('../font/Geneva.ttf') format('truetype'), url('../font/Geneva.svg#Geneva') format('svg'); font-weight: normal; font-style: normal;}
+@font-face{font-family: 'Open 24 Display St'; src: url('../font/Open 24 Display St.eot'); src: url('../font/Open 24 Display St.eot?#iefix') format('embedded-opentype'), url('../font/Open 24 Display St.woff') format('woff'), url('../font/Open 24 Display St.ttf') format('truetype'), url('../font/Open 24 Display St.svg#Open 24 Display St') format('svg'); font-weight: normal; font-style: normal;}
+@font-face{font-family: 'Nasalization'; src: url('../font/Nasalization.eot'); src: url('../font/Nasalization.eot?#iefix') format('embedded-opentype'), url('../font/Nasalization.woff') format('woff'), url('../font/Nasalization.ttf') format('truetype'), url('../font/Nasalization.svg#Nasalization') format('svg'); font-weight: normal; font-style: normal;}
+@font-face{font-family: 'Neuropol'; src: url('../font/Neuropol.eot'); src: url('../font/Neuropol.eot?#iefix') format('embedded-opentype'), url('../font/Neuropol.woff') format('woff'), url('../font/Neuropol.ttf') format('truetype'), url('../font/Neuropol.svg#Neuropol') format('svg'); font-weight: normal; font-style: normal;}
+@font-face{font-family: 'REZ'; src: url('../font/REZ.eot'); src: url('../font/REZ.eot?#iefix') format('embedded-opentype'), url('../font/REZ.woff') format('woff'), url('../font/REZ.ttf') format('truetype'), url('../font/REZ.svg#REZ') format('svg'); font-weight: normal; font-style: normal;}
+@font-face{font-family: 'Robo Fan Free'; src: url('../font/Robo Fan Free.eot'); src: url('../font/Robo Fan Free.eot?#iefix') format('embedded-opentype'), url('../font/Robo Fan Free.woff') format('woff'), url('../font/Robo Fan Free.ttf') format('truetype'), url('../font/Robo Fan Free.svg#Robo Fan Free') format('svg'); font-weight: normal; font-style: normal;}
+@font-face{font-family: 'Sci Fi 2K 2'; src: url('../font/Sci Fi 2K 2.eot'); src: url('../font/Sci Fi 2K 2.eot?#iefix') format('embedded-opentype'), url('../font/Sci Fi 2K 2.woff') format('woff'), url('../font/Sci Fi 2K 2.ttf') format('truetype'), url('../font/Sci Fi 2K 2.svg#Sci Fi 2K 2') format('svg'); font-weight: normal; font-style: normal;}
+@font-face{font-family: 'Segoe UI'; src: url('../font/Segoe UI.eot'); src: url('../font/Segoe UI.eot?#iefix') format('embedded-opentype'), url('../font/Segoe UI.woff') format('woff'), url('../font/Segoe UI.ttf') format('truetype'), url('../font/Segoe UI.svg#Segoe UI') format('svg'); font-weight: normal; font-style: normal;}
+@font-face{font-family: 'Space Man'; src: url('../font/Space Man.eot'); src: url('../font/Space Man.eot?#iefix') format('embedded-opentype'), url('../font/Space Man.woff') format('woff'), url('../font/Space Man.ttf') format('truetype'), url('../font/Space Man.svg#Space Man') format('svg'); font-weight: normal; font-style: normal;}
+@font-face{font-family: 'Tahoma'; src: url('../font/Tahoma.eot'); src: url('../font/Tahoma.eot?#iefix') format('embedded-opentype'), url('../font/Tahoma.woff') format('woff'), url('../font/Tahoma.ttf') format('truetype'), url('../font/Tahoma.svg#Tahoma') format('svg'); font-weight: normal; font-style: normal;}
+@font-face{font-family: 'Verdana'; src: url('../font/Verdana.eot'); src: url('../font/Verdana.eot?#iefix') format('embedded-opentype'), url('../font/Verdana.woff') format('woff'), url('../font/Verdana.ttf') format('truetype'), url('../font/Verdana.svg#Verdana') format('svg'); font-weight: normal; font-style: normal;}
+@font-face{font-family: 'Roboto'; src: url('../font/Roboto.eot'); src: url('../font/Roboto.eot?#iefix') format('embedded-opentype'), url('../font/Roboto.woff') format('woff'), url('../font/Roboto.ttf') format('truetype'), url('../font/Roboto.svg#Roboto') format('svg'); font-weight: normal; font-style: normal;}
+*/
+/* @font-face{font-family: 'Roboto BondStein'; src: url('../font/Roboto_BondStein.eot'); src: url('../font/Roboto_BondStein.eot?#iefix') format('embedded-opentype'), url('../font/Roboto_BondStein.woff') format('woff'), url('../font/Roboto_BondStein.ttf') format('truetype'), url('../font/Roboto_BondStein.svg#Roboto') format('svg'); font-weight: normal; font-style: normal;} */

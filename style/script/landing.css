@@ -1,0 +1,39 @@
+html > body > main > .Content{background-color: Transparent; border-width: 0; padding: 0;}
+
+.Welcome{margin: auto; margin-bottom: 15px; border-radius: 4px; background-color: #87CB15; padding: 15px; color: White;}
+.Welcome > .Title{letter-spacing: 0.15em;}
+.Welcome > .Customer{color: Black; font-size: 150%;}
+
+.ContainerRow{margin-bottom: 15px;}
+.ContainerRow:after{display: block; clear: both; content: '';}
+
+.Container{float: left; border-radius: 3px; border: 1px Silver solid; background-color: White; padding: 15px;}
+.Container:not(:first-child){margin-left: 15px;}
+.Container > .Title{font-size: 150%; text-transform: capitalize;}
+.Container > .Subtitle{}
+.Container > .Content{}
+.Container > .Content_Height247{min-height: 247px;}
+.Container > .Footer{display: none; margin-top: 15px; border-top: 1px Silver solid; color: Silver;}
+
+.Container_3Column{width: calc((100% - (2 * 15px)) / 3);}
+.Container_2Column{width: calc((100% - (1 * 15px)) / 2);}
+
+.DataTable{width: 100%; border-width: 0; text-align: left;}
+.DataTable > thead{background-color: Transparent; color: Black; text-shadow: none;}
+.DataTable > thead > tr > th{border-width: 0; font-weight: normal;}
+.DataTable > tbody > tr:nth-child(odd){background: #F9F9F9;}
+.DataTable > tbody > tr > td{border-width: 0; border-top: 1px Silver solid;}
+
+.DataTable > thead > .Column{color: Grey; text-align: center; text-transform: uppercase;}
+.DataTable > tbody > tr > .Center{text-align: center;}
+.DataTable > tbody > tr > .Number{text-align: right;}                
+
+@media screen and (max-width: 11cm){ /* Phone */
+	.Welcome{width: 98%;}
+
+	.ContainerRow{margin-bottom: 0;}
+	.Container{float: none; margin-bottom: 15px; padding: 5px;}
+	.Container:not(:first-child){margin-left: auto;}
+	.Container_2Column{width: auto;}
+	.Container_3Column{width: auto;}
+}

@@ -1,0 +1,2 @@
+.CheckboxGroup > .Checkbox{float: left;}
+.CheckboxGroup:after{display: block; clear: both; content: '';}

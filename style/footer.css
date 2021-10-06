@@ -1,0 +1,8 @@
+html > body > footer{padding: 0;}
+html > body > footer > .Fixed{position: fixed; left: 282px; bottom: 0; right: 0; border-top: 1px Silver solid; background-color: White; color: White; padding-left: 30px; padding: 10px; z-index: 1;}
+html > body > footer > .Fixed > .Copyright{float: left; color: Black; text-decoration: none;}
+html > body > footer > .Fixed > .Copyright > .Logo{margin-top: -9px; margin-right: 15px; margin-bottom: -9px; height: 40px;}
+html > body > footer > .Fixed > .Developer{float: right; color: Black; margin-right: 46px; text-decoration: none;}
+html > body > footer > .Fixed > .Developer > .Logo{margin-top: -10px; margin-left: 15px; margin-bottom: -9px; height: 40px;}
+html > body > footer > .Fixed:after{display: block; clear: both; content: '';}
+

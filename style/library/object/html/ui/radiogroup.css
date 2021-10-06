@@ -1,0 +1,10 @@
+.RadioGroup{}
+.RadioGroup > .Radio{float: left;}
+.RadioGroup > .Radio > input[type = 'radio']{display: none;}
+.RadioGroup > .Radio > label{border: 1px Grey solid; padding: 5px; padding-left: 15px; padding-right: 15px;}
+.RadioGroup > .Radio > input[type = 'radio']:not(:checked) + label{cursor: pointer;}
+.RadioGroup > .Radio > label:hover{background-color: Grey; color: White;}
+.RadioGroup > .Radio:not(:first-child) > label{border-left-width: 0;}
+.RadioGroup > .Radio > input[type = 'radio']:checked + label{border-color: Black; background-color: Black; color: White;}
+.RadioGroup > .Radio > input[type = 'radio']:checked + label:before{margin-right: 5px; content: '✔';} /* ✅✓✔➤➧ */
+.RadioGroup:after{display: block; clear: both; content: '';}

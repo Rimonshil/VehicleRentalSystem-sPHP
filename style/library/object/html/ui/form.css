@@ -1,0 +1,10 @@
+form > .Title{margin-bottom: 15px; border-bottom: 1px Grey solid; padding-bottom: 5px; font-size: 150%; font-style: italic;}
+form > .Title > .Icon{margin-right: 15px; height: 35px; border-radius: 50%; border: 2px #0089ff solid; padding: 3px;}
+form > .Error{margin-bottom: 5px; box-shadow: 0 0 5px 0 Red; border-radius: 5px; background-color: White; padding: 5px; color: Red; text-align: center; text-shadow: none;}
+form > .Header{margin-bottom: 15px; border-bottom: 1px Grey solid; padding-bottom: 5px; font-style: italic; text-align: right; line-height: 1.62;}
+form > .Content{}
+form > .Content > .SectionTitle{float: left; margin-bottom: 15px; width: 100%; border-bottom: 1px Silver solid; padding-bottom: 5px; font-weight: bold;}
+form > .Content:after{display: block; clear: both; content: '';}
+form > .Footer{margin-top: 15px; border-top: 1px Grey solid; padding-top: 5px; line-height: 1.62;}
+form > .ButtonArea{margin-top: 5px; border-top: 1px Grey solid; padding-top: 5px; text-align: right;}
+form > .Status{margin-top: 5px; border-top: 1px Grey solid; padding-top: 5px; color: Grey; font-size: 90%;}
