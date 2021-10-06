@@ -69,7 +69,9 @@
 
 		"DatabaseTable"					=>	[ // Defaine database tables for automatic preset operations
 		/*	"" . ($Entity = "Person") . "" => new Database\Table("{$Entity}", null, null, null, null, null, "ab_"),
+		
 			"" . ($Entity = "Currency") . "" => new Database\Table("{$Entity}", null, null, null, null, null, "sphp_"),*/
+                        "" . ($Entity = "Route") . "" => new Database\Table("{$Entity}", null, null, null, null, null, "vrs_"),
 			"" . ($Entity = "Vehicle") . "" => new Database\Table("{$Entity}", null, null, null, null, null, "vrs_"),
 			"" . ($Entity = "Gender") . "" => new Database\Table("{$Entity}", null, null, null, null, null, "sphp_"),
 		/*	"" . ($Entity = "Person") . "Phone" => new Database\Table("{$Entity} phone", null, null, null, null, null, "ab_"),
