@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 06, 2021 at 09:21 AM
+-- Generation Time: Oct 06, 2021 at 11:19 AM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 7.3.0
 
@@ -1844,7 +1844,30 @@ INSERT INTO `sphp_applicationtraffic` (`ApplicationTrafficID`, `ApplicationTraff
 (1579, 'localhost', 'localhost', 'mf5im87u7cfrln5p8858mdtc2i', '2021-10-06 13:19:52', '::1', 'GET', 'HTTP', 'responsivetemplate/', 'home', NULL, 'http://localhost/responsivetemplate/?_Script=User/SignInAction', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36', 187500, 453125, '2021-10-06 13:19:52', '2021-10-06 13:19:52', 2, NULL, NULL, NULL, NULL, NULL, NULL, 1, 2, 2, NULL, '2021-10-06 13:19:52', '2021-10-06 13:19:52', NULL),
 (1580, 'localhost', 'localhost', 'mf5im87u7cfrln5p8858mdtc2i', '2021-10-06 13:19:57', '::1', 'GET', 'HTTP', 'responsivetemplate/', 'management/generic/person', '_Script=Management/Generic/Person&_LeftPanelNavigation_PadKey=Administration&_LeftPanelNavigation_ItemKey=Person', 'http://localhost/responsivetemplate/', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36', 234375, 453125, '2021-10-06 13:19:57', '2021-10-06 13:19:57', 2, NULL, NULL, NULL, NULL, NULL, NULL, 1, 2, 2, NULL, '2021-10-06 13:19:57', '2021-10-06 13:19:57', NULL),
 (1581, 'localhost', 'localhost', 'mf5im87u7cfrln5p8858mdtc2i', '2021-10-06 13:20:02', '::1', 'GET', 'HTTP', 'responsivetemplate/', 'management/generic/usergroup', '_Script=Management/Generic/UserGroup&_LeftPanelNavigation_PadKey=Administration&_LeftPanelNavigation_ItemKey=UserGroup', 'http://localhost/responsivetemplate/?_Script=Management/Generic/Person&_LeftPanelNavigation_PadKey=Administration&_LeftPanelNavigation_ItemKey=Person', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36', 265625, 468750, '2021-10-06 13:20:02', '2021-10-06 13:20:02', 2, NULL, NULL, NULL, NULL, NULL, NULL, 1, 2, 2, NULL, '2021-10-06 13:20:02', '2021-10-06 13:20:02', NULL),
-(1582, 'localhost', 'localhost', 'mf5im87u7cfrln5p8858mdtc2i', '2021-10-06 13:20:11', '::1', 'GET', 'HTTP', 'responsivetemplate/', 'management/generic/phone', '_Script=Management/Generic/Phone&_LeftPanelNavigation_PadKey=Administration&_LeftPanelNavigation_ItemKey=Phone', 'http://localhost/responsivetemplate/?_Script=Management/Generic/UserGroup&_LeftPanelNavigation_PadKey=Administration&_LeftPanelNavigation_ItemKey=UserGroup', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36', 296875, 500000, '2021-10-06 13:20:10', '2021-10-06 13:20:11', 2, NULL, NULL, NULL, NULL, NULL, NULL, 1, 2, 2, NULL, '2021-10-06 13:20:11', '2021-10-06 13:20:11', NULL);
+(1582, 'localhost', 'localhost', 'mf5im87u7cfrln5p8858mdtc2i', '2021-10-06 13:20:11', '::1', 'GET', 'HTTP', 'responsivetemplate/', 'management/generic/phone', '_Script=Management/Generic/Phone&_LeftPanelNavigation_PadKey=Administration&_LeftPanelNavigation_ItemKey=Phone', 'http://localhost/responsivetemplate/?_Script=Management/Generic/UserGroup&_LeftPanelNavigation_PadKey=Administration&_LeftPanelNavigation_ItemKey=UserGroup', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36', 296875, 500000, '2021-10-06 13:20:10', '2021-10-06 13:20:11', 2, NULL, NULL, NULL, NULL, NULL, NULL, 1, 2, 2, NULL, '2021-10-06 13:20:11', '2021-10-06 13:20:11', NULL),
+(1583, 'localhost', 'localhost', 'h6a6hjg0ia5lr3rjjpebgv1lgf', '2021-10-06 14:03:57', '::1', 'GET', 'HTTP', 'vehiclerentalsystem/', 'home', '_Script=management/generic/vehicle&SucceededAction=Input', NULL, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36', 453125, 843750, '2021-10-06 14:03:57', '2021-10-06 14:03:57', 0, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, '2021-10-06 14:03:57', '2021-10-06 14:03:57', NULL),
+(1584, 'localhost', 'localhost', 'h6a6hjg0ia5lr3rjjpebgv1lgf', '2021-10-06 14:04:00', '::1', 'GET', 'HTTP', 'vehiclerentalsystem/', 'user/signin', '_Script=User/SignIn&_LeftPanelNavigation_PadKey=User&_LeftPanelNavigation_ItemKey=SignIn', 'https://localhost/vehiclerentalsystem/?_Script=management/generic/vehicle&SucceededAction=Input', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36', 531250, 859375, '2021-10-06 14:04:00', '2021-10-06 14:04:00', 0, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, '2021-10-06 14:04:00', '2021-10-06 14:04:00', NULL),
+(1585, 'localhost', 'localhost', 'h6a6hjg0ia5lr3rjjpebgv1lgf', '2021-10-06 14:04:06', '::1', 'POST', 'HTTP', 'vehiclerentalsystem/', 'user/signinaction', '_Script=User/SignInAction', 'https://localhost/vehiclerentalsystem/?_Script=User/SignIn&_LeftPanelNavigation_PadKey=User&_LeftPanelNavigation_ItemKey=SignIn', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36', 562500, 906250, '2021-10-06 14:04:06', '2021-10-06 14:04:06', 0, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, 2, NULL, '2021-10-06 14:04:06', '2021-10-06 14:04:06', NULL),
+(1586, 'localhost', 'localhost', 'h6a6hjg0ia5lr3rjjpebgv1lgf', '2021-10-06 14:04:08', '::1', 'GET', 'HTTP', 'vehiclerentalsystem/', 'home', NULL, 'https://localhost/vehiclerentalsystem/?_Script=User/SignInAction', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36', 562500, 921875, '2021-10-06 14:04:08', '2021-10-06 14:04:08', 2, NULL, NULL, NULL, NULL, NULL, NULL, 1, 2, 2, NULL, '2021-10-06 14:04:08', '2021-10-06 14:04:08', NULL),
+(1587, 'localhost', 'localhost', 'h6a6hjg0ia5lr3rjjpebgv1lgf', '2021-10-06 14:04:11', '::1', 'GET', 'HTTP', 'vehiclerentalsystem/', 'management/generic/vehicle', '_Script=Management/Generic/Vehicle&_LeftPanelNavigation_PadKey=Administration&_LeftPanelNavigation_ItemKey=Vehicle', 'https://localhost/vehiclerentalsystem/', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36', 593750, 968750, '2021-10-06 14:04:11', '2021-10-06 14:04:11', 2, NULL, NULL, NULL, NULL, NULL, NULL, 1, 2, 2, NULL, '2021-10-06 14:04:11', '2021-10-06 14:04:11', NULL),
+(1588, 'localhost', 'localhost', 'mf5im87u7cfrln5p8858mdtc2i', '2021-10-06 14:56:28', '::1', 'GET', 'HTTP', 'sphptemplate2/', 'home', NULL, NULL, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36', 828125, 156250, '2021-10-06 14:56:27', '2021-10-06 14:56:28', 0, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, '2021-10-06 14:56:28', '2021-10-06 14:56:28', NULL),
+(1589, 'localhost', 'localhost', 'h6a6hjg0ia5lr3rjjpebgv1lgf', '2021-10-06 15:05:35', '::1', 'GET', 'HTTP', 'vrs/', 'home', NULL, NULL, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36', 968750, 312500, '2021-10-06 15:05:35', '2021-10-06 15:05:35', 0, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, '2021-10-06 15:05:35', '2021-10-06 15:05:35', NULL),
+(1590, 'localhost', 'localhost', 'h6a6hjg0ia5lr3rjjpebgv1lgf', '2021-10-06 15:05:37', '::1', 'GET', 'HTTP', 'vrs/', 'user/signin', '_Script=User/SignIn&_LeftPanelNavigation_PadKey=User&_LeftPanelNavigation_ItemKey=SignIn', 'http://localhost/vrs/', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36', 984375, 375000, '2021-10-06 15:05:37', '2021-10-06 15:05:37', 0, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, '2021-10-06 15:05:37', '2021-10-06 15:05:37', NULL),
+(1591, 'localhost', 'localhost', 'h6a6hjg0ia5lr3rjjpebgv1lgf', '2021-10-06 15:05:43', '::1', 'POST', 'HTTP', 'vrs/', 'user/signinaction', '_Script=User/SignInAction', 'http://localhost/vrs/?_Script=User/SignIn&_LeftPanelNavigation_PadKey=User&_LeftPanelNavigation_ItemKey=SignIn', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36', 984375, 375000, '2021-10-06 15:05:43', '2021-10-06 15:05:43', 0, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, 2, NULL, '2021-10-06 15:05:43', '2021-10-06 15:05:43', NULL),
+(1592, 'localhost', 'localhost', 'h6a6hjg0ia5lr3rjjpebgv1lgf', '2021-10-06 15:05:48', '::1', 'GET', 'HTTP', 'vrs/', 'home', NULL, 'http://localhost/vrs/?_Script=User/SignInAction', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36', 0, 390625, '2021-10-06 15:05:48', '2021-10-06 15:05:48', 2, NULL, NULL, NULL, NULL, NULL, NULL, 1, 2, 2, NULL, '2021-10-06 15:05:48', '2021-10-06 15:05:48', NULL),
+(1593, 'localhost', 'localhost', 'h6a6hjg0ia5lr3rjjpebgv1lgf', '2021-10-06 15:06:37', '::1', 'GET', 'HTTP', 'vrs/', 'management/generic/vehicle', '_Script=Management/Generic/Vehicle&_LeftPanelNavigation_PadKey=Administration&_LeftPanelNavigation_ItemKey=Vehicle', 'http://localhost/vrs/', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36', 15625, 421875, '2021-10-06 15:06:37', '2021-10-06 15:06:37', 2, NULL, NULL, NULL, NULL, NULL, NULL, 1, 2, 2, NULL, '2021-10-06 15:06:37', '2021-10-06 15:06:37', NULL),
+(1594, 'localhost', 'localhost', 'hdpc0sihs10jlqnvm2ugg6q0dj', '2021-10-06 15:09:40', '::1', 'GET', 'HTTP', 'vrs/', 'home', NULL, NULL, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36', 46875, 437500, '2021-10-06 15:09:40', '2021-10-06 15:09:40', 0, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, '2021-10-06 15:09:40', '2021-10-06 15:09:40', NULL),
+(1595, 'localhost', 'localhost', 'hdpc0sihs10jlqnvm2ugg6q0dj', '2021-10-06 15:09:43', '::1', 'GET', 'HTTP', 'vrs/', 'user/signin', '_Script=User/SignIn&_LeftPanelNavigation_PadKey=User&_LeftPanelNavigation_ItemKey=SignIn', 'http://localhost/vrs/', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36', 62500, 437500, '2021-10-06 15:09:43', '2021-10-06 15:09:43', 0, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, '2021-10-06 15:09:43', '2021-10-06 15:09:43', NULL),
+(1596, 'localhost', 'localhost', 'hdpc0sihs10jlqnvm2ugg6q0dj', '2021-10-06 15:09:53', '::1', 'POST', 'HTTP', 'vrs/', 'user/signinaction', '_Script=User/SignInAction', 'http://localhost/vrs/?_Script=User/SignIn&_LeftPanelNavigation_PadKey=User&_LeftPanelNavigation_ItemKey=SignIn', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36', 93750, 437500, '2021-10-06 15:09:53', '2021-10-06 15:09:53', 0, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, 2, NULL, '2021-10-06 15:09:53', '2021-10-06 15:09:53', NULL),
+(1597, 'localhost', 'localhost', 'hdpc0sihs10jlqnvm2ugg6q0dj', '2021-10-06 15:10:00', '::1', 'GET', 'HTTP', 'vrs/', 'home', NULL, 'http://localhost/vrs/?_Script=User/SignInAction', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36', 109375, 437500, '2021-10-06 15:10:00', '2021-10-06 15:10:00', 2, NULL, NULL, NULL, NULL, NULL, NULL, 1, 2, 2, NULL, '2021-10-06 15:10:00', '2021-10-06 15:10:00', NULL),
+(1598, 'localhost', 'localhost', 'hdpc0sihs10jlqnvm2ugg6q0dj', '2021-10-06 15:11:11', '::1', 'GET', 'HTTP', 'vrs/', 'management/generic/vehicle', '_Script=Management/Generic/Vehicle&_LeftPanelNavigation_PadKey=Administration&_LeftPanelNavigation_ItemKey=Vehicle', 'http://localhost/vrs/', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36', 156250, 437500, '2021-10-06 15:11:11', '2021-10-06 15:11:11', 2, NULL, NULL, NULL, NULL, NULL, NULL, 1, 2, 2, NULL, '2021-10-06 15:11:11', '2021-10-06 15:11:11', NULL),
+(1599, 'localhost', 'localhost', 'hdpc0sihs10jlqnvm2ugg6q0dj', '2021-10-06 15:11:19', '::1', 'GET', 'HTTP', 'vrs/', 'management/generic/route', '_Script=Management/Generic/Route', NULL, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36', 171875, 468750, '2021-10-06 15:11:19', '2021-10-06 15:11:19', 2, NULL, NULL, NULL, NULL, NULL, NULL, 1, 2, 2, NULL, '2021-10-06 15:11:19', '2021-10-06 15:11:19', NULL),
+(1600, 'localhost', 'localhost', 'hdpc0sihs10jlqnvm2ugg6q0dj', '2021-10-06 15:16:02', '::1', 'GET', 'HTTP', 'VehicleRentalSystem-sPHP/', 'home', NULL, NULL, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36', 203125, 468750, '2021-10-06 15:16:01', '2021-10-06 15:16:02', 0, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, '2021-10-06 15:16:02', '2021-10-06 15:16:02', NULL),
+(1601, 'localhost', 'localhost', 'hdpc0sihs10jlqnvm2ugg6q0dj', '2021-10-06 15:16:04', '::1', 'GET', 'HTTP', 'VehicleRentalSystem-sPHP/', 'user/signin', '_Script=User/SignIn&_LeftPanelNavigation_PadKey=User&_LeftPanelNavigation_ItemKey=SignIn', 'https://localhost/VehicleRentalSystem-sPHP/', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36', 250000, 515625, '2021-10-06 15:16:04', '2021-10-06 15:16:04', 0, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, '2021-10-06 15:16:04', '2021-10-06 15:16:04', NULL),
+(1602, 'localhost', 'localhost', 'hdpc0sihs10jlqnvm2ugg6q0dj', '2021-10-06 15:16:11', '::1', 'POST', 'HTTP', 'VehicleRentalSystem-sPHP/', 'user/signinaction', '_Script=User/SignInAction', 'https://localhost/VehicleRentalSystem-sPHP/?_Script=User/SignIn&_LeftPanelNavigation_PadKey=User&_LeftPanelNavigation_ItemKey=SignIn', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36', 265625, 546875, '2021-10-06 15:16:11', '2021-10-06 15:16:11', 0, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, 2, NULL, '2021-10-06 15:16:11', '2021-10-06 15:16:11', NULL),
+(1603, 'localhost', 'localhost', 'hdpc0sihs10jlqnvm2ugg6q0dj', '2021-10-06 15:16:13', '::1', 'GET', 'HTTP', 'VehicleRentalSystem-sPHP/', 'home', NULL, 'https://localhost/VehicleRentalSystem-sPHP/?_Script=User/SignInAction', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36', 328125, 562500, '2021-10-06 15:16:13', '2021-10-06 15:16:13', 2, NULL, NULL, NULL, NULL, NULL, NULL, 1, 2, 2, NULL, '2021-10-06 15:16:13', '2021-10-06 15:16:13', NULL),
+(1604, 'localhost', 'localhost', 'hdpc0sihs10jlqnvm2ugg6q0dj', '2021-10-06 15:16:18', '::1', 'GET', 'HTTP', 'VehicleRentalSystem-sPHP/', NULL, '_Script=Management/Generic/Route&_LeftPanelNavigation_PadKey=Administration&_LeftPanelNavigation_ItemKey=route', 'https://localhost/VehicleRentalSystem-sPHP/', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36', NULL, NULL, '2021-10-06 15:16:18', NULL, 2, NULL, NULL, NULL, NULL, NULL, NULL, 1, 2, NULL, NULL, '2021-10-06 15:16:18', NULL, NULL),
+(1605, 'localhost', 'localhost', 'hdpc0sihs10jlqnvm2ugg6q0dj', '2021-10-06 15:19:06', '::1', 'GET', 'HTTP', 'VehicleRentalSystem-sPHP/', 'management/generic/route', '_Script=Management/Generic/Route&_LeftPanelNavigation_PadKey=Administration&_LeftPanelNavigation_ItemKey=route', NULL, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36', 765625, 312500, '2021-10-06 15:19:06', '2021-10-06 15:19:06', 2, NULL, NULL, NULL, NULL, NULL, NULL, 1, 2, 2, NULL, '2021-10-06 15:19:06', '2021-10-06 15:19:06', NULL);
 
 -- --------------------------------------------------------
 
@@ -2565,7 +2588,11 @@ INSERT INTO `sphp_log` (`LogID`, `LogTime`, `LogType`, `LogSource`, `LogSubject`
 (165, '2021-10-06 13:16:26', 'APPLICATION', 'Database', 'Vehicle', 'Add new', 'System Administrator (ADMINISTRATOR)', 'JSON', '{\"ID\":\"1\"}', '', 0, 2, 1, 2, NULL, NULL, '2021-10-06 13:16:26', NULL, NULL),
 (166, '2021-10-06 13:19:27', 'SECURITY', 'Application', 'User', 'Sign in', 'System Administrator (ADMINISTRATOR)', 'JSON', '{\"User\":{\"Email\":\"Administrator@System.Dom\"},\"IP\":\"::1\"}', '', 0, 2, 1, 2, NULL, NULL, '2021-10-06 13:19:27', NULL, NULL),
 (167, '2021-10-06 13:19:35', 'SECURITY', 'Application', 'User', 'Sign out', 'System Administrator (ADMINISTRATOR)', 'JSON', '{\"User\":{\"Email\":\"Administrator@System.Dom\"}}', '', 0, 2, 1, 2, NULL, NULL, '2021-10-06 13:19:35', NULL, NULL),
-(168, '2021-10-06 13:19:48', 'SECURITY', 'Application', 'User', 'Sign in', 'System Administrator (ADMINISTRATOR)', 'JSON', '{\"User\":{\"Email\":\"Administrator@System.Dom\"},\"IP\":\"::1\"}', '', 0, 2, 1, 2, NULL, NULL, '2021-10-06 13:19:48', NULL, NULL);
+(168, '2021-10-06 13:19:48', 'SECURITY', 'Application', 'User', 'Sign in', 'System Administrator (ADMINISTRATOR)', 'JSON', '{\"User\":{\"Email\":\"Administrator@System.Dom\"},\"IP\":\"::1\"}', '', 0, 2, 1, 2, NULL, NULL, '2021-10-06 13:19:48', NULL, NULL),
+(169, '2021-10-06 14:04:06', 'SECURITY', 'Application', 'User', 'Sign in', 'System Administrator (ADMINISTRATOR)', 'JSON', '{\"User\":{\"Email\":\"Administrator@System.Dom\"},\"IP\":\"::1\"}', '', 0, 2, 1, 2, NULL, NULL, '2021-10-06 14:04:06', NULL, NULL),
+(170, '2021-10-06 15:05:43', 'SECURITY', 'Application', 'User', 'Sign in', 'System Administrator (ADMINISTRATOR)', 'JSON', '{\"User\":{\"Email\":\"Administrator@System.Dom\"},\"IP\":\"::1\"}', '', 0, 2, 1, 2, NULL, NULL, '2021-10-06 15:05:43', NULL, NULL),
+(171, '2021-10-06 15:09:53', 'SECURITY', 'Application', 'User', 'Sign in', 'System Administrator (ADMINISTRATOR)', 'JSON', '{\"User\":{\"Email\":\"Administrator@System.Dom\"},\"IP\":\"::1\"}', '', 0, 2, 1, 2, NULL, NULL, '2021-10-06 15:09:53', NULL, NULL),
+(172, '2021-10-06 15:16:11', 'SECURITY', 'Application', 'User', 'Sign in', 'System Administrator (ADMINISTRATOR)', 'JSON', '{\"User\":{\"Email\":\"Administrator@System.Dom\"},\"IP\":\"::1\"}', '', 0, 2, 1, 2, NULL, NULL, '2021-10-06 15:16:11', NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -3027,10 +3054,10 @@ CREATE TABLE `vrs_rentvehiclerequest` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `vrs_routes`
+-- Table structure for table `vrs_route`
 --
 
-CREATE TABLE `vrs_routes` (
+CREATE TABLE `vrs_route` (
   `RouteID` int(11) NOT NULL,
   `RouteName` varchar(255) DEFAULT NULL,
   `RoutePrice` varchar(255) NOT NULL,
@@ -3326,9 +3353,9 @@ ALTER TABLE `vrs_rentvehiclerequest`
   ADD PRIMARY KEY (`RentVehicleRequestID`);
 
 --
--- Indexes for table `vrs_routes`
+-- Indexes for table `vrs_route`
 --
-ALTER TABLE `vrs_routes`
+ALTER TABLE `vrs_route`
   ADD PRIMARY KEY (`RouteID`),
   ADD KEY `RouteName` (`RouteName`(191));
 
@@ -3384,7 +3411,7 @@ ALTER TABLE `sphp_applicationchangelog`
 -- AUTO_INCREMENT for table `sphp_applicationtraffic`
 --
 ALTER TABLE `sphp_applicationtraffic`
-  MODIFY `ApplicationTrafficID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1583;
+  MODIFY `ApplicationTrafficID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1606;
 
 --
 -- AUTO_INCREMENT for table `sphp_country`
@@ -3426,7 +3453,7 @@ ALTER TABLE `sphp_language`
 -- AUTO_INCREMENT for table `sphp_log`
 --
 ALTER TABLE `sphp_log`
-  MODIFY `LogID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=169;
+  MODIFY `LogID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=173;
 
 --
 -- AUTO_INCREMENT for table `sphp_measure`
@@ -3519,9 +3546,9 @@ ALTER TABLE `vrs_rentvehiclerequest`
   MODIFY `RentVehicleRequestID` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT for table `vrs_routes`
+-- AUTO_INCREMENT for table `vrs_route`
 --
-ALTER TABLE `vrs_routes`
+ALTER TABLE `vrs_route`
   MODIFY `RouteID` int(11) NOT NULL AUTO_INCREMENT;
 
 --
