@@ -79,7 +79,7 @@ $EM->Action([
 	$USR->UserGroupIdentifier() != "GUEST" ? new HTML\UI\Datagrid\Action("{$Environment->IconURL()}edit.png", null, $Application->URL($_POST["_Script"], "btnInput"), null, null, null, "Edit"):NULL,
 	//new HTML\UI\Datagrid\Action("{$Environment->IconURL()}address.png", null, $Application->URL($_POST["_Script"], "btnInput"), null, null, null, "AddressView"),
 	//$USR->UserGroupIdentifier() != "GUEST"||"MEMBER" ? new HTML\UI\Datagrid\Action("{$Environment->IconURL()}delete.png", null, $Application->URL($_POST["_Script"], "btnDelete"), null, "return confirm('Are you sure to remove the information?');", null, "Delete"):NULL,
-	$USR->UserGroupIdentifier() == "GUEST"||"MEMBER" ? NULL:new HTML\UI\Datagrid\Action("{$Environment->IconURL()}delete.png", null, $Application->URL($_POST["_Script"], "btnDelete"), null, "return confirm('Are you sure to remove the information?');", null, "Delete"),
+	$USR->UserGroupIdentifier() == "GUEST" ? NULL:new HTML\UI\Datagrid\Action("{$Environment->IconURL()}delete.png", null, $Application->URL($_POST["_Script"], "btnDelete"), null, "return confirm('Are you sure to remove the information?');", null, "Delete"),
 ]);
 
 $EM->BatchActionHTML([
