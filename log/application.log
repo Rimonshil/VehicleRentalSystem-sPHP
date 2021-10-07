@@ -315,3 +315,6 @@
 2021-10-06 16:13:14	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
 >>>>>>> 79747942d8e9160b29094f9f7b3e990590ed52d2
 2021-10-06 17:39:20	SECURITY   	Application	User                    	Sign in         	Jnd FFFl FFFMFM (CUSTOMER)                        	{"User":{"Email":"ki@gmail.com"},"IP":"::1"}	:0
+2021-10-07 10:40:54	SECURITY   	Application	User                    	Sign in         	Jnd FFFl FFFMFM (CUSTOMER)                        	{"User":{"Email":"ki@gmail.com"},"IP":"::1"}	:0
+2021-10-07 10:58:24	SECURITY   	Application	User                    	Sign out        	Jnd FFFl FFFMFM (CUSTOMER)                        	{"User":{"Email":"ki@gmail.com"}}	:0
+2021-10-07 10:58:52	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
