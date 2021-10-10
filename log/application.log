@@ -333,3 +333,5 @@
 2021-10-07 14:55:26	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
 2021-10-07 14:55:46	SECURITY   	Application	User                    	Sign in         	Jnd FFFl FFFMFM (CUSTOMER)                        	{"User":{"Email":"ki@gmail.com"},"IP":"::1"}	:0
 2021-10-10 10:15:45	SECURITY   	Application	User                    	Sign in         	Jnd FFFl FFFMFM (CUSTOMER)                        	{"User":{"Email":"ki@gmail.com"},"IP":"::1"}	:0
+2021-10-10 13:13:02	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-10-10 13:16:59	APPLICATION	Database   	Type                    	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"1"}	:0

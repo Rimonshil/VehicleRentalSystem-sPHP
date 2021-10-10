@@ -74,6 +74,7 @@
                         
 			"" . ($Entity = "Vehicle") . "" => new Database\Table("{$Entity}", null, null, null, null, null, "vrs_"),
 			"" . ($Entity = "RentVehicleRequest") . "" => new Database\Table("{$Entity}", null, null, null, null, null, "vrs_"),
+			"" . ($Entity = "Type") . "" => new Database\Table("{$Entity}", null, null, null, null, null, "vrs_"),
 			"" . ($Entity = "Route") . "" => new Database\Table("{$Entity}", null, null, null, null, null, "vrs_"),
 			"" . ($Entity = "Gender") . "" => new Database\Table("{$Entity}", null, null, null, null, null, "sphp_"),
 		/*	"" . ($Entity = "Person") . "Phone" => new Database\Table("{$Entity} phone", null, null, null, null, null, "ab_"),
