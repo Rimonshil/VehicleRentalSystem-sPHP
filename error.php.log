@@ -26,3 +26,139 @@
 =======
 [06-Oct-2021 15:16:18 Asia/Dhaka] User error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'defaultsphp.vrs_route' doesn't exist in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
 >>>>>>> 79747942d8e9160b29094f9f7b3e990590ed52d2
+[07-Oct-2021 11:31:54 Asia/Dhaka] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehicle.php on line 5
+[07-Oct-2021 11:50:07 Asia/Dhaka] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehicle.php on line 5
+[07-Oct-2021 12:01:59 Asia/Dhaka] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehicle.php on line 5
+[07-Oct-2021 12:03:40 Asia/Dhaka] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehicle.php on line 5
+[07-Oct-2021 12:05:03 Asia/Dhaka] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehicle.php on line 4
+[07-Oct-2021 12:07:05 Asia/Dhaka] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 4
+[07-Oct-2021 12:07:39 Asia/Dhaka] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 4
+[07-Oct-2021 12:07:41 Asia/Dhaka] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 4
+[07-Oct-2021 12:07:42 Asia/Dhaka] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 4
+[07-Oct-2021 12:08:28 Asia/Dhaka] User error: Undefined index: RentVehicleRequest in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 6
+[07-Oct-2021 12:10:28 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'LicenseNumber' in 'order clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[07-Oct-2021 12:20:14 Asia/Dhaka] User error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AS _Other
+
+FROM			vrs_rentvehiclerequest AS R
+    LEFT JOIN vrs_vehicle As V ...' at line 5 in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[07-Oct-2021 12:21:20 Asia/Dhaka] User error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AS _Other
+
+FROM			vrs_rentvehiclerequest AS R
+    LEFT JOIN vrs_vehicle As V ...' at line 5 in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[07-Oct-2021 12:21:49 Asia/Dhaka] User error: SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'R' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[07-Oct-2021 12:25:46 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'LicenseNumber' in 'order clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[07-Oct-2021 12:26:54 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'LicenseNumber' in 'order clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[07-Oct-2021 12:26:56 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'LicenseNumber' in 'order clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[07-Oct-2021 12:38:32 Asia/Dhaka] User error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT			R.*, 
+				CONCAT(R.VehicleType, '') AS RentVehicleRequestLookupCapti...' at line 13 in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[07-Oct-2021 12:38:59 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.VehicleType' in 'field list' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 215
+[07-Oct-2021 12:53:59 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.VehicleType' in 'field list' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 215
+[07-Oct-2021 12:56:46 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.RentVehicleRequestLicenseNumber' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[07-Oct-2021 13:05:22 Asia/Dhaka] User error: Undefined index: dummy in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 162
+[07-Oct-2021 13:05:27 Asia/Dhaka] User error: Undefined index: dummy in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 162
+[07-Oct-2021 13:05:32 Asia/Dhaka] User error: Undefined index: dummy in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 162
+[07-Oct-2021 13:05:57 Asia/Dhaka] User error: Undefined index: UserID in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 162
+[07-Oct-2021 13:07:19 Asia/Dhaka] User error: Undefined variable: UserID in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 162
+[07-Oct-2021 13:07:40 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined method sPHP\User::UserID() in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php:162
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require()
+#1 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 162
+[07-Oct-2021 13:11:40 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ']', expecting ')' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 167
+[07-Oct-2021 13:11:40 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[07-Oct-2021 13:11:44 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ']', expecting ')' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 167
+[07-Oct-2021 13:11:44 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[07-Oct-2021 13:12:42 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined method sPHP\User::User() in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php:8
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require()
+#1 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 8
+[07-Oct-2021 13:13:09 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined method sPHP\User::sphp_User() in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php:8
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require()
+#1 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 8
+[07-Oct-2021 13:13:35 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined method sPHP\User::UserID() in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php:8
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require()
+#1 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 8
+[07-Oct-2021 13:14:39 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ')' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 8
+[07-Oct-2021 13:14:39 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[07-Oct-2021 13:15:04 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined method sPHP\User::UserID() in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php:8
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require()
+#1 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 8
+[07-Oct-2021 13:15:44 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined method sPHP\User::UserIdentifier() in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php:8
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require()
+#1 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 8
+[07-Oct-2021 13:18:11 Asia/Dhaka] User error: Undefined property: sPHP\User::$ID in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 8
+[07-Oct-2021 13:18:54 Asia/Dhaka] User error: Undefined variable: ID in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 8
+[07-Oct-2021 13:19:16 Asia/Dhaka] User error: Undefined variable: USRID in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 8
+[07-Oct-2021 13:20:35 Asia/Dhaka] User error: Use of undefined constant ID - assumed 'ID' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 8
+[07-Oct-2021 13:21:16 Asia/Dhaka] User error: Undefined variable: UserID in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 8
+[07-Oct-2021 13:21:30 Asia/Dhaka] User error: Undefined property: sPHP\User::$UserID in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 8
+[07-Oct-2021 13:22:08 Asia/Dhaka] User error: Undefined property: sPHP\User::$ID in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 8
+[07-Oct-2021 13:25:03 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ']', expecting ')' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 168
+[07-Oct-2021 13:25:03 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[07-Oct-2021 13:25:22 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ']', expecting ')' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 168
+[07-Oct-2021 13:25:22 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[07-Oct-2021 13:26:32 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ']', expecting ')' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 168
+[07-Oct-2021 13:26:32 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[07-Oct-2021 13:38:06 Asia/Dhaka] User error: Array to string conversion in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\input.php on line 260
+[07-Oct-2021 13:40:55 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '}', expecting variable (T_VARIABLE) or '{' or '$' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 164
+[07-Oct-2021 13:40:55 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[07-Oct-2021 13:40:57 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '}', expecting variable (T_VARIABLE) or '{' or '$' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 164
+[07-Oct-2021 13:40:57 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[07-Oct-2021 13:41:09 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '}', expecting variable (T_VARIABLE) or '{' or '$' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 164
+[07-Oct-2021 13:41:09 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[07-Oct-2021 13:41:11 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '}', expecting variable (T_VARIABLE) or '{' or '$' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 164
+[07-Oct-2021 13:41:11 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[07-Oct-2021 13:42:23 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ']', expecting ')' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 175
+[07-Oct-2021 13:42:23 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[07-Oct-2021 13:42:28 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ']', expecting ')' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 175
+[07-Oct-2021 13:42:28 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[07-Oct-2021 14:06:45 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ']', expecting ')' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 176
+[07-Oct-2021 14:06:45 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[07-Oct-2021 14:07:22 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 177
+[07-Oct-2021 14:07:22 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[07-Oct-2021 14:07:26 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 177
+[07-Oct-2021 14:07:26 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[07-Oct-2021 14:07:57 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ']', expecting ')' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 175
+[07-Oct-2021 14:07:57 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[07-Oct-2021 14:08:00 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ']', expecting ')' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 175
+[07-Oct-2021 14:08:00 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[07-Oct-2021 14:09:01 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '}', expecting variable (T_VARIABLE) or '{' or '$' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 164
+[07-Oct-2021 14:09:01 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[07-Oct-2021 14:13:02 Asia/Dhaka] User error: Use of undefined constant hiddendata - assumed 'hiddendata' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 171
+[07-Oct-2021 14:13:26 Asia/Dhaka] User error: Use of undefined constant hidden - assumed 'hidden' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 171
+[07-Oct-2021 14:13:31 Asia/Dhaka] User error: Use of undefined constant hidden - assumed 'hidden' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 171
+[07-Oct-2021 14:26:56 Asia/Dhaka] User error: Undefined index: Vehicle  in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 163
+[07-Oct-2021 14:30:23 Asia/Dhaka] User error: Undefined property: sPHP\User::$Name in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 164
+[07-Oct-2021 14:55:50 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '"', expecting ')' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 163
+[07-Oct-2021 14:55:50 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[07-Oct-2021 15:04:02 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'U.User' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[07-Oct-2021 15:04:27 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined method sPHP\EntityManagement::InputIHTML() in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php:160
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require()
+#1 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 160
+[07-Oct-2021 15:05:47 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'U.User' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[07-Oct-2021 15:09:55 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'HIDDEN' in 'order clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
