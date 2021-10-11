@@ -11,19 +11,16 @@ $EM = new EntityManagement($Table[$Entity = "Vehicle"]);
 $EM->ImportField([
 	//new Database\Field("{$Entity}First" . ($Field = "Name") . "", "{$Field}"),
 	new Database\Field("{$Entity}" . ($Field = "LicenseNumber") . "", "{$Field}"),
-	new Database\Field("{$Entity}" . ($Field = "Type") . "", "{$Field}"),
-	//new Database\Field("{$Entity}" . ($Field = "Email") . "", "{$Field}"),
-	new Database\Field("{$Entity}" . ($Field = "BirthDate") . "", "{$Field}"),
-	//new Database\Field("{$Entity}Gender" . ($Field = "ID") . "", "{$Field}"),
-	//new Database\Field("{$Entity}Currency" . ($Field = "ID") . "", "{$Field}"),
-	//new Database\Field("{$Entity}" . ($Field = "Note") . "", "{$Field}"),
+	new Database\Field("" . ($Field = "Type") . "ID", "{$Field}"),
+
+	
     new Database\Field("{$Entity}Is" . ($Field = "Active") . "", "{$Field}"),
     new Database\Field("{$Entity}" . ($Field = "BrandName") . "", "{$Field}"),
 ]);
 
 $EM->InputValidation([
 	new HTTP\InputValidation("{$Entity}LicenseNumber", true),
-	new HTTP\InputValidation("{$Entity}Type", true),
+	// new HTTP\InputValidation("Type", true),
 	//new HTTP\InputValidation("{$Entity}", true),
 	new HTTP\InputValidation("{$Entity}BrandName", true),
 	//new HTTP\InputValidation("{$Entity}Note", null),
@@ -60,7 +57,7 @@ $EM->DefaultFromSearchColumn("xTerminalID, xCustomerID, xCarrierID");
 
 $EM->ListColumn([
 	new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "LicenseNumber") . "", "{$Caption}", null),
-	new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "Type") . "", "{$Caption}", null),
+	new HTML\UI\Datagrid\Column("" . ($Caption = "Type") . "Name", "{$Caption}", null),
 	new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "BrandName") . "", "{$Caption}", null),
 	//new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "BirthDate") . "", "{$Caption}", FIELD_TYPE_SHORTDATE),
 	//new HTML\UI\Datagrid\Column("" . ($Caption = "Gender") . "Name", "{$Caption}", null),
@@ -157,8 +154,9 @@ if(isset($_POST["btnInput"])){
 	
 	$EM->InputUIHTML([
 		HTML\UI\Field(HTML\UI\Input("{$Entity}" . ($Caption = "LicenseNumber") . "", $EM->InputWidth(), null, true), "{$Caption}", null, null, $EM->FieldCaptionWidth()),
-		HTML\UI\Field(HTML\UI\Input("{$Entity}" . ($Caption = "Type") . "", $EM->InputWidth(), null, true), "{$Caption}", null, null, $EM->FieldCaptionWidth()),
+		HTML\UI\Field(HTML\UI\Select("" . ($Caption = "Type") . "ID", $Table[$OptionEntity = "{$Caption}"]->Get("{$Table["{$OptionEntity}"]->Alias()}.{$OptionEntity}IsActive = 1", "{$OptionEntity}LookupCaption ASC"), null, "{$OptionEntity}LookupCaption", null, null, true), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
 		HTML\UI\Field(HTML\UI\Input("{$Entity}" . ($Caption = "BrandName") . "", $EM->InputWidth(), null, true), "{$Caption}", null, null, $EM->FieldCaptionWidth()),
+		
 		//HTML\UI\Field(HTML\UI\Input("{$Entity}" . ($Caption = "BirthDate") . "", $EM->InputWidth(), null, true,INPUT_TYPE_DATE), "{$Caption}", null, null, $EM->FieldCaptionWidth()),
 		//HTML\UI\Field(HTML\UI\Select("" . ($Caption = "Gender") . "ID", $Table[$OptionEntity = "{$Caption}"]->Get("{$Table["{$OptionEntity}"]->Alias()}.{$OptionEntity}IsActive = 1", "{$OptionEntity}LookupCaption ASC"), null, "{$OptionEntity}LookupCaption", null, null, null), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
 		//HTML\UI\Field(HTML\UI\Select("" . ($Caption = "Currency") . "ID", $Table[$OptionEntity = "{$Caption}"]->Get("{$Table["{$OptionEntity}"]->Alias()}.{$OptionEntity}IsActive = 1", "{$OptionEntity}LookupCaption ASC"), null, "{$OptionEntity}LookupCaption", null, null, null), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
@@ -174,7 +172,7 @@ if(isset($_POST["btnInput"])){
 $EM->SearchSQL([
 	"1 = 1", // Custom fixed search condition
 	SetVariable("{$Configuration["SearchInputPrefix"]}" . ($Column = "{$Entity}LicenseNumber") . "", SetVariable($Column)) ? "{$Table["{$Entity}"]->Alias()}.{$Column} LIKE '%{$Database->Escape($_POST["{$Configuration["SearchInputPrefix"]}{$Column}"])}%'" : null,
-	SetVariable("{$Configuration["SearchInputPrefix"]}" . ($Column = "{$Entity}Type") . "", SetVariable($Column)) ? "{$Table["{$Entity}"]->Alias()}.{$Column} LIKE '%{$Database->Escape($_POST["{$Configuration["SearchInputPrefix"]}{$Column}"])}%'" : null,
+	// SetVariable("{$Configuration["SearchInputPrefix"]}" . ($Column = "{$Entity}Type") . "", SetVariable($Column)) ? "{$Table["{$Entity}"]->Alias()}.{$Column} LIKE '%{$Database->Escape($_POST["{$Configuration["SearchInputPrefix"]}{$Column}"])}%'" : null,
 	SetVariable("{$Configuration["SearchInputPrefix"]}" . ($Column = "{$Entity}BrandName") . "", SetVariable($Column)) ? "{$Table["{$Entity}"]->Alias()}.{$Column} LIKE '%{$Database->Escape($_POST["{$Configuration["SearchInputPrefix"]}{$Column}"])}%'" : null,
 	//SetVariable("{$Configuration["SearchInputPrefix"]}" . ($Column = "{$Entity}BirthDate") . "", SetVariable($Column)) ? "{$Table["{$Entity}"]->Alias()}.{$Column} LIKE '%{$Database->Escape($_POST["{$Configuration["SearchInputPrefix"]}{$Column}"])}%'" : null,
 	//SetVariable("{$Configuration["SearchInputPrefix"]}" . ($Column = "GenderID") . "", SetVariable($Column)) ? "{$Table["{$Entity}"]->Alias()}.{$Column} = " . intval($_POST["{$Configuration["SearchInputPrefix"]}{$Column}"]) . "" : null,
@@ -185,7 +183,7 @@ $EM->SearchSQL([
 //Change Made
 $EM->SearchUIHTML([
 	HTML\UI\Field(HTML\UI\Input("{$Configuration["SearchInputPrefix"]}{$Entity}" . ($Caption = "LicenseNumber") . "", 200), "{$Caption}", null, null),
-	HTML\UI\Field(HTML\UI\Input("{$Configuration["SearchInputPrefix"]}{$Entity}" . ($Caption = "Type") . "", 200), "{$Caption}", null, null),
+	// HTML\UI\Field(HTML\UI\Input("{$Configuration["SearchInputPrefix"]}{$Entity}" . ($Caption = "Type") . "", 200), "{$Caption}", null, null),
 	HTML\UI\Field(HTML\UI\Input("{$Configuration["SearchInputPrefix"]}{$Entity}" . ($Caption = "BrandName") . "", 200), "{$Caption}", null, null),
 	//HTML\UI\Field(HTML\UI\Input("{$Configuration["SearchInputPrefix"]}{$Entity}" . ($Caption = "BirthDate") . "", 200), "{$Caption}", null, null),
 	//HTML\UI\Field(HTML\UI\Select("{$Configuration["SearchInputPrefix"]}" . ($Caption = "Gender") . "ID", $Table[$OptionEntity = "{$Caption}"]->Get(null, "" . ($OptionEntityOrderBy = "{$OptionEntity}LookupCaption") . " ASC"), new Option(), "{$OptionEntityOrderBy}"), "{$Caption}", null, null),

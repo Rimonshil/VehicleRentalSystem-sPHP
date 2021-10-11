@@ -162,3 +162,152 @@ Stack trace:
   thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 160
 [07-Oct-2021 15:05:47 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'U.User' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
 [07-Oct-2021 15:09:55 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'HIDDEN' in 'order clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[10-Oct-2021 13:28:38 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Car' for key 'TypeName' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[10-Oct-2021 14:16:47 Asia/Dhaka] User error: Undefined index: RentVehicleRequest in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php on line 447
+[10-Oct-2021 14:20:01 Asia/Dhaka] User error: Undefined index: VehicleLicenseNumber	 in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php on line 447
+[10-Oct-2021 14:20:13 Asia/Dhaka] User error: Undefined index: VehicleLicenseNumber	 in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php on line 447
+[10-Oct-2021 14:20:15 Asia/Dhaka] User error: Undefined index: VehicleLicenseNumber	 in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php on line 447
+[10-Oct-2021 14:20:17 Asia/Dhaka] User error: Undefined index: VehicleLicenseNumber	 in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php on line 447
+[10-Oct-2021 14:23:52 Asia/Dhaka] User error: Undefined index: VehicleLicenseNumber	 in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php on line 447
+[10-Oct-2021 14:26:12 Asia/Dhaka] User error: Undefined index: VehicleLicenseNumber	 in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php on line 447
+[10-Oct-2021 14:26:15 Asia/Dhaka] User error: Undefined index: VehicleLicenseNumber	 in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php on line 447
+[10-Oct-2021 14:27:10 Asia/Dhaka] User error: Undefined index: VehicleLicenseNumber	 in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php on line 447
+[10-Oct-2021 14:34:36 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'TS.TypeID' in 'on clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[10-Oct-2021 14:39:26 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'TS.TypeID' in 'on clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[10-Oct-2021 14:39:31 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'TS.TypeID' in 'on clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[10-Oct-2021 14:41:19 Asia/Dhaka] User error: Undefined index: VehicleType in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php on line 447
+[10-Oct-2021 15:02:52 Asia/Dhaka] User error: Undefined index: VehicleType in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php on line 447
+[10-Oct-2021 15:05:05 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'V.VehicleType' in 'field list' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[10-Oct-2021 15:09:51 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'V.VehicleType' in 'field list' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[10-Oct-2021 15:14:45 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'V.VehicleType' in 'field list' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[10-Oct-2021 15:49:27 Asia/Dhaka] User error: Undefined index: VehicleType in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php on line 447
+[10-Oct-2021 15:52:20 Asia/Dhaka] User error: SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'US' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[10-Oct-2021 15:52:33 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.TypeID' in 'on clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[10-Oct-2021 15:54:15 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.TypeID' in 'on clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[10-Oct-2021 16:00:32 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'V.VehicleType' in 'field list' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[10-Oct-2021 16:02:32 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'V.VehicleType' in 'field list' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[10-Oct-2021 16:05:05 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'V.VehicleType' in 'field list' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[10-Oct-2021 16:06:42 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'V.VehicleType' in 'field list' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[10-Oct-2021 16:06:47 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'V.VehicleType' in 'field list' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[10-Oct-2021 16:12:19 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'V.VehicleType' in 'field list' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[10-Oct-2021 16:12:52 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'V.VehicleType' in 'field list' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[10-Oct-2021 16:13:33 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'V.VehicleType' in 'field list' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[10-Oct-2021 16:13:50 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'V.VehicleType' in 'field list' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[10-Oct-2021 16:14:40 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'V.VehicleType' in 'field list' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[10-Oct-2021 16:21:07 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'V.VehicleType' in 'field list' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[10-Oct-2021 16:23:30 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'V.VehicleType' in 'field list' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[10-Oct-2021 16:26:11 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'V.VehicleType' in 'field list' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[10-Oct-2021 16:38:05 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'TS.TypeID' in 'on clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[10-Oct-2021 16:38:19 Asia/Dhaka] User error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' '') AS VehicleLookupCaption,TypeName, 
+				'' AS _Other
+
+FROM			vrs_vehic...' at line 2 in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[10-Oct-2021 16:38:54 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'TS.TypeID' in 'on clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[10-Oct-2021 16:39:15 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'TS.TypeID' in 'on clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[10-Oct-2021 16:50:32 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'DHA-CHA 96325140' for key 'VehicleLicenseNumber' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[10-Oct-2021 16:51:57 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'DHA-CHA 963251454620' for key 'VehicleLicenseNumber' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[10-Oct-2021 16:53:33 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'DHA-CHA 963251405' for key 'VehicleLicenseNumber' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[10-Oct-2021 16:57:30 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sdfd' for key 'VehicleLicenseNumber' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[10-Oct-2021 17:23:27 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'DHA-CHA 963251424' for key 'VehicleLicenseNumber' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[10-Oct-2021 17:24:52 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.VehicleBrandName' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[10-Oct-2021 17:24:58 Asia/Dhaka] User error: Undefined index: VehicleBrandName   in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php on line 447
+[10-Oct-2021 17:25:02 Asia/Dhaka] User error: Undefined index: VehicleBrandName   in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php on line 447
+[10-Oct-2021 17:25:19 Asia/Dhaka] User error: Undefined index: VehicleBrandName   in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php on line 447
+[10-Oct-2021 17:26:06 Asia/Dhaka] User error: Undefined index: VehicleBrandName   in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php on line 447
+[10-Oct-2021 17:28:38 Asia/Dhaka] User error: Undefined index: VehicleBrandName   in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php on line 447
+[10-Oct-2021 17:28:40 Asia/Dhaka] User error: Undefined index: VehicleBrandName   in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php on line 447
+[10-Oct-2021 17:28:43 Asia/Dhaka] User error: Undefined index: VehicleBrandName   in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php on line 447
+[11-Oct-2021 10:28:37 Asia/Dhaka] User error: Undefined index: VehicleBrandName   in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php on line 447
+[11-Oct-2021 10:36:05 Asia/Dhaka] User error: Undefined index: VehicleBrandName   in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php on line 447
+[11-Oct-2021 10:36:11 Asia/Dhaka] User error: Undefined index: VehicleBrandName   in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php on line 447
+[11-Oct-2021 10:37:34 Asia/Dhaka] User error: Undefined index: Vehicle  ID in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php on line 447
+[11-Oct-2021 10:44:36 Asia/Dhaka] User error: Undefined index: BrandName in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php on line 447
+[11-Oct-2021 10:53:49 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.VehicleBrandName' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[11-Oct-2021 10:54:10 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.VehicleBrandName' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[11-Oct-2021 10:59:10 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.VehicleBrandName' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[11-Oct-2021 10:59:57 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.VehicleBrandName' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[11-Oct-2021 11:01:49 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.VehicleBrandName' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[11-Oct-2021 11:03:19 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.VehicleLicenseNumber' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[11-Oct-2021 11:03:44 Asia/Dhaka] User error: Undefined index: VehicleLicenseNumber in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 165
+[11-Oct-2021 11:04:12 Asia/Dhaka] User error: Undefined index: VehicleLicenseNumber in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 165
+[11-Oct-2021 11:08:53 Asia/Dhaka] User error: Undefined index: VehicleLicenseNumberLicenseNumber in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php on line 447
+[11-Oct-2021 11:14:43 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.VehicleLicenseNumber' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[11-Oct-2021 11:15:37 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.VehicleLicenseNumber' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[11-Oct-2021 11:21:27 Asia/Dhaka] User error: Undefined index: RentVehicleRequestComment in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 168
+[11-Oct-2021 11:22:33 Asia/Dhaka] User error: Undefined index: Name in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php on line 447
+[11-Oct-2021 11:22:56 Asia/Dhaka] User error: Undefined index: RentVehicleRequestComment in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 169
+[11-Oct-2021 11:39:46 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to a member function EnablerKey() on string in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php:544
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\function.php(276): sPHP\HTML\UI\Datagrid->HTML()
+#1 C:\xampp\htdocs\sphp04oct2021\library\object\entitymanagement.php(886): sPHP\HTML\UI\Datagrid(Array, 'http://localhos...', '2', Array, '<img src="http:...', 200, 'RentVehicleRequ...', Array, 'http://localhos...', 'http://localhos...', 'Total of 2 reco...', '\r\n\t\t\t\t\t\t<div cl...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#2 C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php(226): sPHP\EntityManagement->ListHTML()
+#3 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#5 [internal function]: sPHP\Application->__destruct()
+#6 {main}
+  thrown in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php on line 544
+[11-Oct-2021 11:39:54 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to a member function EnablerKey() on string in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php:544
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\function.php(276): sPHP\HTML\UI\Datagrid->HTML()
+#1 C:\xampp\htdocs\sphp04oct2021\library\object\entitymanagement.php(886): sPHP\HTML\UI\Datagrid(Array, 'http://localhos...', '2', Array, '<img src="http:...', 200, 'RentVehicleRequ...', Array, 'http://localhos...', 'http://localhos...', 'Total of 2 reco...', '\r\n\t\t\t\t\t\t<div cl...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#2 C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php(226): sPHP\EntityManagement->ListHTML()
+#3 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#5 [internal function]: sPHP\Application->__destruct()
+#6 {main}
+  thrown in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php on line 544
+[11-Oct-2021 11:41:03 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to a member function EnablerKey() on string in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php:544
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\function.php(276): sPHP\HTML\UI\Datagrid->HTML()
+#1 C:\xampp\htdocs\sphp04oct2021\library\object\entitymanagement.php(886): sPHP\HTML\UI\Datagrid(Array, 'http://localhos...', '2', Array, '<img src="http:...', 200, 'RentVehicleRequ...', Array, 'http://localhos...', 'http://localhos...', 'Total of 2 reco...', '\r\n\t\t\t\t\t\t<div cl...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#2 C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php(226): sPHP\EntityManagement->ListHTML()
+#3 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#5 [internal function]: sPHP\Application->__destruct()
+#6 {main}
+  thrown in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php on line 544
+[11-Oct-2021 11:46:38 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to a member function EnablerKey() on string in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php:544
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\function.php(276): sPHP\HTML\UI\Datagrid->HTML()
+#1 C:\xampp\htdocs\sphp04oct2021\library\object\entitymanagement.php(886): sPHP\HTML\UI\Datagrid(Array, 'http://localhos...', '2', Array, '<img src="http:...', 200, 'RentVehicleRequ...', Array, 'http://localhos...', 'http://localhos...', 'Total of 2 reco...', '\r\n\t\t\t\t\t\t<div cl...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#2 C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php(226): sPHP\EntityManagement->ListHTML()
+#3 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#5 [internal function]: sPHP\Application->__destruct()
+#6 {main}
+  thrown in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php on line 544
+[11-Oct-2021 11:59:08 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.VehicleLicenseNumber' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[11-Oct-2021 12:46:33 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.VehicleLicenseNumber' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[11-Oct-2021 12:46:42 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.VehicleLicenseNumber' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[11-Oct-2021 13:05:50 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.VehicleLicenseNumber' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[11-Oct-2021 13:06:06 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.VehicleLicenseNumber' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[11-Oct-2021 13:09:32 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.VehicleLicenseNumber' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[11-Oct-2021 13:22:59 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Object of class sPHP\HTML\UI\Radio could not be converted to string in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\field.php:305
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\function.php(336): sPHP\HTML\UI\Field->HTML()
+#1 C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php(181): sPHP\HTML\UI\Field('<div class="Rad...', Object(sPHP\HTML\UI\Radio), 'Active', true, NULL, 150)
+#2 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#4 [internal function]: sPHP\Application->__destruct()
+#5 {main}
+  thrown in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\field.php on line 305
+[11-Oct-2021 13:23:06 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Object of class sPHP\HTML\UI\Radio could not be converted to string in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\field.php:305
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\function.php(336): sPHP\HTML\UI\Field->HTML()
+#1 C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php(181): sPHP\HTML\UI\Field('<div class="Rad...', Object(sPHP\HTML\UI\Radio), 'Active', true, NULL, 150)
+#2 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#4 [internal function]: sPHP\Application->__destruct()
+#5 {main}
+  thrown in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\field.php on line 305
+[11-Oct-2021 13:27:32 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to a member function EnablerKey() on string in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php:544
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\function.php(276): sPHP\HTML\UI\Datagrid->HTML()
+#1 C:\xampp\htdocs\sphp04oct2021\library\object\entitymanagement.php(886): sPHP\HTML\UI\Datagrid(Array, 'http://localhos...', '6', Array, '<img src="http:...', 200, 'RentVehicleRequ...', Array, 'http://localhos...', 'http://localhos...', 'Total of 6 reco...', '\r\n\t\t\t\t\t\t<div cl...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#2 C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php(227): sPHP\EntityManagement->ListHTML()
+#3 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#5 [internal function]: sPHP\Application->__destruct()
+#6 {main}
+  thrown in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php on line 544
+[11-Oct-2021 13:45:44 Asia/Dhaka] User error: Array to string conversion in C:\sPHP\library\object\entitymanagement.php on line 92
