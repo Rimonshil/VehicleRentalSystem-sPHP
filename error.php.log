@@ -311,3 +311,6 @@ Stack trace:
 #6 {main}
   thrown in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php on line 544
 [11-Oct-2021 13:45:44 Asia/Dhaka] User error: Array to string conversion in C:\sPHP\library\object\entitymanagement.php on line 92
+[11-Oct-2021 15:02:54 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ',' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 97
+[11-Oct-2021 15:02:54 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Oct-2021 15:07:33 Asia/Dhaka] User error: A non-numeric value encountered in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 97
