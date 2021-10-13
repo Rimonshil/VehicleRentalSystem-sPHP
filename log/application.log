@@ -418,3 +418,57 @@
 2021-10-11 14:39:16	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
 2021-10-11 14:59:12	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
 2021-10-11 15:03:52	SECURITY   	Application	User                    	Sign in         	Jnd FFFl FFFMFM (CUSTOMER)                        	{"User":{"Email":"ki@gmail.com"},"IP":"::1"}	:0
+2021-10-12 10:26:18	SECURITY   	Application	User                    	Sign in         	Abu Jaher Neptune (CUSTOMER)                      	{"User":{"Email":"neptuneaj@gmail.com"},"IP":"::1"}	:0
+2021-10-12 10:52:03	SECURITY   	Application	User                    	Sign out        	Abu Jaher Neptune (CUSTOMER)                      	{"User":{"Email":"neptuneaj@gmail.com"}}	:0
+2021-10-12 10:52:17	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-10-12 10:53:09	APPLICATION	Database   	RentVehicleRequest      	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"1"}	:0
+2021-10-12 11:21:44	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
+2021-10-12 11:21:57	SECURITY   	Application	User                    	Sign in         	Abu Jaher Neptune (CUSTOMER)                      	{"User":{"Email":"neptuneaj@gmail.com"},"IP":"::1"}	:0
+2021-10-12 11:22:36	SECURITY   	Application	User                    	Sign out        	Abu Jaher Neptune (CUSTOMER)                      	{"User":{"Email":"neptuneaj@gmail.com"}}	:0
+2021-10-12 11:22:46	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-10-12 11:24:02	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
+2021-10-12 11:24:11	SECURITY   	Application	User                    	Sign in         	Abu Jaher Neptune (CUSTOMER)                      	{"User":{"Email":"neptuneaj@gmail.com"},"IP":"::1"}	:0
+2021-10-12 11:57:12	SECURITY   	Application	User                    	Sign out        	Abu Jaher Neptune (CUSTOMER)                      	{"User":{"Email":"neptuneaj@gmail.com"}}	:0
+2021-10-12 11:57:22	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-10-12 11:57:38	APPLICATION	Database   	Type                    	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"2"}	:0
+2021-10-12 11:57:54	APPLICATION	Database   	Type                    	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"3"}	:0
+2021-10-12 11:58:09	APPLICATION	Database   	Vehicle                 	Edit            	System Administrator (ADMINISTRATOR)              	{"ID":"1"}	:0
+2021-10-12 11:58:27	APPLICATION	Database   	Vehicle                 	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"3"}	:0
+2021-10-12 11:58:47	APPLICATION	Database   	Vehicle                 	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"4"}	:0
+2021-10-12 12:26:29	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
+2021-10-12 12:26:40	SECURITY   	Application	User                    	Sign in         	Abu Jaher Neptune (CUSTOMER)                      	{"User":{"Email":"neptuneaj@gmail.com"},"IP":"::1"}	:0
+2021-10-12 12:26:54	APPLICATION	Database   	RentVehicleRequest      	Add new         	Abu Jaher Neptune (CUSTOMER)                      	{"ID":"3"}	:0
+2021-10-12 12:29:01	APPLICATION	Database   	RentVehicleRequest      	Add new         	Abu Jaher Neptune (CUSTOMER)                      	{"ID":"4"}	:0
+2021-10-12 12:30:29	APPLICATION	Database   	RentVehicleRequest      	Add new         	Abu Jaher Neptune (CUSTOMER)                      	{"ID":"5"}	:0
+2021-10-12 12:31:56	APPLICATION	Database   	RentVehicleRequest      	Add new         	Abu Jaher Neptune (CUSTOMER)                      	{"ID":"6"}	:0
+2021-10-12 12:32:34	APPLICATION	Database   	RentVehicleRequest      	Add new         	Abu Jaher Neptune (CUSTOMER)                      	{"ID":"7"}	:0
+2021-10-12 12:37:39	APPLICATION	Database   	RentVehicleRequest      	Add new         	Abu Jaher Neptune (CUSTOMER)                      	{"ID":"8"}	:0
+2021-10-12 12:37:41	SECURITY   	Application	User                    	Sign out        	Abu Jaher Neptune (CUSTOMER)                      	{"User":{"Email":"neptuneaj@gmail.com"}}	:0
+2021-10-12 12:38:01	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-10-12 12:52:42	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
+2021-10-12 12:52:53	SECURITY   	Application	User                    	Sign in         	Abu Jaher Neptune (CUSTOMER)                      	{"User":{"Email":"neptuneaj@gmail.com"},"IP":"::1"}	:0
+2021-10-12 12:56:00	SECURITY   	Application	User                    	Sign out        	Abu Jaher Neptune (CUSTOMER)                      	{"User":{"Email":"neptuneaj@gmail.com"}}	:0
+2021-10-12 12:56:09	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-10-12 13:02:51	APPLICATION	Database   	RentVehicleRequest      	Remove          	System Administrator (ADMINISTRATOR)              	{"WhereClause":["RentVehicleRequestID IN (8)"]}	:0
+2021-10-12 13:05:15	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
+2021-10-12 13:05:33	SECURITY   	Application	User                    	Sign in         	Abu Jaher Neptune (CUSTOMER)                      	{"User":{"Email":"neptuneaj@gmail.com"},"IP":"::1"}	:0
+2021-10-12 13:05:45	APPLICATION	Database   	RentVehicleRequest      	Add new         	Abu Jaher Neptune (CUSTOMER)                      	{"ID":"9"}	:0
+2021-10-12 13:06:04	APPLICATION	Database   	RentVehicleRequest      	Add new         	Abu Jaher Neptune (CUSTOMER)                      	{"ID":"10"}	:0
+2021-10-12 13:06:11	SECURITY   	Application	User                    	Sign out        	Abu Jaher Neptune (CUSTOMER)                      	{"User":{"Email":"neptuneaj@gmail.com"}}	:0
+2021-10-12 13:06:22	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-10-12 13:21:31	APPLICATION	Database   	RentVehicleRequest      	Edit            	System Administrator (ADMINISTRATOR)              	{"ID":"10"}	:0
+2021-10-12 13:21:43	APPLICATION	Database   	RentVehicleRequest      	Edit            	System Administrator (ADMINISTRATOR)              	{"ID":"10"}	:0
+2021-10-12 13:47:17	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-10-12 15:27:20	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-10-12 16:38:58	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-10-12 16:39:18	APPLICATION	Database   	RentVehicleRequest      	Edit            	System Administrator (ADMINISTRATOR)              	{"ID":"9"}	:0
+2021-10-12 17:11:30	SECURITY   	Application	User                    	Sign in         	Authentication failed                             	{"Email":"neptuneaj@gmail.com","IP":"::1"}	:0
+2021-10-12 17:11:35	SECURITY   	Application	User                    	Sign in         	Abu Jaher Neptune (CUSTOMER)                      	{"User":{"Email":"neptuneaj@gmail.com"},"IP":"::1"}	:0
+2021-10-12 17:16:43	SECURITY   	Application	User                    	Sign out        	Abu Jaher Neptune (CUSTOMER)                      	{"User":{"Email":"neptuneaj@gmail.com"}}	:0
+2021-10-12 17:16:53	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-10-13 11:13:10	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-10-13 12:00:11	SECURITY   	Application	User                    	Sign in         	Authentication failed                             	{"Email":"neptuneaj@gmail.com","IP":"::1"}	:0
+2021-10-13 12:00:18	SECURITY   	Application	User                    	Sign in         	Abu Jaher Neptune (CUSTOMER)                      	{"User":{"Email":"neptuneaj@gmail.com"},"IP":"::1"}	:0
+2021-10-13 12:22:55	SECURITY   	Application	User                    	Sign out        	Abu Jaher Neptune (CUSTOMER)                      	{"User":{"Email":"neptuneaj@gmail.com"}}	:0
+2021-10-13 12:23:11	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-10-13 12:23:41	APPLICATION	Database   	Type                    	Remove          	System Administrator (ADMINISTRATOR)              	{"WhereClause":["TypeID IN (0)"]}	:0

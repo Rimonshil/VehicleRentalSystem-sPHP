@@ -314,3 +314,136 @@ Stack trace:
 [11-Oct-2021 15:02:54 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ',' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 97
 [11-Oct-2021 15:02:54 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
 [11-Oct-2021 15:07:33 Asia/Dhaka] User error: A non-numeric value encountered in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 97
+[12-Oct-2021 10:59:56 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined method sPHP\HTML\UI\RadioGroup::ReadOnly() in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\radiogroup.php:24
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\function.php(316): sPHP\HTML\UI\RadioGroup->__construct('RentVehicleRequ...', Array, 0, true)
+#1 C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php(181): sPHP\HTML\UI\RadioGroup('RentVehicleRequ...', Array, 0, true)
+#2 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#4 [internal function]: sPHP\Application->__destruct()
+#5 {main}
+  thrown in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\radiogroup.php on line 24
+[12-Oct-2021 11:00:54 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined method sPHP\HTML\UI\RadioGroup::ReadOnly() in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\radiogroup.php:24
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\function.php(316): sPHP\HTML\UI\RadioGroup->__construct('RentVehicleRequ...', Array, 0, true)
+#1 C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php(181): sPHP\HTML\UI\RadioGroup('RentVehicleRequ...', Array, 0, true)
+#2 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#4 [internal function]: sPHP\Application->__destruct()
+#5 {main}
+  thrown in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\radiogroup.php on line 24
+[12-Oct-2021 11:04:39 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined method sPHP\HTML\UI\RadioGroup::ReadOnly() in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\radiogroup.php:24
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\function.php(316): sPHP\HTML\UI\RadioGroup->__construct('RentVehicleRequ...', Array, 0, false)
+#1 C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php(181): sPHP\HTML\UI\RadioGroup('RentVehicleRequ...', Array, 0, false)
+#2 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#4 [internal function]: sPHP\Application->__destruct()
+#5 {main}
+  thrown in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\radiogroup.php on line 24
+[12-Oct-2021 11:05:49 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined method sPHP\HTML\UI\RadioGroup::ReadOnly() in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\radiogroup.php:24
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\function.php(316): sPHP\HTML\UI\RadioGroup->__construct('RentVehicleRequ...', Array, 0, false)
+#1 C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php(181): sPHP\HTML\UI\RadioGroup('RentVehicleRequ...', Array, 0, false, NULL)
+#2 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#4 [internal function]: sPHP\Application->__destruct()
+#5 {main}
+  thrown in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\radiogroup.php on line 24
+[12-Oct-2021 11:06:47 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined method sPHP\HTML\UI\RadioGroup::ReadOnly() in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\radiogroup.php:24
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\function.php(316): sPHP\HTML\UI\RadioGroup->__construct('RentVehicleRequ...', Array, 0, false)
+#1 C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php(181): sPHP\HTML\UI\RadioGroup('RentVehicleRequ...', Array, 0, false, NULL)
+#2 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#4 [internal function]: sPHP\Application->__destruct()
+#5 {main}
+  thrown in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\radiogroup.php on line 24
+[12-Oct-2021 11:48:29 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ':', expecting ']' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 169
+[12-Oct-2021 11:48:37 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ':', expecting ']' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 169
+[12-Oct-2021 11:48:38 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ':', expecting ']' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 169
+[12-Oct-2021 11:48:40 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ':', expecting ']' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 169
+[12-Oct-2021 11:48:46 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ':', expecting ']' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 169
+[12-Oct-2021 11:50:58 Asia/Dhaka] User error: Array to string conversion in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 169
+[12-Oct-2021 11:51:50 Asia/Dhaka] User error: Array to string conversion in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 169
+[12-Oct-2021 11:51:53 Asia/Dhaka] User error: Array to string conversion in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 169
+[12-Oct-2021 11:51:57 Asia/Dhaka] User error: Array to string conversion in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 169
+[12-Oct-2021 11:52:49 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ',' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 169
+[12-Oct-2021 11:56:33 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined method sPHP\User::TypeID() in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php:166
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require()
+#1 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 166
+[12-Oct-2021 12:15:50 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to a member function EnablerKey() on string in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php:544
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\function.php(276): sPHP\HTML\UI\Datagrid->HTML()
+#1 C:\xampp\htdocs\sphp04oct2021\library\object\entitymanagement.php(886): sPHP\HTML\UI\Datagrid(Array, 'https://localho...', '1', Array, '<img src="https...', 200, 'RentVehicleRequ...', Array, 'https://localho...', 'https://localho...', 'Total of 1 reco...', '\r\n\t\t\t\t\t\t<div cl...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#2 C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php(229): sPHP\EntityManagement->ListHTML()
+#3 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#5 [internal function]: sPHP\Application->__destruct()
+#6 {main}
+  thrown in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php on line 544
+[12-Oct-2021 12:17:09 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to a member function EnablerKey() on string in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php:544
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\function.php(276): sPHP\HTML\UI\Datagrid->HTML()
+#1 C:\xampp\htdocs\sphp04oct2021\library\object\entitymanagement.php(886): sPHP\HTML\UI\Datagrid(Array, 'https://localho...', '1', Array, '<img src="https...', 200, 'RentVehicleRequ...', Array, 'https://localho...', 'https://localho...', 'Total of 1 reco...', '\r\n\t\t\t\t\t\t<div cl...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#2 C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php(229): sPHP\EntityManagement->ListHTML()
+#3 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#5 [internal function]: sPHP\Application->__destruct()
+#6 {main}
+  thrown in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php on line 544
+[12-Oct-2021 12:17:18 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to a member function EnablerKey() on string in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php:544
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\function.php(276): sPHP\HTML\UI\Datagrid->HTML()
+#1 C:\xampp\htdocs\sphp04oct2021\library\object\entitymanagement.php(886): sPHP\HTML\UI\Datagrid(Array, 'https://localho...', '1', Array, '<img src="https...', 200, 'RentVehicleRequ...', Array, 'https://localho...', 'https://localho...', 'Total of 1 reco...', '\r\n\t\t\t\t\t\t<div cl...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#2 C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php(229): sPHP\EntityManagement->ListHTML()
+#3 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#5 [internal function]: sPHP\Application->__destruct()
+#6 {main}
+  thrown in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php on line 544
+[12-Oct-2021 12:20:53 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.VehicleLicenseNumber' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[12-Oct-2021 12:22:50 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.VehicleLicenseNumber' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[12-Oct-2021 12:23:52 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.VehicleLicenseNumber' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[12-Oct-2021 12:24:10 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.VehicleLicenseNumber' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[12-Oct-2021 12:38:09 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.VehicleLicenseNumber' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[12-Oct-2021 12:39:23 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.VehicleLicenseNumber' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[12-Oct-2021 12:43:16 Asia/Dhaka] User error: Undefined index: PersonPhone in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\phone.php on line 7
+[12-Oct-2021 12:43:20 Asia/Dhaka] User error: Undefined index: PersonAddress in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\address.php on line 7
+[12-Oct-2021 12:43:29 Asia/Dhaka] User error: Undefined index: PersonNote in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\note.php on line 7
+[12-Oct-2021 12:45:37 Asia/Dhaka] PHP Parse error:  syntax error, unexpected 'HTML' (T_STRING), expecting ']' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 167
+[12-Oct-2021 12:45:39 Asia/Dhaka] PHP Parse error:  syntax error, unexpected 'HTML' (T_STRING), expecting ']' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 167
+[12-Oct-2021 12:45:43 Asia/Dhaka] PHP Parse error:  syntax error, unexpected 'HTML' (T_STRING), expecting ']' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 167
+[12-Oct-2021 12:45:45 Asia/Dhaka] PHP Parse error:  syntax error, unexpected 'HTML' (T_STRING), expecting ']' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 167
+[12-Oct-2021 12:45:52 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.VehicleLicenseNumber' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[12-Oct-2021 12:48:44 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.VehicleLicenseNumber' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[12-Oct-2021 12:48:55 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.VehicleLicenseNumber' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[12-Oct-2021 12:49:52 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.VehicleLicenseNumber' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[12-Oct-2021 12:51:12 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.VehicleLicenseNumber' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[12-Oct-2021 12:51:13 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.VehicleLicenseNumber' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[12-Oct-2021 12:52:34 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.VehicleLicenseNumber' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[12-Oct-2021 12:53:39 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.VehicleLicenseNumber' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[12-Oct-2021 12:56:18 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.VehicleLicenseNumber' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[12-Oct-2021 12:58:24 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.VehicleLicenseNumber' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[12-Oct-2021 12:59:37 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.VehicleLicenseNumber' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[12-Oct-2021 13:00:21 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.VehicleLicenseNumber' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[12-Oct-2021 13:06:33 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.VehicleLicenseNumber' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[12-Oct-2021 13:11:52 Asia/Dhaka] User error: Undefined index: VehicleVehicleBrandName in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php on line 447
+[12-Oct-2021 13:11:55 Asia/Dhaka] User error: Undefined index: VehicleVehicleBrandName in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php on line 447
+[12-Oct-2021 13:12:01 Asia/Dhaka] User error: Undefined index: VehicleVehicleBrandName in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php on line 447
+[12-Oct-2021 13:12:14 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.VehicleLicenseNumber' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[12-Oct-2021 13:12:47 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.VehicleLicenseNumber' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[12-Oct-2021 13:13:43 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.VehicleBrandName' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[12-Oct-2021 13:17:21 Asia/Dhaka] User error: Undefined index: UserID in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 183
+[12-Oct-2021 13:18:50 Asia/Dhaka] User error: Undefined index: DRIVER in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 183
+[12-Oct-2021 13:18:51 Asia/Dhaka] User error: Undefined index: DRIVER in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 183
+[12-Oct-2021 13:18:53 Asia/Dhaka] User error: Undefined index: DRIVER in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 183
+[12-Oct-2021 13:20:48 Asia/Dhaka] User error: Undefined index: UserID in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 183
+[12-Oct-2021 17:32:19 Asia/Dhaka] User error: Undefined index: PersonAddress in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\address.php on line 7
+[12-Oct-2021 17:32:24 Asia/Dhaka] User error: Undefined index: PersonAddress in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\address.php on line 7
+[12-Oct-2021 17:32:28 Asia/Dhaka] User error: Undefined index: PersonPhone in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\phone.php on line 7
+[13-Oct-2021 11:13:38 Asia/Dhaka] User error: Undefined index: PersonPhone in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\phone.php on line 7
