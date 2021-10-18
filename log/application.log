@@ -496,3 +496,6 @@
 2021-10-17 16:38:51	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
 2021-10-18 10:27:31	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
 2021-10-18 10:32:25	APPLICATION	Database   	User                    	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"17"}	:0
+2021-10-18 11:28:03	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-10-18 11:55:19	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
+2021-10-18 11:55:37	SECURITY   	Application	User                    	Sign in         	Abu Jaher Neptune (CUSTOMER)                      	{"User":{"Email":"neptuneaj@gmail.com"},"IP":"::1"}	:0
