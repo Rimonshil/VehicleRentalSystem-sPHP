@@ -8,6 +8,7 @@ $EM = new EntityManagement($Table[$Entity = "Person"]);
 //DebugDump($Table[$Entity]->Structure());
 #HTML\UI\Field(HTML\UI\Input("{$Entity}" . ($Caption = "BirthDate") . "", $EM->InputWidth(), null, null, INPUT_TYPE_DATE), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
 #HTML\UI\Field(HTML\UI\Select("" . ($Caption = "Gender") . "ID", $Table[$OptionEntity = "{$Caption}"]->Get("{$Table["{$OptionEntity}"]->Alias()}.{$OptionEntity}IsActive = 1", "{$OptionEntity}LookupCaption ASC"), null, "{$OptionEntity}LookupCaption", null, null, null), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
+
 $EM->ImportField([
 	//new Database\Field("{$Entity}First" . ($Field = "Name") . "", "{$Field}"),
 	new Database\Field("{$Entity}" . ($Field = "FirstName") . "", "{$Field}"),

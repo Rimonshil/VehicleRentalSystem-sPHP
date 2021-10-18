@@ -11,8 +11,6 @@ FROM			{PREFIX}{NAME} AS {ALIAS}
 	LEFT JOIN vrs_type  As TS ON TS.TypeID = {ALIAS}.TypeID
 	
 
-
-
 -- SELECT			{ALIAS}.*, 
 -- 				CONCAT({ALIAS}.PersonFirstName, '') AS {ENTITY}LookupCaption,GenderName,CurrencyName,
 -- 				'' AS _Other

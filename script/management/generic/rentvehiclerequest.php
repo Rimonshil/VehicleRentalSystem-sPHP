@@ -3,8 +3,10 @@ namespace sPHP;
 
 #region Entity management common configuration
 $EM = new EntityManagement($Table[$Entity = "RentVehicleRequest"]);
+$uid=$USR->ID();
 // DebugDump($Table[$Entity]->Structure());
-// DebugDump($USR->ID());
+//$sample= $Database->Query("SELECT * FROM vrs_RentVehicleRequest WHERE UserID =$uid");
+//DebugDump($sample,$USR->ID());
 #HTML\UI\Field(HTML\UI\Input("{$Entity}" . ($Caption = "BirthDate") . "", $EM->InputWidth(), null, null, INPUT_TYPE_DATE), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
 #HTML\UI\Field(HTML\UI\Select("" . ($Caption = "Gender") . "ID", $Table[$OptionEntity = "{$Caption}"]->Get("{$Table["{$OptionEntity}"]->Alias()}.{$OptionEntity}IsActive = 1", "{$OptionEntity}LookupCaption ASC"), null, "{$OptionEntity}LookupCaption", null, null, null), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
 // $EM->ImportField([
@@ -62,6 +64,7 @@ $EM->ListColumn([
 	// new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "") . "", "{$Caption}", null),
 	 new HTML\UI\Datagrid\Column("" . ($Caption = "Type") . "Name", "{$Caption}", null),
 	 new HTML\UI\Datagrid\Column("" . ($Caption = "Route") . "Name", "{$Caption}", null),
+	 //New HTML\UI\Datagrid\Column("".($Caption="")."","{$Caption}",null),
 	//  new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "Comment") . "", "{$Caption}", null),
 	// new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "VehicleType ") . "", "{$Caption}", null),
      new HTML\UI\Datagrid\Column("Vehicle" . ($Caption = "BrandName")  , "{$Caption}", null),
@@ -177,7 +180,7 @@ if(isset($_POST["btnInput"])){
 		//HTML\UI\Field(HTML\UI\Select("" . ($Caption = "Vehicle") . "ID", $Table[$OptionEntity = "{$Caption}"]->Get(UserID()), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
 		//HTML\UI\Field(HTML\UI\Select("" . ($user), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
 		//$UserID->UserID()
-
+		$USR->UserGroupIdentifier() === "CUSTOMER" ? HTML\UI\Field(HTML\UI\Input("{$Entity}" . ($Caption = "RentedFor") . "", $EM->InputWidth(), null, true,INPUT_TYPE_DATE), "{$Caption}", null, null, $EM->FieldCaptionWidth()):NULL,
 		$USR->UserGroupIdentifier() === "CUSTOMER" ? NULL: HTML\UI\Field(HTML\UI\RadioGroup("{$Entity}Is" . ($Caption = "Active") . "", [new HTML\UI\Radio(1, "Yes"), new HTML\UI\Radio(0, "No")],0), "{$Caption}", true, null, $EM->FieldCaptionWidth(),null,null),
 		//HTML\UI\Field(HTML\UI\Input("" . ($Caption = "User") . "Name", $EM->InputWidth(),$USR->ID(), null, INPUT_TYPE_TEXT,null,null,null,null,null,null,null,null), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
 		$USR->UserGroupIdentifier() === "CUSTOMER" ? NULL: HTML\UI\Field(HTML\UI\Select("" . ($Caption = "User") . "IDDriver", $Table[$OptionEntity = "{$Caption}"]->Get("{$Table["{$OptionEntity}"]->Alias()}.{$OptionEntity}IsActive = 1", "{$OptionEntity}LookupCaption ASC"), null, "{$OptionEntity}LookupCaption", null, null, null), "{$Caption}", true, null, $EM->FieldCaptionWidth()),

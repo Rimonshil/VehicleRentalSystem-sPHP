@@ -447,3 +447,380 @@ Stack trace:
 [12-Oct-2021 17:32:24 Asia/Dhaka] User error: Undefined index: PersonAddress in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\address.php on line 7
 [12-Oct-2021 17:32:28 Asia/Dhaka] User error: Undefined index: PersonPhone in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\phone.php on line 7
 [13-Oct-2021 11:13:38 Asia/Dhaka] User error: Undefined index: PersonPhone in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\phone.php on line 7
+[13-Oct-2021 13:05:10 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ',' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 180
+[13-Oct-2021 13:05:12 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ',' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 180
+[13-Oct-2021 15:38:39 Asia/Dhaka] User error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM RentVehicleRequest WHERE User
+
+-- SELECT			R.*, 
+-- 				CONCAT(' at line 15 in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[13-Oct-2021 15:39:14 Asia/Dhaka] User error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE 1 = 1 
+ORDER BY RouteID ASC 
+LIMIT 0, 200' at line 11 in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 215
+[13-Oct-2021 15:48:53 Asia/Dhaka] User error: Undefined property: sPHP\User::$ID in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 7
+[13-Oct-2021 15:49:10 Asia/Dhaka] User error: Undefined property: sPHP\User::$ID in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 7
+[13-Oct-2021 15:50:41 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '$sample' (T_VARIABLE) in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 8
+[13-Oct-2021 15:50:43 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '$sample' (T_VARIABLE) in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 8
+[13-Oct-2021 15:50:49 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '$sample' (T_VARIABLE) in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 8
+[13-Oct-2021 15:50:55 Asia/Dhaka] User error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'defaultsphp.rentvehiclerequest' doesn't exist in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[14-Oct-2021 11:31:19 Asia/Dhaka] User error: Undefined index:  in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php on line 447
+[14-Oct-2021 11:31:21 Asia/Dhaka] User error: Undefined index:  in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php on line 447
+[14-Oct-2021 11:32:28 Asia/Dhaka] User error: Undefined index: test in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php on line 447
+[17-Oct-2021 10:55:12 Asia/Dhaka] User error: Undefined index: Rentvehicle in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 5
+[17-Oct-2021 10:56:37 Asia/Dhaka] User error: Undefined index: RenntVehicleUp in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 5
+[17-Oct-2021 10:56:38 Asia/Dhaka] User error: Undefined index: RenntVehicleUp in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 5
+[17-Oct-2021 10:56:41 Asia/Dhaka] User error: Undefined index: RenntVehicleUp in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 5
+[17-Oct-2021 11:18:28 Asia/Dhaka] User error: Undefined variable: Query in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 10
+[17-Oct-2021 11:33:12 Asia/Dhaka] User error: Undefined variable: result in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 14
+[17-Oct-2021 11:33:38 Asia/Dhaka] User error: Trying to get property 'num_rows' of non-object in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 14
+[17-Oct-2021 11:34:07 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on array in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php:17
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require()
+#1 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 17
+[17-Oct-2021 12:06:57 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on array in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php:17
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require()
+#1 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 17
+[17-Oct-2021 12:09:03 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function fetch_assoc() in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php:17
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require()
+#1 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 17
+[17-Oct-2021 12:11:00 Asia/Dhaka] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 18
+[17-Oct-2021 12:11:02 Asia/Dhaka] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 18
+[17-Oct-2021 12:11:08 Asia/Dhaka] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 18
+[17-Oct-2021 12:12:25 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php:17
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require()
+#1 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 17
+[17-Oct-2021 12:15:53 Asia/Dhaka] User error: Use of undefined constant MYSQL_ASSOC - assumed 'MYSQL_ASSOC' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 17
+[17-Oct-2021 12:16:06 Asia/Dhaka] User error: mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 17
+[17-Oct-2021 12:17:40 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on array in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php:17
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require()
+#1 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 17
+[17-Oct-2021 12:18:48 Asia/Dhaka] User error: Undefined variable: mysqli_fetch_array in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 17
+[17-Oct-2021 12:19:05 Asia/Dhaka] User error: Undefined variable: mysqli_fetch_array in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 17
+[17-Oct-2021 12:19:08 Asia/Dhaka] User error: Undefined variable: mysqli_fetch_array in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 17
+[17-Oct-2021 12:19:29 Asia/Dhaka] User error: mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 17
+[17-Oct-2021 12:21:31 Asia/Dhaka] User error: mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 17
+[17-Oct-2021 12:22:12 Asia/Dhaka] User error: mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 17
+[17-Oct-2021 12:23:08 Asia/Dhaka] User error: Undefined variable: check1_res in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 11
+[17-Oct-2021 12:24:00 Asia/Dhaka] User error: mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 20
+[17-Oct-2021 12:26:39 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on array in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php:17
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require()
+#1 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 17
+[17-Oct-2021 12:29:11 Asia/Dhaka] User error: Trying to get property 'FETCH_ASSOC' of non-object in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 17
+[17-Oct-2021 12:29:54 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on array in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php:17
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require()
+#1 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 17
+[17-Oct-2021 12:32:37 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on array in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php:17
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require()
+#1 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 17
+[17-Oct-2021 12:34:13 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on array in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php:17
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require()
+#1 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 17
+[17-Oct-2021 12:37:12 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on array in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php:17
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require()
+#1 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 17
+[17-Oct-2021 12:41:04 Asia/Dhaka] User error: Undefined variable: sample in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 9
+[17-Oct-2021 12:45:33 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'RouteID' in 'order clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[17-Oct-2021 12:46:22 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'RouteID' in 'order clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[17-Oct-2021 12:46:52 Asia/Dhaka] User error: Undefined index: TypeIsActive in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\datagrid.php on line 447
+[17-Oct-2021 12:54:23 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined method sPHP\User::VehicleIsActive() in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php:8
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require()
+#1 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 8
+[17-Oct-2021 12:54:48 Asia/Dhaka] User error: Trying to get property 'VehicleIsActive' of non-object in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 8
+[17-Oct-2021 12:54:59 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function Vehicle() in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php:8
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require()
+#1 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 8
+[17-Oct-2021 12:56:47 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to a member function VechileIsActive() on string in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php:10
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require()
+#1 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 10
+[17-Oct-2021 12:58:09 Asia/Dhaka] User error: Use of undefined constant VechileIsActive - assumed 'VechileIsActive' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 10
+[17-Oct-2021 12:58:25 Asia/Dhaka] User error: Undefined variable: VechileIsActive in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 10
+[17-Oct-2021 13:01:51 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ',' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 88
+[17-Oct-2021 13:01:53 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ',' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 88
+[17-Oct-2021 13:02:09 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ',' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 88
+[17-Oct-2021 13:03:26 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to a member function VehicleIsActive() on string in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php:10
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require()
+#1 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 10
+[17-Oct-2021 13:04:05 Asia/Dhaka] User error: Illegal offset type in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 10
+[17-Oct-2021 13:04:23 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined method sPHP\Database\Table::VehicleIsActive() in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php:10
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require()
+#1 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 10
+[17-Oct-2021 13:04:34 Asia/Dhaka] User error: Undefined property: sPHP\Database\Table::$VehicleIsActive in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 10
+[17-Oct-2021 13:08:15 Asia/Dhaka] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ']' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 86
+[17-Oct-2021 13:08:17 Asia/Dhaka] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ']' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 86
+[17-Oct-2021 13:14:22 Asia/Dhaka] User error: Undefined index: BrandName in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 84
+[17-Oct-2021 13:14:41 Asia/Dhaka] User error: Undefined variable: BrandName in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 84
+[17-Oct-2021 13:15:54 Asia/Dhaka] User error: Use of undefined constant TypeName - assumed 'TypeName' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 84
+[17-Oct-2021 13:16:15 Asia/Dhaka] User error: Undefined index: TypeName in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 84
+[17-Oct-2021 13:16:26 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Cannot use [] for reading in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php:84
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require()
+#1 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 84
+[17-Oct-2021 13:20:47 Asia/Dhaka] User error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE 1 = 1 
+ORDER BY VehicleLicenseNumber ASC 
+LIMIT 0, 200' at line 10 in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[17-Oct-2021 13:22:18 Asia/Dhaka] User error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE V.VehicleIsActive = 1
+	/*LEFT JOIN		X AS Y ON Y.YID = V.YID*/
+
+WHERE 1 =' at line 7 in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[17-Oct-2021 13:22:30 Asia/Dhaka] User error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE 1 = 1 
+ORDER BY VehicleLicenseNumber ASC 
+LIMIT 0, 200' at line 10 in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[17-Oct-2021 13:23:31 Asia/Dhaka] User error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE 1 = 1 
+ORDER BY VehicleLicenseNumber ASC 
+LIMIT 0, 200' at line 10 in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[17-Oct-2021 13:23:34 Asia/Dhaka] User error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE 1 = 1 
+ORDER BY VehicleLicenseNumber ASC 
+LIMIT 0, 200' at line 10 in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[17-Oct-2021 13:23:40 Asia/Dhaka] User error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE 1 = 1 
+ORDER BY VehicleLicenseNumber ASC 
+LIMIT 0, 200' at line 10 in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[17-Oct-2021 13:23:42 Asia/Dhaka] User error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE 1 = 1 
+ORDER BY VehicleLicenseNumber ASC 
+LIMIT 0, 200' at line 10 in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[17-Oct-2021 13:23:47 Asia/Dhaka] User error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE 1 = 1 
+ORDER BY VehicleLicenseNumber ASC 
+LIMIT 0, 200' at line 10 in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[17-Oct-2021 13:27:16 Asia/Dhaka] User error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AS _Other
+
+FROM			vrs_vehicle AS V
+	LEFT JOIN vrs_type As  TY ON  TY.TypeID =' at line 3 in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[17-Oct-2021 13:31:37 Asia/Dhaka] User error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE 1 = 1 
+ORDER BY VehicleLicenseNumber ASC 
+LIMIT 0, 200' at line 11 in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[17-Oct-2021 13:32:10 Asia/Dhaka] User error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE 1 = 1 
+ORDER BY VehicleLicenseNumber ASC 
+LIMIT 0, 200' at line 10 in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[17-Oct-2021 13:32:15 Asia/Dhaka] User error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE 1 = 1 
+ORDER BY VehicleLicenseNumber ASC 
+LIMIT 0, 200' at line 10 in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[17-Oct-2021 13:32:52 Asia/Dhaka] User error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE 1 = 1 
+ORDER BY VehicleLicenseNumber ASC 
+LIMIT 0, 200' at line 10 in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[17-Oct-2021 13:32:54 Asia/Dhaka] User error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE 1 = 1 
+ORDER BY VehicleLicenseNumber ASC 
+LIMIT 0, 200' at line 10 in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[17-Oct-2021 13:33:00 Asia/Dhaka] User error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE 1 = 1 
+ORDER BY VehicleLicenseNumber ASC 
+LIMIT 0, 200' at line 10 in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[17-Oct-2021 13:33:02 Asia/Dhaka] User error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE 1 = 1 
+ORDER BY VehicleLicenseNumber ASC 
+LIMIT 0, 200' at line 10 in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[17-Oct-2021 13:37:34 Asia/Dhaka] User error: Undefined index: VehicleLicenseNumber in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 22
+[17-Oct-2021 13:48:04 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on array in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php:21
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require()
+#1 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 21
+[17-Oct-2021 13:48:08 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on array in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php:21
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require()
+#1 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 21
+[17-Oct-2021 13:52:48 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on array in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php:15
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require()
+#1 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 15
+[17-Oct-2021 13:52:51 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on array in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php:15
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require()
+#1 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 15
+[17-Oct-2021 13:54:25 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to a member function mysqli_fetch_array() on array in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php:22
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require()
+#1 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 22
+[17-Oct-2021 13:56:19 Asia/Dhaka] User error: mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, array given in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 22
+[17-Oct-2021 13:56:49 Asia/Dhaka] User error: mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, array given in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 22
+[17-Oct-2021 13:57:16 Asia/Dhaka] User error: mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, array given in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 22
+[17-Oct-2021 13:59:16 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to a member function fetch_row() on array in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php:22
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require()
+#1 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 22
+[17-Oct-2021 14:00:36 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on array in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php:16
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require()
+#1 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 16
+[17-Oct-2021 14:04:41 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php:18
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require()
+#1 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 18
+[17-Oct-2021 14:05:02 Asia/Dhaka] User error: mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 18
+[17-Oct-2021 14:07:32 Asia/Dhaka] User error: Undefined variable: mysqli in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 18
+[17-Oct-2021 14:09:05 Asia/Dhaka] User error: Undefined variable: mysqli in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 18
+[17-Oct-2021 14:15:19 Asia/Dhaka] User error: mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 18
+[17-Oct-2021 14:31:47 Asia/Dhaka] User error: PDOStatement::execute() expects parameter 1 to be array, int given in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 192
+[17-Oct-2021 14:32:31 Asia/Dhaka] User error: PDOStatement::execute() expects parameter 1 to be array, int given in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 192
+[17-Oct-2021 14:35:58 Asia/Dhaka] User error: PDOStatement::execute() expects parameter 1 to be array, int given in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 192
+[17-Oct-2021 14:37:17 Asia/Dhaka] User error: PDOStatement::execute() expects parameter 1 to be array, int given in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 192
+[17-Oct-2021 14:37:19 Asia/Dhaka] User error: PDOStatement::execute() expects parameter 1 to be array, int given in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 192
+[17-Oct-2021 14:37:20 Asia/Dhaka] User error: PDOStatement::execute() expects parameter 1 to be array, int given in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 192
+[17-Oct-2021 14:38:00 Asia/Dhaka] User error: mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 18
+[17-Oct-2021 14:41:35 Asia/Dhaka] User error: mysqli_query() expects parameter 1 to be mysqli, object given in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 19
+[17-Oct-2021 14:43:13 Asia/Dhaka] User error: mysqli_query() expects parameter 1 to be mysqli, object given in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 19
+[17-Oct-2021 14:43:15 Asia/Dhaka] User error: mysqli_query() expects parameter 1 to be mysqli, object given in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 19
+[17-Oct-2021 14:45:23 Asia/Dhaka] User error: mysqli_query() expects at least 2 parameters, 1 given in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 19
+[17-Oct-2021 14:47:01 Asia/Dhaka] User error: mysqli_query() expects parameter 1 to be mysqli, bool given in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 19
+[17-Oct-2021 14:47:22 Asia/Dhaka] User error: mysqli_query() expects parameter 1 to be mysqli, bool given in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 19
+[17-Oct-2021 15:02:57 Asia/Dhaka] User error: Undefined variable: lol in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 23
+[17-Oct-2021 15:03:13 Asia/Dhaka] User error: mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 26
+[17-Oct-2021 15:06:15 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php:26
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require()
+#1 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 26
+[17-Oct-2021 15:07:05 Asia/Dhaka] User error: mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 26
+[17-Oct-2021 15:08:49 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function pg_fetch_array() in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php:26
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require()
+#1 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 26
+[17-Oct-2021 15:09:31 Asia/Dhaka] User error: mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, array given in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 26
+[17-Oct-2021 15:09:31 Asia/Dhaka] User error: mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, array given in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 26
+[17-Oct-2021 15:10:38 Asia/Dhaka] User error: mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, array given in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 26
+[17-Oct-2021 15:11:29 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_result() in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php:28
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require()
+#1 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 28
+[17-Oct-2021 15:13:16 Asia/Dhaka] User error: mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 28
+[17-Oct-2021 15:16:01 Asia/Dhaka] User error: Undefined variable: ActiveVehicleList in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 22
+[17-Oct-2021 15:20:53 Asia/Dhaka] User error: mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 22
+[17-Oct-2021 15:21:54 Asia/Dhaka] User error: mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 22
+[17-Oct-2021 15:53:43 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php:23
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require()
+#1 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 23
+[17-Oct-2021 15:54:23 Asia/Dhaka] User error: Undefined variable: stmt in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 24
+[17-Oct-2021 15:59:36 Asia/Dhaka] User error: Use of undefined constant MYSQL_ASSOC - assumed 'MYSQL_ASSOC' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 26
+[17-Oct-2021 15:59:58 Asia/Dhaka] User error: mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 26
+[17-Oct-2021 16:00:21 Asia/Dhaka] User error: mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 26
+[17-Oct-2021 16:00:25 Asia/Dhaka] User error: mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 26
+[17-Oct-2021 16:02:14 Asia/Dhaka] User error: Undefined index: VehicleLicenseNumber in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 32
+[17-Oct-2021 16:03:09 Asia/Dhaka] User error: Undefined index: VehicleLicenseNumber in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 25
+[17-Oct-2021 16:04:59 Asia/Dhaka] User error: Undefined index: v.VehicleLicenseNumber in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 32
+[17-Oct-2021 16:08:59 Asia/Dhaka] User error: Undefined index: VehicleLicenseNumber in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 32
+[17-Oct-2021 16:09:32 Asia/Dhaka] User error: Undefined index: VehicleLicenseNumber in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 32
+[17-Oct-2021 16:09:35 Asia/Dhaka] User error: Undefined index: VehicleLicenseNumber in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 32
+[17-Oct-2021 16:20:02 Asia/Dhaka] User error: Undefined property: sPHP\Database::$Connect in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 22
+[17-Oct-2021 16:20:48 Asia/Dhaka] User error: mysqli_fetch_array() expects parameter 1 to be mysqli_result, object given in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 22
+[17-Oct-2021 16:22:33 Asia/Dhaka] User error: mysqli_fetch_array() expects parameter 1 to be mysqli_result, object given in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 22
+[17-Oct-2021 16:23:21 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on array in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php:31
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require()
+#1 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 31
+[17-Oct-2021 16:23:46 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on array in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php:31
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require()
+#1 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 31
+[17-Oct-2021 16:24:11 Asia/Dhaka] User error: Trying to get property 'mysqli_fetch_array' of non-object in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 31
+[17-Oct-2021 16:38:58 Asia/Dhaka] User error: Undefined index: {Entity1}LicenseNumber in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 32
+[17-Oct-2021 16:42:44 Asia/Dhaka] User error: Undefined index: {Entity1}LicenseNumber in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 32
+[17-Oct-2021 16:42:46 Asia/Dhaka] User error: Undefined index: {Entity1}LicenseNumber in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 32
+[17-Oct-2021 16:43:46 Asia/Dhaka] User error: Undefined index: {VehicleLicenseNumber in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 32
+[17-Oct-2021 16:43:47 Asia/Dhaka] User error: Undefined index: {VehicleLicenseNumber in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 32
+[17-Oct-2021 16:43:48 Asia/Dhaka] User error: Undefined index: {VehicleLicenseNumber in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 32
+[17-Oct-2021 16:44:15 Asia/Dhaka] User error: Undefined index: {VehicleLicenseNumber in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 32
+[18-Oct-2021 10:27:38 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_result() in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php:26
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require()
+#1 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 26

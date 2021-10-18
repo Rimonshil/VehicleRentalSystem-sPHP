@@ -9,9 +9,10 @@ $LeftPanelLinkHTML[] = HTML\UI\Accordion("LeftPanelNavigation", [
 		new HTML\UI\Accordion\Item($Caption = "User group", null, $Application->URL("Management/Generic/UserGroup"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "UserGroup")) . "", "{$Caption}", null, "{$Key}"),
 
 		new HTML\UI\Accordion\Item($Caption = "Vehicle", null, $Application->URL("Management/Generic/Vehicle"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "Vehicle")) . "", "{$Caption}", null, "{$Key}"),
-		new HTML\UI\Accordion\Item($Caption = "Address", null, $Application->URL("Management/Generic/Address"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "Address")) . "", "{$Caption}", null, "{$Key}"),
-		new HTML\UI\Accordion\Item($Caption = "Phone", null, $Application->URL("Management/Generic/Phone"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "Phone")) . "", "{$Caption}", null, "{$Key}"),
-		new HTML\UI\Accordion\Item($Caption = "Note", null, $Application->URL("Management/Generic/Note"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "note")) . "", "{$Caption}", null, "{$Key}"),
+		//new HTML\UI\Accordion\Item($Caption = "Address", null, $Application->URL("Management/Generic/Address"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "Address")) . "", "{$Caption}", null, "{$Key}"),
+		//new HTML\UI\Accordion\Item($Caption = "Phone", null, $Application->URL("Management/Generic/Phone"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "Phone")) . "", "{$Caption}", null, "{$Key}"),
+		//new HTML\UI\Accordion\Item($Caption = "Note", null, $Application->URL("Management/Generic/Note"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "note")) . "", "{$Caption}", null, "{$Key}"),
+		new HTML\UI\Accordion\Item($Caption = "RenntVehicleUp", null, $Application->URL("Management/Generic/RenntVehicleUp"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "RenntVehicleUp")) . "", "{$Caption}", null, "{$Key}"),
 		new HTML\UI\Accordion\Item($Caption = "Route", null, $Application->URL("Management/Generic/Route"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "route")) . "", "{$Caption}", null, "{$Key}"),
 		new HTML\UI\Accordion\Item($Caption = "Type", null, $Application->URL("Management/Generic/Type"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "Type")) . "", "{$Caption}", null, "{$Key}"),
 		new HTML\UI\Accordion\Item($Caption = "Just Fun", null, $Application->URL("Management/Generic/JustFun"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "Fun")) . "", "{$Caption}", null, "{$Key}"),
@@ -22,7 +23,8 @@ $LeftPanelLinkHTML[] = HTML\UI\Accordion("LeftPanelNavigation", [
 	$USR->UserGroupIdentifierHighest() == "CUSTOMER" ? new HTML\UI\Accordion\Pad([
 		// new HTML\UI\Accordion\Item($Caption = "User group", null, $Application->URL("Management/Generic/UserGroup"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "UserGroup")) . "", "{$Caption}", null, "{$Key}"),
 		new HTML\UI\Accordion\Item($Caption = "Rent Vehicle", null, $Application->URL("Management/Generic/RentVehicleRequest"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "RentVehicleRequest")) . "", "{$Caption}", null, "{$Key}"),
-	]): null,
+		new HTML\UI\Accordion\Item($Caption = "RenntVehicleUp", null, $Application->URL("Management/Generic/RenntVehicleUp"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "RenntVehicleUp")) . "", "{$Caption}", null, "{$Key}"),
+		]): null,
 
 
 	$Session->IsGuest() ? new HTML\UI\Accordion\Pad([
