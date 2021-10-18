@@ -499,3 +499,4 @@
 2021-10-18 11:28:03	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
 2021-10-18 11:55:19	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
 2021-10-18 11:55:37	SECURITY   	Application	User                    	Sign in         	Abu Jaher Neptune (CUSTOMER)                      	{"User":{"Email":"neptuneaj@gmail.com"},"IP":"::1"}	:0
+2021-10-18 12:18:12	SECURITY   	Application	User                    	Sign in         	Abu Jaher Neptune (CUSTOMER)                      	{"User":{"Email":"neptuneaj@gmail.com"},"IP":"::1"}	:0
