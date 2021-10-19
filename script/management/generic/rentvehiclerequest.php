@@ -4,6 +4,25 @@ namespace sPHP;
 #region Entity management common configuration
 $EM = new EntityManagement($Table[$Entity = "RentVehicleRequest"]);
 $uid=$USR->ID();
+// $DRIVER = $Database->Query ("
+// 						SELECT			U.*
+
+// 						FROM			sphp_userusergroup AS UUG
+// 						    LEFT JOIN	sphp_user AS U ON U.UserID = UUG.UserID
+// 						WHERE			UUG.USerGroupID = 11 
+// 							AND			U.UserIsActive = 1;
+
+// 				")[0];
+$DRIVER = $DTB->Query("
+					SELECT			U.*
+
+					FROM 			sphp_userusergroup AS UUG
+						LEFT JOIN 	sphp_user AS U ON U.UserID = UUG.UserID
+					WHERE			UUG.UserGroupID = 11
+						AND 		U.UserIsActive = 1;
+
+					")[0];
+DebugDump($DRIVER);
  //DebugDump($Table[$Entity]->Structure());
 //$sample= $Database->Query("SELECT * FROM vrs_RentVehicleRequest WHERE UserID =$uid");
 //DebugDump($sample,$USR->ID());
@@ -187,9 +206,7 @@ if(isset($_POST["btnInput"])){
 		$USR->UserGroupIdentifier() === "CUSTOMER" ? HTML\UI\Field(HTML\UI\Input("{$Entity}" . ($Caption = "RentedFor") . "", $EM->InputWidth(), null, true,INPUT_TYPE_DATE), "{$Caption}", null, null, $EM->FieldCaptionWidth()):NULL,
 		$USR->UserGroupIdentifier() === "CUSTOMER" ? NULL: HTML\UI\Field(HTML\UI\RadioGroup("{$Entity}Is" . ($Caption = "Active") . "", [new HTML\UI\Radio(1, "Yes"), new HTML\UI\Radio(0, "No")],0), "{$Caption}", true, null, $EM->FieldCaptionWidth(),null,null),
 		//HTML\UI\Field(HTML\UI\Input("" . ($Caption = "User") . "Name", $EM->InputWidth(),$USR->ID(), null, INPUT_TYPE_TEXT,null,null,null,null,null,null,null,null), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
-		
-		$USR->UserGroupIdentifier() === "CUSTOMER" ? NULL: HTML\UI\Field(HTML\UI\Select("" . ($Caption = "User") . "IDDriver", $Table[$OptionEntity = "{$Caption}"]->Get("{$Table["{$OptionEntity}"]->Alias()}.{$OptionEntity}IsACtive=1 and (UserID= WHERE (SELECT UserID from userusergroup = )", "{$OptionEntity}LookupCaption ASC"), null, "{$OptionEntity}LookupCaption", null, null, null), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
-		
+		HTML\UI\Field(HTML\UI\Select("" . ($Caption = "User") . "ID", $DRIVER, null, "UserNameFirst", null, null, true), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
 	]);
 
 	print $EM->InputHTML();
