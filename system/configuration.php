@@ -58,7 +58,7 @@
 		"DatabaseHost"					=>	"127.0.0.1",
 		"DatabaseUser"					=>	"root",
 		"DatabasePassword"				=>	"",
-		"DatabaseName"					=>	"defaultsphp",
+		"DatabaseName"					=>	"vrs",
 		"DatabaseODBCDriver"			=>	"SQL Server Native Client 11.0",
 		"DatabaseTablePrefix"			=>	"sphp_",
 		"DatabaseTimezone"				=>	"+06:00", // Using named timezone is unstable in some cases

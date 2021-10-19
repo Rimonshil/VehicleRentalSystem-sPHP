@@ -1073,3 +1073,42 @@ Stack trace:
 [18-Oct-2021 13:08:45 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '$EM1' (T_VARIABLE), expecting identifier (T_STRING) in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\activevehiclelist.php on line 82
 [18-Oct-2021 13:08:51 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '$EM1' (T_VARIABLE), expecting identifier (T_STRING) in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\activevehiclelist.php on line 82
 [18-Oct-2021 13:09:22 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '$EM1' (T_VARIABLE), expecting identifier (T_STRING) in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\activevehiclelist.php on line 82
+[18-Oct-2021 13:44:03 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_result() in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php:26
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require()
+#1 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 26
+[18-Oct-2021 13:46:44 Asia/Dhaka] User error: SQLSTATE[42000]: Syntax error or access violation: 1305 FUNCTION defaultsphp.UserGroupIdentifier does not exist in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[18-Oct-2021 13:47:08 Asia/Dhaka] User error: Undefined property: sPHP\User::$UserGroupIdentifier in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 196
+[18-Oct-2021 13:47:29 Asia/Dhaka] User error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 21 in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[18-Oct-2021 14:43:15 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ']', expecting ')' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\activevehiclelist.php on line 191
+[18-Oct-2021 14:43:17 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ']', expecting ')' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\activevehiclelist.php on line 191
+[18-Oct-2021 18:29:56 Asia/Dhaka] User error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 21 in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[19-Oct-2021 10:34:36 Asia/Dhaka] User error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 21 in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[19-Oct-2021 10:53:39 Asia/Dhaka] User error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 21 in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[19-Oct-2021 11:05:55 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_result() in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php:26
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require()
+#1 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 26
+[19-Oct-2021 11:10:44 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ':', expecting ']' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 198
+[19-Oct-2021 11:10:45 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ':', expecting ']' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 198
+[19-Oct-2021 11:10:47 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ':', expecting ']' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 198
+[19-Oct-2021 11:10:53 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ':', expecting ']' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 198
+[19-Oct-2021 11:11:18 Asia/Dhaka] User error: Array to string conversion in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\input.php on line 260
+[19-Oct-2021 11:13:18 Asia/Dhaka] User error: Array to string conversion in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\input.php on line 260
+[19-Oct-2021 11:14:47 Asia/Dhaka] User error: Array to string conversion in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\input.php on line 260
+[19-Oct-2021 11:16:00 Asia/Dhaka] User error: Array to string conversion in C:\xampp\htdocs\sphp04oct2021\library\object\html\ui\input.php on line 260
+[19-Oct-2021 11:19:10 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'U.UserUserGroupID' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[19-Oct-2021 11:31:30 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'U.UserUserGroupID' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[19-Oct-2021 11:32:05 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'U.UserGroupID' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[19-Oct-2021 11:50:02 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'U.UserActive' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[19-Oct-2021 11:50:40 Asia/Dhaka] User error: Undefined index: User1 in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 190
+[19-Oct-2021 11:50:48 Asia/Dhaka] User error: Undefined index: User1 in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 190
+[19-Oct-2021 11:52:18 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'U.UserGroupID' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[19-Oct-2021 11:53:38 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'U.UserIDDriver' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
+[19-Oct-2021 11:54:41 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'UG.UserGroupIDDriver' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197

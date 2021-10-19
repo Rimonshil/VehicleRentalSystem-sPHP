@@ -161,14 +161,17 @@ if(isset($_POST["btnInput"])){
 	#endregion Custom code
 	
 	$EM->InputUIHTML([
-		HTML\UI\Field(HTML\UI\Input("{$Entity}" . ($Caption = "LicenseNumber") . "", $EM->InputWidth(), null, true), "{$Caption}", null, null, $EM->FieldCaptionWidth()),
-		HTML\UI\Field(HTML\UI\Select("" . ($Caption = "Type") . "ID", $Table[$OptionEntity = "{$Caption}"]->Get("{$Table["{$OptionEntity}"]->Alias()}.{$OptionEntity}IsActive = 1", "{$OptionEntity}LookupCaption ASC"), null, "{$OptionEntity}LookupCaption", null, null, true), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
-		HTML\UI\Field(HTML\UI\Input("{$Entity}" . ($Caption = "BrandName") . "", $EM->InputWidth(), null, true), "{$Caption}", null, null, $EM->FieldCaptionWidth()),
-        HTML\UI\Field(HTML\UI\Select("" . ($Caption = "Type") . "ID", $Table[$OptionEntity = "{$Caption}"]->Get("{$Table["{$OptionEntity}"]->Alias()}.{$OptionEntity}IsActive = 1", "{$OptionEntity}LookupCaption ASC"), null, "{$OptionEntity}LookupCaption", null, null, null), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
+		HTML\UI\Field(HTML\UI\Input("{$Entity}" . ($Caption = "LicenseNumber") . "", $EM->InputWidth(), null, true,null,null,null,null,null,null,null,null,true), "{$Caption}", null, null, $EM->FieldCaptionWidth()),
+		//HTML\UI\Field(HTML\UI\Select("" . ($Caption = "Type") . "ID", $Table[$OptionEntity = "{$Caption}"]->Get("{$Table["{$OptionEntity}"]->Alias()}.{$OptionEntity}IsActive = 1", "{$OptionEntity}LookupCaption ASC"), null, "{$OptionEntity}LookupCaption", null, null, true), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
+		HTML\UI\Field(HTML\UI\Input("{$Entity}" . ($Caption = "BrandName") . "", $EM->InputWidth(), null, true,null,null,null,null,null,null,null,null,true), "{$Caption}", null, null, $EM->FieldCaptionWidth()),
+       // HTML\UI\Field(HTML\UI\Input("{$Entity}" . ($Caption = "Type") . "ID", $EM->InputWidth(), null, true,null,null,null,null,null,null,null,null,true), "{$Caption}", null, null, $EM->FieldCaptionWidth()),
+	   HTML\UI\Field(HTML\UI\Input("" . ($Caption = "Type") . "ID", $EM->InputWidth(),null, null, INPUT_TYPE_TEXT,null,null,null,null,null,null,null,true), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
+		
+       // HTML\UI\Field(HTML\UI\Select("" . ($Caption = "Type") . "ID", $Table[$OptionEntity = "{$Caption}"]->Get("{$Table["{$OptionEntity}"]->Alias()}.{$OptionEntity}IsActive = 1", "{$OptionEntity}LookupCaption ASC"), null, "{$OptionEntity}LookupCaption", null, null, null), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
 		//$USR->UserGroupIdentifier() === "CUSTOMER" ? 
 		HTML\UI\Field(HTML\UI\Select("" . ($Caption = "Route") . "ID", $Table[$OptionEntity = "{$Caption}"]->Get("{$Table["{$OptionEntity}"]->Alias()}.{$OptionEntity}IsActive = 1", "{$OptionEntity}LookupCaption ASC"), null, "{$OptionEntity}LookupCaption", null, null, null), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
 		//$USR->UserGroupIdentifier() === "CUSTOMER" ?
-		HTML\UI\Field(HTML\UI\Select("" . ($Caption ="Vehicle") . "ID", $Table[$OptionEntity = "{$Caption}"]->Get("{$Table["{$OptionEntity}"]->Alias()}.{$OptionEntity}IsActive = 1", "{$OptionEntity}LookupCaption ASC"), null, "{$OptionEntity}LookupCaption", null, null, null), "{$Caption}", true, null, $EM->FieldCaptionWidth()),	
+		//HTML\UI\Field(HTML\UI\Select("" . ($Caption ="Vehicle") . "ID", $Table[$OptionEntity = "{$Caption}"]->Get("{$Table["{$OptionEntity}"]->Alias()}.{$OptionEntity}IsActive = 1", "{$OptionEntity}LookupCaption ASC"), null, "{$OptionEntity}LookupCaption", null, null, null), "{$Caption}", true, null, $EM->FieldCaptionWidth()),	
 		
 		// HTML\UI\Field(HTML\UI\TextArea("" . ($Caption = "RentVehicleRequestComment") . "", $Table[$OptionEntity = "{$Caption}"]->Get("{$Table["{$OptionEntity}"]->Alias()}.{$OptionEntity}IsActive = 1", "{$OptionEntity}LookupCaption ASC"), null, "{$OptionEntity}LookupCaption", null, null, null), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
 		HTML\UI\Field(HTML\UI\Input("{$Entity2}" . ($Caption = "Comment") . "", $EM->InputWidth(), null, true), "{$Caption}",true, true, $EM->FieldCaptionWidth()),

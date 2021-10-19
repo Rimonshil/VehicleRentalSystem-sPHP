@@ -1,5 +1,5 @@
 SELECT			{ALIAS}.*, 
-				CONCAT({ALIAS}.RentVehicleRequestComment, '') AS {ENTITY}LookupCaption,VehicleLicenseNumber,VehicleBrandName,VehicleIsActive,RouteName,RoutePrice,UserNameFirst,TypeName,
+				CONCAT({ALIAS}.RentVehicleRequestComment, '') AS {ENTITY}LookupCaption,VehicleLicenseNumber,VehicleBrandName,VehicleIsActive,RouteName,RoutePrice,UserNameFirst,TypeName,UserGroupID,
 
 				          
 				'' AS _Other
@@ -9,6 +9,9 @@ FROM			{PREFIX}{NAME} AS {ALIAS}
 	LEFT JOIN vrs_route As RU ON RU.RouteID ={ALIAS}.RouteID 
 	LEFT JOIN sphp_user As US ON US.UserID  = {ALIAS}.UserID 
 	LEFT JOIN vrs_type  As TS ON TS.TypeID = {ALIAS}.TypeID
+	LEFT JOIN sphp_userusergroup  As UG ON UG.UserID= {ALIAS}.UserIDDriver
+	
+	
 	
 
 -- SELECT			{ALIAS}.*, 

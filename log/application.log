@@ -500,3 +500,20 @@
 2021-10-18 11:55:19	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
 2021-10-18 11:55:37	SECURITY   	Application	User                    	Sign in         	Abu Jaher Neptune (CUSTOMER)                      	{"User":{"Email":"neptuneaj@gmail.com"},"IP":"::1"}	:0
 2021-10-18 12:18:12	SECURITY   	Application	User                    	Sign in         	Abu Jaher Neptune (CUSTOMER)                      	{"User":{"Email":"neptuneaj@gmail.com"},"IP":"::1"}	:0
+2021-10-18 13:40:39	APPLICATION	Database   	RentVehicleRequest      	Add new         	Abu Jaher Neptune (CUSTOMER)                      	{"ID":"12"}	:0
+2021-10-18 13:43:10	SECURITY   	Application	User                    	Sign out        	Abu Jaher Neptune (CUSTOMER)                      	{"User":{"Email":"neptuneaj@gmail.com"}}	:0
+2021-10-18 13:43:20	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-10-18 13:56:24	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
+2021-10-18 13:56:34	SECURITY   	Application	User                    	Sign in         	Abu Jaher Neptune (CUSTOMER)                      	{"User":{"Email":"neptuneaj@gmail.com"},"IP":"::1"}	:0
+2021-10-18 14:19:32	SECURITY   	Application	User                    	Sign in         	Abu Jaher Neptune (CUSTOMER)                      	{"User":{"Email":"neptuneaj@gmail.com"},"IP":"::1"}	:0
+2021-10-18 18:29:50	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-10-19 10:34:30	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-10-19 10:35:49	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
+2021-10-19 10:36:13	SECURITY   	Application	User                    	Sign in         	Abu Jaher Neptune (CUSTOMER)                      	{"User":{"Email":"neptuneaj@gmail.com"},"IP":"::1"}	:0
+2021-10-19 10:41:49	SECURITY   	Application	User                    	Sign out        	Abu Jaher Neptune (CUSTOMER)                      	{"User":{"Email":"neptuneaj@gmail.com"}}	:0
+2021-10-19 10:42:00	SECURITY   	Application	User                    	Sign in         	Authentication failed                             	{"Email":"Administrator@System.Dom","IP":"::1"}	:0
+2021-10-19 10:42:05	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-10-19 10:44:56	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
+2021-10-19 10:45:06	SECURITY   	Application	User                    	Sign in         	Abu Jaher Neptune (CUSTOMER)                      	{"User":{"Email":"neptuneaj@gmail.com"},"IP":"::1"}	:0
+2021-10-19 10:53:23	SECURITY   	Application	User                    	Sign out        	Abu Jaher Neptune (CUSTOMER)                      	{"User":{"Email":"neptuneaj@gmail.com"}}	:0
+2021-10-19 10:53:32	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0

@@ -1,11 +1,10 @@
 <?php
 
-
 namespace sPHP;
 
 #region Entity management common configuration
 $EM = new EntityManagement($Table[$Entity = "Vehicle"]);
-//DebugDump($Table[$Entity]->Structure());
+//DebugDump($Table);
 #HTML\UI\Field(HTML\UI\Input("{$Entity}" . ($Caption = "BirthDate") . "", $EM->InputWidth(), null, null, INPUT_TYPE_DATE), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
 #HTML\UI\Field(HTML\UI\Select("" . ($Caption = "Gender") . "ID", $Table[$OptionEntity = "{$Caption}"]->Get("{$Table["{$OptionEntity}"]->Alias()}.{$OptionEntity}IsActive = 1", "{$OptionEntity}LookupCaption ASC"), null, "{$OptionEntity}LookupCaption", null, null, null), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
 $EM->ImportField([
