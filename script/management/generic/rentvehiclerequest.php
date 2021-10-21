@@ -22,7 +22,7 @@ $DRIVER = $DTB->Query("
 						AND 		U.UserIsActive = 1;
 
 					")[0];
-DebugDump($DRIVER);
+//DebugDump($DRIVER);
  //DebugDump($Table[$Entity]->Structure());
 //$sample= $Database->Query("SELECT * FROM vrs_RentVehicleRequest WHERE UserID =$uid");
 //DebugDump($sample,$USR->ID());
@@ -47,7 +47,7 @@ $EM->InputValidation([
 	// //new HTTP\InputValidation("{$Entity}", true),
 	// new HTTP\InputValidation("{$Entity}BrandName", true),
 	//new HTTP\InputValidation("{$Entity}Note", null),
-	new HTTP\InputValidation("RouteID", true),
+	new HTTP\InputValidation("UserIDDriver", true),
 	//new HTTP\InputValidation("{$Entity}IsActive", null, VALIDATION_TYPE_INTEGER),
 ]);
 
@@ -206,7 +206,7 @@ if(isset($_POST["btnInput"])){
 		$USR->UserGroupIdentifier() === "CUSTOMER" ? HTML\UI\Field(HTML\UI\Input("{$Entity}" . ($Caption = "RentedFor") . "", $EM->InputWidth(), null, true,INPUT_TYPE_DATE), "{$Caption}", null, null, $EM->FieldCaptionWidth()):NULL,
 		$USR->UserGroupIdentifier() === "CUSTOMER" ? NULL: HTML\UI\Field(HTML\UI\RadioGroup("{$Entity}Is" . ($Caption = "Active") . "", [new HTML\UI\Radio(1, "Yes"), new HTML\UI\Radio(0, "No")],0), "{$Caption}", true, null, $EM->FieldCaptionWidth(),null,null),
 		//HTML\UI\Field(HTML\UI\Input("" . ($Caption = "User") . "Name", $EM->InputWidth(),$USR->ID(), null, INPUT_TYPE_TEXT,null,null,null,null,null,null,null,null), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
-		HTML\UI\Field(HTML\UI\Select("" . ($Caption = "User") . "ID", $DRIVER, null, "UserNameFirst", null, null, true), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
+		HTML\UI\Field(HTML\UI\Select("" . ($Caption = "User") . "IDDriver", $DRIVER, null, "UserNameFirst", null, null, true), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
 	]);
 
 	print $EM->InputHTML();
