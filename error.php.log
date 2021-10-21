@@ -1114,3 +1114,10 @@ Stack trace:
 [19-Oct-2021 11:54:41 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'UG.UserGroupIDDriver' in 'where clause' in C:\xampp\htdocs\sphp04oct2021\library\object\database.php on line 197
 [19-Oct-2021 16:38:25 Asia/Dhaka] User error: Undefined variable: DBT in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 7
 [19-Oct-2021 16:39:02 Asia/Dhaka] User error: Undefined variable: DRIVER in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 199
+[21-Oct-2021 11:05:21 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_result() in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php:26
+Stack trace:
+#0 C:\xampp\htdocs\sphp04oct2021\private_function.php(73): require()
+#1 C:\xampp\htdocs\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 26
