@@ -1,29 +1,32 @@
 <?php
-
-
 namespace sPHP;
 
 #region Entity management common configuration
-$EM = new EntityManagement($Table[$Entity = "Vehicle"],$Table[$Entity2 = "RentVehicleRequest"]);
-$EM1 = new EntityManagement($Table[$Entity1 = "RentVehicleRequest"]);
+$EM = new EntityManagement($Table[$Entity = "RentVehicleRequest"]);
+$uid=$USR->ID();
+// $DRIVER = $Database->Query ("
+// 						SELECT			U.*
 
+// 						FROM			sphp_userusergroup AS UUG
+// 						    LEFT JOIN	sphp_user AS U ON U.UserID = UUG.UserID
+// 						WHERE			UUG.USerGroupID = 11 
+// 							AND			U.UserIsActive = 1;
 
-// $EM1->ImportField([
-// 	//new Database\Field("{$Entity}First" . ($Field = "Name") . "", "{$Field}"),
-// 	new Database\Field("{$Entity}" . ($Field = "LicenseNumber") . "", "{$Field}"),
-// 	new Database\Field("" . ($Field = "Type") . "ID", "{$Field}"),
+// 				")[0];
+$DRIVER = $DTB->Query("
+					SELECT			U.*
 
-	
-//     new Database\Field("{$Entity}Is" . ($Field = "Active") . "", "{$Field}"),
-//     new Database\Field("{$Entity}" . ($Field = "BrandName") . "", "{$Field}"),
-// ]);
+					FROM 			sphp_userusergroup AS UUG
+						LEFT JOIN 	sphp_user AS U ON U.UserID = UUG.UserID
+					WHERE			UUG.UserGroupID = 11
+						AND 		U.UserIsActive = 1;
+
+					")[0];
+//DebugDump($DRIVER);
+
 
 $EM->InputValidation([
-	new HTTP\InputValidation("{$Entity2}LicenseNumber", true),
-	// new HTTP\InputValidation("Type", true),
-	//new HTTP\InputValidation("{$Entity}", true),
-	new HTTP\InputValidation("{$Entity2}BrandName", true),
-	//new HTTP\InputValidation("{$Entity}Note", null),
+	new HTTP\InputValidation("UserIDDriver", true),
 	//new HTTP\InputValidation("{$Entity}IsActive", null, VALIDATION_TYPE_INTEGER),
 ]);
 
@@ -56,50 +59,45 @@ $EM->IntermediateEntity("xCategory, xEvent");
 $EM->DefaultFromSearchColumn("xTerminalID, xCustomerID, xCarrierID");
 
 $EM->ListColumn([
-	new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "LicenseNumber") . "", "{$Caption}", null),
-	new HTML\UI\Datagrid\Column("" . ($Caption = "Type") . "Name", "{$Caption}", null),
-	new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "BrandName") . "", "{$Caption}", null),
+	// new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "") . "", "{$Caption}", null),
+	new HTML\UI\Datagrid\Column("" . ($Caption = "UserID")."" , "{$Caption}", null),
+	 new HTML\UI\Datagrid\Column("" . ($Caption = "Type") . "Name", "{$Caption}", null),
+	 new HTML\UI\Datagrid\Column("" . ($Caption = "Route") . "Name", "{$Caption}", null),
+	 //New HTML\UI\Datagrid\Column("".($Caption="")."","{$Caption}",null),
+	//  new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "Comment") . "", "{$Caption}", null),
+	// new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "VehicleType ") . "", "{$Caption}", null),
+     new HTML\UI\Datagrid\Column("Vehicle" . ($Caption = "BrandName")  , "{$Caption}", null),
+	 new HTML\UI\Datagrid\Column("Vehicle" . ($Caption = "LicenseNumber") , "{$Caption}", null),
+	 new HTML\UI\Datagrid\Column("" . ($Caption = "UserIDDriver")."" , "{$Caption}", null),
 	//new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "BirthDate") . "", "{$Caption}", FIELD_TYPE_SHORTDATE),
 	//new HTML\UI\Datagrid\Column("" . ($Caption = "Gender") . "Name", "{$Caption}", null),
 	//new HTML\UI\Datagrid\Column("" . ($Caption = "Currency") . "Name", "{$Caption}", null),
 	//new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "Note") . "", "{$Caption}", null),
-	//new HTML\UI\Datagrid\Column("{$Entity}Is" . ($Caption = "Active") . "", "{$Caption}", FIELD_TYPE_BOOLEANICON),
+	new HTML\UI\Datagrid\Column("{$Entity}Is" . ($Caption = "Active") . "", "{$Caption}", FIELD_TYPE_BOOLEANICON),
 ]);
-//DebugDump($Table[$Entity = "Person"]->Get());
-// $EM1->Action([
-// 	//new HTML\UI\Datagrid\Action("{$Environment->IconURL()}{$Entity}" . strtolower($ActionEntity = "CommercialInvoice") . ".png", null, $Application->URL("{$Entity}/{$ActionEntity}"), "_blank", null, null, "Commercial invoice"),
-// 	new HTML\UI\Datagrid\Action("{$Environment->IconURL()}report.png", null, $Application->URL("Management/report/personreport", "btnReport"), null, null, null, "Report"),
-// 	/*$USR->UserGroupIdentifier() != "GUEST" ? new HTML\UI\Datagrid\Action("{$Environment->IconURL()}phone.png", null, $Application->URL("Management/Generic/Phone", "btnReport"), null, null, null, "Phone"): NULL,
-// 	$USR->UserGroupIdentifier() != "GUEST" ? new HTML\UI\Datagrid\Action("{$Environment->IconURL()}address.png", null, $Application->URL("Management/Generic/Address", "btnReport"), null, null, null, "Address"):NULL,*/
-	
-// 	//new HTML\UI\Datagrid\Action("{$Environment->IconURL()}phone.png", null, $Application->URL("Management/Generic/Phone", "btnReport"), null, null, null, "Phone"),
-// 	$USR->UserGroupIdentifier() != "GUEST" ? new HTML\UI\Datagrid\Action("{$Environment->IconURL()}edit.png", null, $Application->URL($_POST["_Script"], "btnInput"), null, null, null, "Edit"):NULL,
-// 	//new HTML\UI\Datagrid\Action("{$Environment->IconURL()}address.png", null, $Application->URL($_POST["_Script"], "btnInput"), null, null, null, "AddressView"),
-// 	//$USR->UserGroupIdentifier() != "GUEST"||"MEMBER" ? new HTML\UI\Datagrid\Action("{$Environment->IconURL()}delete.png", null, $Application->URL($_POST["_Script"], "btnDelete"), null, "return confirm('Are you sure to remove the information?');", null, "Delete"):NULL,
-// 	$USR->UserGroupIdentifier() == "GUEST" ? NULL:new HTML\UI\Datagrid\Action("{$Environment->IconURL()}delete.png", null, $Application->URL($_POST["_Script"], "btnDelete"), null, "return confirm('Are you sure to remove the information?');", null, "Delete"),
-// ]);
+//DebugDump($Table[$Entity = "Vehicle"]);
 $EM->Action([
-    /*new HTML\UI\Datagrid\Action($EM1->Action([
-        //new HTML\UI\Datagrid\Action("{$Environment->IconURL()}{$Entity}" . strtolower($ActionEntity = "CommercialInvoice") . ".png", null, $Application->URL("{$Entity}/{$ActionEntity}"), "_blank", null, null, "Commercial invoice"),
-         new HTML\UI\Datagrid\Action("{$Environment->IconURL()}edit.png", null, $Application->URL($_POST["_Script"], "btnInput"), null, null, null, "Edit"),
-        //new HTML\UI\Datagrid\Action("{$Environment->IconURL()}address.png", null, $Application->URL($_POST["_Script"], "btnInput"), null, null, null, "AddressView"),
-    ])),*/
-    new HTML\UI\Datagrid\Action("{$Environment->IconURL()}bookvehicle.png", null, $Application->URL($_POST["_Script"], "btnInput"), null, null, null, "Book Vehicle"),
-    new HTML\UI\Datagrid\Action("{$Environment->IconURL()}bookvehicle.png", null, $Application->URL("Management/Generic/BookVehicle"), null, null, null, "Book Vehicle"),
-    new HTML\UI\Datagrid\Action("{$Environment->IconURL()}bookvehicle.png", null, $Application->URL("Management/Generic/RentVehicleRequestCustomer", "btnInput"), null, null, null, "Book Vehicle"),
+	new HTML\UI\Datagrid\Action("{$Environment->IconURL()}report.png", null, $Application->URL("Management/report/personreport", "btnReport"), null, null, null, "Report"),
+	//$USR->UserGroupIdentifier() != "CUSTOMER" ? new HTML\UI\Datagrid\Action("{$Environment->IconURL()}phone.png", null, $Application->URL("Management/Generic/Phone", "btnReport"), null, null, null, "Phone"): NULL,
+	//$USR->UserGroupIdentifier() != "CUSTOMER" ? new HTML\UI\Datagrid\Action("{$Environment->IconURL()}address.png", null, $Application->URL("Management/Generic/Address", "btnReport"), null, null, null, "Address"):NULL,
 	
+	//new HTML\UI\Datagrid\Action("{$Environment->IconURL()}phone.png", null, $Application->URL("Management/Generic/Phone", "btnReport"), null, null, null, "Phone"),
+	$USR->UserGroupIdentifier() != "CUSTOMER" ? new HTML\UI\Datagrid\Action("{$Environment->IconURL()}edit.png", null, $Application->URL($_POST["_Script"], "btnInput"), null, null, null, "Edit"):NULL,
+	//new HTML\UI\Datagrid\Action("{$Environment->IconURL()}address.png", null, $Application->URL($_POST["_Script"], "btnInput"), null, null, null, "AddressView"),
+	//$USR->UserGroupIdentifier() != "GUEST"||"MEMBER" ? new HTML\UI\Datagrid\Action("{$Environment->IconURL()}delete.png", null, $Application->URL($_POST["_Script"], "btnDelete"), null, "return confirm('Are you sure to remove the information?');", null, "Delete"):NULL,
+	$USR->UserGroupIdentifier() == "CUSTOMER" ? NULL:new HTML\UI\Datagrid\Action("{$Environment->IconURL()}delete.png", null, $Application->URL($_POST["_Script"], "btnDelete"), null, "return confirm('Are you sure to remove the information?');", null, "Delete"),
 ]);
 
 $EM->BatchActionHTML([
-	HTML\UI\Button("<img src=\"{$Environment->IconURL()}search.png\" alt=\"Search\" class=\"Icon\">Search", BUTTON_TYPE_SUBMIT, "btnSearch", true),
-	//$USR->UserGroupIdentifier() != "GUEST" ? HTML\UI\Button("<img src=\"{$Environment->IconURL()}add.png\" alt=\"Add new\" class=\"Icon\">Add new", BUTTON_TYPE_SUBMIT, "btnInput", true):NULL,
-	//$USR->UserGroupIdentifier() == "GUEST" || "MEMBER" ? NULL: HTML\UI\Button("<img src=\"{$Environment->IconURL()}delete.png\" alt=\"Remove\" class=\"Icon\">Remove", BUTTON_TYPE_SUBMIT, "btnDelete", true, "return confirm('Are you sure to remove the information?');"),
-	//HTML\UI\Button("<img src=\"{$Environment->IconURL()}export.png\" alt=\"Export\" class=\"Icon\">Export", BUTTON_TYPE_SUBMIT, "btnExport", true),
-	//HTML\UI\Button("<img src=\"{$Environment->IconURL()}import.png\" alt=\"Import\" class=\"Icon\">Import", BUTTON_TYPE_SUBMIT, "btnImport", true),
+	HTML\UI\Button("Search", BUTTON_TYPE_SUBMIT, "btnSearch", true),
+	$USR->UserGroupIdentifier() != "GUEST"  || "CUSTOMER" ?  HTML\UI\Button("<img src=\"{$Environment->IconURL()}add.png\" alt=\"Add new\" class=\"Icon\">Book Vehicle", BUTTON_TYPE_SUBMIT, "btnInput", true) : NULL,
+	$USR->UserGroupIdentifier() != "GUEST" || "CUSTOMER"  ? HTML\UI\Button("<img src=\"{$Environment->IconURL()}delete.png\" alt=\"Remove\" class=\"Icon\">Remove", BUTTON_TYPE_SUBMIT, "btnDelete", true, "return confirm('Are you sure to remove the information?');") : NULL,
+//HTML\UI\Button("<img src=\"{$Environment->IconURL()}export.png\" alt=\"Export\" class=\"Icon\">Export", BUTTON_TYPE_SUBMIT, "btnExport", true),
+//	HTML\UI\Button("<img src=\"{$Environment->IconURL()}import.png\" alt=\"Import\" class=\"Icon\">Import", BUTTON_TYPE_SUBMIT, "btnImport", true),
 	//HTML\UI\Button("<img src=\"{$Environment->IconURL()}report.png\" alt=\"Installation report\" class=\"Icon\">Installation report", BUTTON_TYPE_SUBMIT, "btn{$Entity}ReportInstallation", true),
 ]);
 
-$EM->OrderBy("{$Entity}BrandName");
+$EM->OrderBy("RouteID");
 $EM->Order("ASC");
 $EM->URL($Application->URL($_POST["_Script"]));
 $EM->IconURL($Environment->IconURL());
@@ -162,22 +160,19 @@ if(isset($_POST["btnInput"])){
 	$EM->LoadExistingData();
 	#region Custom code
 	#endregion Custom code
-	
+
 	$EM->InputUIHTML([
-		HTML\UI\Field(HTML\UI\Input("{$Entity}" . ($Caption = "LicenseNumber") . "", $EM->InputWidth(), null, true,null,null,null,null,null,null,null,null,true), "{$Caption}", null, null, $EM->FieldCaptionWidth()),
-		//HTML\UI\Field(HTML\UI\Select("" . ($Caption = "Type") . "ID", $Table[$OptionEntity = "{$Caption}"]->Get("{$Table["{$OptionEntity}"]->Alias()}.{$OptionEntity}IsActive = 1", "{$OptionEntity}LookupCaption ASC"), null, "{$OptionEntity}LookupCaption", null, null, true), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
-		HTML\UI\Field(HTML\UI\Input("{$Entity}" . ($Caption = "BrandName") . "", $EM->InputWidth(), null, true,null,null,null,null,null,null,null,null,true), "{$Caption}", null, null, $EM->FieldCaptionWidth()),
-       // HTML\UI\Field(HTML\UI\Input("{$Entity}" . ($Caption = "Type") . "ID", $EM->InputWidth(), null, true,null,null,null,null,null,null,null,null,true), "{$Caption}", null, null, $EM->FieldCaptionWidth()),
-	   HTML\UI\Field(HTML\UI\Input("" . ($Caption = "Type") . "ID", $EM->InputWidth(),null, null, INPUT_TYPE_TEXT,null,null,null,null,null,null,null,true), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
-		
-       // HTML\UI\Field(HTML\UI\Select("" . ($Caption = "Type") . "ID", $Table[$OptionEntity = "{$Caption}"]->Get("{$Table["{$OptionEntity}"]->Alias()}.{$OptionEntity}IsActive = 1", "{$OptionEntity}LookupCaption ASC"), null, "{$OptionEntity}LookupCaption", null, null, null), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
+		//"UserGroupID=11",
+		HTML\UI\Field(HTML\UI\Select("" . ($Caption = "Type") . "ID", $Table[$OptionEntity = "{$Caption}"]->Get("{$Table["{$OptionEntity}"]->Alias()}.{$OptionEntity}IsActive = 1", "{$OptionEntity}LookupCaption ASC"), null, "{$OptionEntity}LookupCaption", null, null, null), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
 		//$USR->UserGroupIdentifier() === "CUSTOMER" ? 
 		HTML\UI\Field(HTML\UI\Select("" . ($Caption = "Route") . "ID", $Table[$OptionEntity = "{$Caption}"]->Get("{$Table["{$OptionEntity}"]->Alias()}.{$OptionEntity}IsActive = 1", "{$OptionEntity}LookupCaption ASC"), null, "{$OptionEntity}LookupCaption", null, null, null), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
 		//$USR->UserGroupIdentifier() === "CUSTOMER" ?
-		//HTML\UI\Field(HTML\UI\Select("" . ($Caption ="Vehicle") . "ID", $Table[$OptionEntity = "{$Caption}"]->Get("{$Table["{$OptionEntity}"]->Alias()}.{$OptionEntity}IsActive = 1", "{$OptionEntity}LookupCaption ASC"), null, "{$OptionEntity}LookupCaption", null, null, null), "{$Caption}", true, null, $EM->FieldCaptionWidth()),	
+		HTML\UI\Field(HTML\UI\Select("" . ($Caption ="Vehicle") . "ID", $Table[$OptionEntity = "{$Caption}"]->Get("{$Table["{$OptionEntity}"]->Alias()}.{$OptionEntity}IsActive = 1", "{$OptionEntity}LookupCaption ASC"), null, "{$OptionEntity}LookupCaption", null, null, null), "{$Caption}", true, null, $EM->FieldCaptionWidth()),	
+		//HTML\UI\Field(HTML\UI\Input("" . ($Caption = "Type") . "ID", $EM->InputWidth(),"{$Entity}"."TypeID", null, INPUT_TYPE_TEXT,null,null,null,null,null,null,null,true), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
+		//HTML\UI\Field(HTML\UI\Input("" . ($Caption = "TypeID") . "", $EM->InputWidth(),"TypeID", null, INPUT_TYPE_TEXT,null,null,null,null,null,null,null,true), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
 		
 		// HTML\UI\Field(HTML\UI\TextArea("" . ($Caption = "RentVehicleRequestComment") . "", $Table[$OptionEntity = "{$Caption}"]->Get("{$Table["{$OptionEntity}"]->Alias()}.{$OptionEntity}IsActive = 1", "{$OptionEntity}LookupCaption ASC"), null, "{$OptionEntity}LookupCaption", null, null, null), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
-		HTML\UI\Field(HTML\UI\Input("{$Entity2}" . ($Caption = "Comment") . "", $EM->InputWidth(), null, true), "{$Caption}",true, true, $EM->FieldCaptionWidth()),
+		HTML\UI\Field(HTML\UI\Input("{$Entity}" . ($Caption = "Comment") . "", $EM->InputWidth(), null, true), "{$Caption}",true, true, $EM->FieldCaptionWidth()),
 		HTML\UI\Field(HTML\UI\Input("" . ($Caption = "User") . "ID", $EM->InputWidth(),$USR->ID(), null, INPUT_TYPE_TEXT,null,null,null,null,null,null,null,true), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
 		//HTML\UI\Field(HTML\UI\Input("" . ($Caption = "User") . "Name", $EM->InputWidth(),$USR->ID(), null, INPUT_TYPE_TEXT,null,null,null,null,null,null,null,true), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
 		// HTML\UI\Field(HTML\UI\Input("" . ($Caption = "User Name") . "", $EM->InputWidth(), null,null), "{$Caption}", null, null, $EM->FieldCaptionWidth()),
@@ -187,25 +182,24 @@ if(isset($_POST["btnInput"])){
 		//HTML\UI\Field(HTML\UI\Select("" . ($Caption = "Vehicle") . "ID", $Table[$OptionEntity = "{$Caption}"]->Get(UserID()), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
 		//HTML\UI\Field(HTML\UI\Select("" . ($user), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
 		//$UserID->UserID()
-		$USR->UserGroupIdentifier() === "CUSTOMER" ? HTML\UI\Field(HTML\UI\Input("{$Entity2}" . ($Caption = "RentedFor") . "", $EM->InputWidth(), null, true,INPUT_TYPE_DATE), "{$Caption}", null, null, $EM->FieldCaptionWidth()):NULL,
-		$USR->UserGroupIdentifier() === "CUSTOMER" ? NULL: HTML\UI\Field(HTML\UI\RadioGroup("{$Entity2}Is" . ($Caption = "Active") . "", [new HTML\UI\Radio(1, "Yes"), new HTML\UI\Radio(0, "No")],0), "{$Caption}", true, null, $EM->FieldCaptionWidth(),null,null),
+		$USR->UserGroupIdentifier() === "CUSTOMER" ? HTML\UI\Field(HTML\UI\Input("{$Entity}" . ($Caption = "RentedFor") . "", $EM->InputWidth(), null, true,INPUT_TYPE_DATE), "{$Caption}", null, null, $EM->FieldCaptionWidth()):NULL,
+		$USR->UserGroupIdentifier() === "CUSTOMER" ? NULL: HTML\UI\Field(HTML\UI\RadioGroup("{$Entity}Is" . ($Caption = "Active") . "", [new HTML\UI\Radio(1, "Yes"), new HTML\UI\Radio(0, "No")],0), "{$Caption}", true, null, $EM->FieldCaptionWidth(),null,null),
 		//HTML\UI\Field(HTML\UI\Input("" . ($Caption = "User") . "Name", $EM->InputWidth(),$USR->ID(), null, INPUT_TYPE_TEXT,null,null,null,null,null,null,null,null), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
-		$USR->UserGroupIdentifier() === "CUSTOMER" ? NULL: HTML\UI\Field(HTML\UI\Select("" . ($Caption = "User") . "IDDriver", $Table[$OptionEntity = "{$Caption}"]->Get("{$Table["{$OptionEntity}"]->Alias()}.{$OptionEntity}IsActive = 1", "{$OptionEntity}LookupCaption ASC"), null, "{$OptionEntity}LookupCaption", null, null, null), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
-		
-		]);
+		HTML\UI\Field(HTML\UI\Select("" . ($Caption = "User") . "IDDriver", $DRIVER, null, "UserNameFirst", null, null, true), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
+	]);
 
 	print $EM->InputHTML();
 }
 #HTML\UI\Field(HTML\UI\Input("{$Entity}" . ($Caption = "BirthDate") . "", $EM->InputWidth(), null, null, INPUT_TYPE_DATE), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
 #HTML\UI\Field(HTML\UI\Select("" . ($Caption = "Gender") . "ID", $Table[$OptionEntity = "{$Caption}"]->Get("{$Table["{$OptionEntity}"]->Alias()}.{$OptionEntity}IsActive = 1", "{$OptionEntity}LookupCaption ASC"), null, "{$OptionEntity}LookupCaption", null, null, null), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
 #region List
-
 $EM->SearchSQL([
-
-	"VehicleIsActive = 1", // Custom fixed search condition
-	SetVariable("{$Configuration["SearchInputPrefix"]}" . ($Column = "{$Entity}LicenseNumber") . "", SetVariable($Column)) ? "{$Table["{$Entity}"]->Alias()}.{$Column} LIKE '%{$Database->Escape($_POST["{$Configuration["SearchInputPrefix"]}{$Column}"])}%'" : null,
-	// SetVariable("{$Configuration["SearchInputPrefix"]}" . ($Column = "{$Entity}Type") . "", SetVariable($Column)) ? "{$Table["{$Entity}"]->Alias()}.{$Column} LIKE '%{$Database->Escape($_POST["{$Configuration["SearchInputPrefix"]}{$Column}"])}%'" : null,
-	SetVariable("{$Configuration["SearchInputPrefix"]}" . ($Column = "{$Entity}BrandName") . "", SetVariable($Column)) ? "{$Table["{$Entity}"]->Alias()}.{$Column} LIKE '%{$Database->Escape($_POST["{$Configuration["SearchInputPrefix"]}{$Column}"])}%'" : null,
+	"1=1", // Custom fixed search condition
+	//"UserGroupID=11",
+	//"UserGroupID = 1", // Custom fixed search condition
+	//SetVariable("{$Configuration["SearchInputPrefix"]}" . ($Column = "VehicleLicenseNumber") . "", SetVariable($Column)) ? "{$Table["{$Entity}"]->Alias()}.{$Column} LIKE '%{$Database->Escape($_POST["{$Configuration["SearchInputPrefix"]}{$Column}"])}%'" : null,
+	// 11SetVariable("{$Configuration["SearchInputPrefix"]}" . ($Column = "{$Entity}Type") . "", SetVariable($Column)) ? "{$Table["{$Entity}"]->Alias()}.{$Column} LIKE '%{$Database->Escape($_POST["{$Configuration["SearchInputPrefix"]}{$Column}"])}%'" : null,
+	//SetVariable("{$Configuration["SearchInputPrefix"]}" . ($Column = "VehicleBrandName") . "", SetVariable($Column)) ? "{$Table["{$Entity}"]->Alias()}.{$Column} LIKE '%{$Database->Escape($_POST["{$Configuration["SearchInputPrefix"]}{$Column}"])}%'" : null,
 	//SetVariable("{$Configuration["SearchInputPrefix"]}" . ($Column = "{$Entity}BirthDate") . "", SetVariable($Column)) ? "{$Table["{$Entity}"]->Alias()}.{$Column} LIKE '%{$Database->Escape($_POST["{$Configuration["SearchInputPrefix"]}{$Column}"])}%'" : null,
 	//SetVariable("{$Configuration["SearchInputPrefix"]}" . ($Column = "GenderID") . "", SetVariable($Column)) ? "{$Table["{$Entity}"]->Alias()}.{$Column} = " . intval($_POST["{$Configuration["SearchInputPrefix"]}{$Column}"]) . "" : null,
 	//SetVariable("{$Configuration["SearchInputPrefix"]}" . ($Column = "CurrencyID") . "", SetVariable($Column)) ? "{$Table["{$Entity}"]->Alias()}.{$Column} = " . intval($_POST["{$Configuration["SearchInputPrefix"]}{$Column}"]) . "" : null,
@@ -214,13 +208,13 @@ $EM->SearchSQL([
 
 //Change Made
 $EM->SearchUIHTML([
-	HTML\UI\Field(HTML\UI\Input("{$Configuration["SearchInputPrefix"]}{$Entity}" . ($Caption = "LicenseNumber") . "", 200), "{$Caption}", null, null),
+	// HTML\UI\Field(HTML\UI\Input("{$Configuration["SearchInputPrefix"]}{$Entity}" . ($Caption = "LicenseNumber") . "", 200), "{$Caption}", null, null),
 	// HTML\UI\Field(HTML\UI\Input("{$Configuration["SearchInputPrefix"]}{$Entity}" . ($Caption = "Type") . "", 200), "{$Caption}", null, null),
-	HTML\UI\Field(HTML\UI\Input("{$Configuration["SearchInputPrefix"]}{$Entity}" . ($Caption = "BrandName") . "", 200), "{$Caption}", null, null),
+	// HTML\UI\Field(HTML\UI\Input("{$Configuration["SearchInputPrefix"]}{$Entity}" . ($Caption = "BrandName") . "", 200), "{$Caption}", null, null),
 	//HTML\UI\Field(HTML\UI\Input("{$Configuration["SearchInputPrefix"]}{$Entity}" . ($Caption = "BirthDate") . "", 200), "{$Caption}", null, null),
 	//HTML\UI\Field(HTML\UI\Select("{$Configuration["SearchInputPrefix"]}" . ($Caption = "Gender") . "ID", $Table[$OptionEntity = "{$Caption}"]->Get(null, "" . ($OptionEntityOrderBy = "{$OptionEntity}LookupCaption") . " ASC"), new Option(), "{$OptionEntityOrderBy}"), "{$Caption}", null, null),
 	//HTML\UI\Field(HTML\UI\Select("{$Configuration["SearchInputPrefix"]}" . ($Caption = "Currency") . "ID", $Table[$OptionEntity = "{$Caption}"]->Get(null, "" . ($OptionEntityOrderBy = "{$OptionEntity}LookupCaption") . " ASC"), new Option(), "{$OptionEntityOrderBy}"), "{$Caption}", null, true),
-	//HTML\UI\Field(HTML\UI\Select("{$Configuration["SearchInputPrefix"]}{$Entity}Is" . ($Caption = "Active") . "", [new Option(), new Option(0, "No"), new Option(1, "Yes")]), "{$Caption}", null, true),
+	HTML\UI\Field(HTML\UI\Select("{$Configuration["SearchInputPrefix"]}{$Entity}Is" . ($Caption = "Active") . "", [new Option(), new Option(0, "No"), new Option(1, "Yes")]), "{$Caption}", null, true),
 ]);
 
 if(isset($_POST["btnExport"])){

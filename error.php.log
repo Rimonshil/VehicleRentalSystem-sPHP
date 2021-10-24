@@ -1121,3 +1121,17 @@ Stack trace:
 #2 [internal function]: sPHP\Application->__destruct()
 #3 {main}
   thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 26
+[24-Oct-2021 11:19:44 Asia/Dhaka] User error: Undefined index: bookvehicle in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\activevehiclelist.php on line 87
+[24-Oct-2021 11:20:03 Asia/Dhaka] User error: Undefined index: bookvehicle.php in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\activevehiclelist.php on line 87
+[24-Oct-2021 11:25:21 Asia/Dhaka] User error: Undefined index: managment/generic/bookvehicle in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\activevehiclelist.php on line 87
+[24-Oct-2021 11:26:05 Asia/Dhaka] User error: Undefined index: managment/generic/bookvehicle in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\activevehiclelist.php on line 87
+[24-Oct-2021 11:27:54 Asia/Dhaka] User error: Undefined index: C:
+mpp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\bookvehicle.php in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\activevehiclelist.php on line 87
+[24-Oct-2021 11:28:13 Asia/Dhaka] User error: Undefined index: C:
+mpp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\bookvehicle.php in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\activevehiclelist.php on line 87
+[24-Oct-2021 11:28:23 Asia/Dhaka] User error: Undefined index: C:/xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\bookvehicle.php in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\activevehiclelist.php on line 87
+[24-Oct-2021 11:32:25 Asia/Dhaka] User error: Undefined index: Management/Generic/BookVehicle in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\activevehiclelist.php on line 87
+[24-Oct-2021 11:32:57 Asia/Dhaka] User error: Undefined index: Management/Generic/BookVehicle in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\activevehiclelist.php on line 87
+[24-Oct-2021 13:29:22 Asia/Dhaka] User error: Undefined offset: 0 in C:\sphp04oct2021\library\object\html\ui\datagrid.php on line 388
+[24-Oct-2021 13:29:35 Asia/Dhaka] User error: Undefined offset: 0 in C:\sphp04oct2021\library\object\html\ui\datagrid.php on line 388
+[24-Oct-2021 13:29:41 Asia/Dhaka] User error: Undefined offset: 0 in C:\sphp04oct2021\library\object\html\ui\datagrid.php on line 388
