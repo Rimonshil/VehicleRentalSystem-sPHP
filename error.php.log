@@ -1135,3 +1135,26 @@ mpp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\bookvehicle.php in
 [24-Oct-2021 13:29:22 Asia/Dhaka] User error: Undefined offset: 0 in C:\sphp04oct2021\library\object\html\ui\datagrid.php on line 388
 [24-Oct-2021 13:29:35 Asia/Dhaka] User error: Undefined offset: 0 in C:\sphp04oct2021\library\object\html\ui\datagrid.php on line 388
 [24-Oct-2021 13:29:41 Asia/Dhaka] User error: Undefined offset: 0 in C:\sphp04oct2021\library\object\html\ui\datagrid.php on line 388
+[24-Oct-2021 13:56:00 Asia/Dhaka] User error: Undefined variable: Entity2 in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequestcustomer.php on line 174
+[24-Oct-2021 14:11:33 Asia/Dhaka] User error: Undefined index: _Management/Generic/RentVehicleRequestCustomer in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\activevehiclelist.php on line 66
+[24-Oct-2021 14:11:47 Asia/Dhaka] User error: Undefined index: Management/Generic/RentVehicleRequestCustomer in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\activevehiclelist.php on line 66
+[24-Oct-2021 14:12:47 Asia/Dhaka] User error: Undefined index: Management/Generic/RentVehicleRequestCustomer in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\activevehiclelist.php on line 66
+[24-Oct-2021 14:36:26 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.TypeID' in 'on clause' in C:\sphp04oct2021\library\object\database.php on line 197
+[24-Oct-2021 14:47:08 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.TypeID' in 'on clause' in C:\sphp04oct2021\library\object\database.php on line 197
+[24-Oct-2021 14:55:22 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.TypeID' in 'on clause' in C:\sphp04oct2021\library\object\database.php on line 197
+[24-Oct-2021 14:55:25 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.TypeID' in 'on clause' in C:\sphp04oct2021\library\object\database.php on line 197
+[24-Oct-2021 14:59:33 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.TypeID' in 'on clause' in C:\sphp04oct2021\library\object\database.php on line 197
+[24-Oct-2021 14:59:35 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.TypeID' in 'on clause' in C:\sphp04oct2021\library\object\database.php on line 197
+[24-Oct-2021 15:01:38 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'TypeName' in 'field list' in C:\sphp04oct2021\library\object\database.php on line 197
+[24-Oct-2021 15:02:45 Asia/Dhaka] User error: Undefined index: TypeName in C:\sphp04oct2021\library\object\html\ui\datagrid.php on line 447
+[24-Oct-2021 15:05:35 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_result() in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php:26
+Stack trace:
+#0 C:\sphp04oct2021\private_function.php(73): require()
+#1 C:\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 26
+[24-Oct-2021 15:22:15 Asia/Dhaka] User error: Undefined property: sPHP\User::$ID in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 171
+[24-Oct-2021 15:23:34 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'UserID' in where clause is ambiguous in C:\sphp04oct2021\library\object\database.php on line 197
+[24-Oct-2021 15:24:54 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'UserID' in where clause is ambiguous in C:\sphp04oct2021\library\object\database.php on line 197
+[24-Oct-2021 15:25:28 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'UserID' in where clause is ambiguous in C:\sphp04oct2021\library\object\database.php on line 197
