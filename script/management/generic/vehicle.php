@@ -23,6 +23,7 @@ $EM->InputValidation([
 	//new HTTP\InputValidation("{$Entity}", true),
 	new HTTP\InputValidation("{$Entity}BrandName", true),
 	//new HTTP\InputValidation("{$Entity}Note", null),
+	new HTTP\InputValidation("{$Entity}IsRented", 0, VALIDATION_TYPE_INTEGER),
 	new HTTP\InputValidation("{$Entity}IsActive", null, VALIDATION_TYPE_INTEGER),
 ]);
 
@@ -62,6 +63,7 @@ $EM->ListColumn([
 	//new HTML\UI\Datagrid\Column("" . ($Caption = "Gender") . "Name", "{$Caption}", null),
 	//new HTML\UI\Datagrid\Column("" . ($Caption = "Currency") . "Name", "{$Caption}", null),
 	//new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "Note") . "", "{$Caption}", null),
+	new HTML\UI\Datagrid\Column("{$Entity}Is" . ($Caption = "Rented") . "", "{$Caption}", FIELD_TYPE_BOOLEANICON),
 	new HTML\UI\Datagrid\Column("{$Entity}Is" . ($Caption = "Active") . "", "{$Caption}", FIELD_TYPE_BOOLEANICON),
 ]);
 //DebugDump($Table[$Entity = "Person"]->Get());
@@ -160,6 +162,7 @@ if(isset($_POST["btnInput"])){
 		//HTML\UI\Field(HTML\UI\Select("" . ($Caption = "Gender") . "ID", $Table[$OptionEntity = "{$Caption}"]->Get("{$Table["{$OptionEntity}"]->Alias()}.{$OptionEntity}IsActive = 1", "{$OptionEntity}LookupCaption ASC"), null, "{$OptionEntity}LookupCaption", null, null, null), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
 		//HTML\UI\Field(HTML\UI\Select("" . ($Caption = "Currency") . "ID", $Table[$OptionEntity = "{$Caption}"]->Get("{$Table["{$OptionEntity}"]->Alias()}.{$OptionEntity}IsActive = 1", "{$OptionEntity}LookupCaption ASC"), null, "{$OptionEntity}LookupCaption", null, null, null), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
 		//HTML\UI\Field(HTML\UI\Input("{$Entity}" . ($Caption = "Note") . "", $EM->InputWidth(), null, null), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
+		HTML\UI\Field(HTML\UI\RadioGroup("{$Entity}Is" . ($Caption = "Rented") . "", [new HTML\UI\Radio(1, "Yes"), new HTML\UI\Radio(0, "No")]), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
 		HTML\UI\Field(HTML\UI\RadioGroup("{$Entity}Is" . ($Caption = "Active") . "", [new HTML\UI\Radio(1, "Yes"), new HTML\UI\Radio(0, "No")]), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
 	]);
 
@@ -178,6 +181,7 @@ $EM->SearchSQL([
 	//SetVariable("{$Configuration["SearchInputPrefix"]}" . ($Column = "{$Entity}BirthDate") . "", SetVariable($Column)) ? "{$Table["{$Entity}"]->Alias()}.{$Column} LIKE '%{$Database->Escape($_POST["{$Configuration["SearchInputPrefix"]}{$Column}"])}%'" : null,
 	//SetVariable("{$Configuration["SearchInputPrefix"]}" . ($Column = "GenderID") . "", SetVariable($Column)) ? "{$Table["{$Entity}"]->Alias()}.{$Column} = " . intval($_POST["{$Configuration["SearchInputPrefix"]}{$Column}"]) . "" : null,
 	//SetVariable("{$Configuration["SearchInputPrefix"]}" . ($Column = "CurrencyID") . "", SetVariable($Column)) ? "{$Table["{$Entity}"]->Alias()}.{$Column} = " . intval($_POST["{$Configuration["SearchInputPrefix"]}{$Column}"]) . "" : null,
+	SetVariable("{$Configuration["SearchInputPrefix"]}" . ($Column = "{$Entity}IsRented") . "", SetVariable($Column, "")) !== "" ? "{$Table["{$Entity}"]->Alias()}.{$Column} = " . intval($_POST["{$Configuration["SearchInputPrefix"]}{$Column}"]) . "" : null,
 	SetVariable("{$Configuration["SearchInputPrefix"]}" . ($Column = "{$Entity}IsActive") . "", SetVariable($Column, "")) !== "" ? "{$Table["{$Entity}"]->Alias()}.{$Column} = " . intval($_POST["{$Configuration["SearchInputPrefix"]}{$Column}"]) . "" : null,
 ]);
 
@@ -189,6 +193,7 @@ $EM->SearchUIHTML([
 	//HTML\UI\Field(HTML\UI\Input("{$Configuration["SearchInputPrefix"]}{$Entity}" . ($Caption = "BirthDate") . "", 200), "{$Caption}", null, null),
 	//HTML\UI\Field(HTML\UI\Select("{$Configuration["SearchInputPrefix"]}" . ($Caption = "Gender") . "ID", $Table[$OptionEntity = "{$Caption}"]->Get(null, "" . ($OptionEntityOrderBy = "{$OptionEntity}LookupCaption") . " ASC"), new Option(), "{$OptionEntityOrderBy}"), "{$Caption}", null, null),
 	//HTML\UI\Field(HTML\UI\Select("{$Configuration["SearchInputPrefix"]}" . ($Caption = "Currency") . "ID", $Table[$OptionEntity = "{$Caption}"]->Get(null, "" . ($OptionEntityOrderBy = "{$OptionEntity}LookupCaption") . " ASC"), new Option(), "{$OptionEntityOrderBy}"), "{$Caption}", null, true),
+	HTML\UI\Field(HTML\UI\Select("{$Configuration["SearchInputPrefix"]}{$Entity}Is" . ($Caption = "Rented") . "", [new Option(), new Option(0, "No"), new Option(1, "Yes")]), "{$Caption}", null, true),
 	HTML\UI\Field(HTML\UI\Select("{$Configuration["SearchInputPrefix"]}{$Entity}Is" . ($Caption = "Active") . "", [new Option(), new Option(0, "No"), new Option(1, "Yes")]), "{$Caption}", null, true),
 ]);
 

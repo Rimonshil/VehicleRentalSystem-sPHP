@@ -1158,3 +1158,25 @@ Stack trace:
 [24-Oct-2021 15:23:34 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'UserID' in where clause is ambiguous in C:\sphp04oct2021\library\object\database.php on line 197
 [24-Oct-2021 15:24:54 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'UserID' in where clause is ambiguous in C:\sphp04oct2021\library\object\database.php on line 197
 [24-Oct-2021 15:25:28 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'UserID' in where clause is ambiguous in C:\sphp04oct2021\library\object\database.php on line 197
+[25-Oct-2021 10:55:03 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_result() in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php:26
+Stack trace:
+#0 C:\sphp04oct2021\private_function.php(73): require()
+#1 C:\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 26
+[25-Oct-2021 11:15:52 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_result() in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php:26
+Stack trace:
+#0 C:\sphp04oct2021\private_function.php(73): require()
+#1 C:\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 26
+[25-Oct-2021 11:46:17 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.RentVehicleRequestIsReturned' in 'where clause' in C:\sphp04oct2021\library\object\database.php on line 197
+[25-Oct-2021 12:09:30 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_result() in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php:26
+Stack trace:
+#0 C:\sphp04oct2021\private_function.php(73): require()
+#1 C:\sphp04oct2021\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 26
