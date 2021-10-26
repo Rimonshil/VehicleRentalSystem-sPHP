@@ -161,14 +161,14 @@ if(isset($_POST["btnInput"])){
 
 		//HTML\UI\Field(HTML\UI\Input("" . ($Caption = "RoutePrice") . "", $EM->InputWidth(), null, null,null,null,null,null,null,null,null,null,true), "{$Caption}", null, null, $EM->FieldCaptionWidth()),
 		
-		HTML\UI\Field(HTML\UI\Input("" . ($Caption = "VehicleID") . "", $EM->InputWidth(), null, true,null,null,null,null,null,null,null,null,true), "{$Caption}", null, null, $EM->FieldCaptionWidth()),
+		HTML\UI\Field(HTML\UI\Input("" . ($Caption = "Vehicle") . "ID", $EM->InputWidth(), null, true,INPUT_TYPE_HIDDEN,null,null,null,null,null,null,null,true), null, null, null, $EM->FieldCaptionWidth()),
 
 		
        
 		
 		
 		HTML\UI\Field(HTML\UI\Input("{$Entity}" . ($Caption = "Comment") . "", $EM->InputWidth(), null, true), "{$Caption}",true, true, $EM->FieldCaptionWidth()),
-		HTML\UI\Field(HTML\UI\Input("" . ($Caption = "User") . "ID", $EM->InputWidth(),$USR->ID(), null, INPUT_TYPE_TEXT,null,null,null,null,null,null,null,true), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
+		HTML\UI\Field(HTML\UI\Input("" . ($Caption = "User") . "ID", $EM->InputWidth(),$USR->ID(), null, INPUT_TYPE_HIDDEN,null,null,null,null,null,null,null,true), null, true, null, $EM->FieldCaptionWidth()),
 		
 		$USR->UserGroupIdentifier() === "CUSTOMER" ? HTML\UI\Field(HTML\UI\Input("{$Entity}" . ($Caption = "RentedFor") . "", $EM->InputWidth(), null, true,INPUT_TYPE_DATE), "{$Caption}", null, null, $EM->FieldCaptionWidth()):NULL,
 	]);

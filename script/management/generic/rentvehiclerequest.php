@@ -61,13 +61,19 @@ $EM->DefaultFromSearchColumn("xTerminalID, xCustomerID, xCarrierID");
 
 $EM->ListColumn([
 	
+	$USR->UserGroupIdentifier()=="DRIVER"? NULL:new HTML\UI\Datagrid\Column("" . ($Caption = "")."UserNameLast" , "Driver", null),
 	$USR->UserGroupIdentifier()=="CUSTOMER"? NULL:new HTML\UI\Datagrid\Column("" . ($Caption = "UserSignInName")."" , "{$Caption}", null),
+	in_array($USR->UserGroupIdentifier(),$UTL->ListToArray("CUSTOMER,"))? new HTML\UI\Datagrid\Column("" . ($Caption = "")."UserPhoneWork" , "Driver Phone", null):null,
+	in_array($USR->UserGroupIdentifier(),$UTL->ListToArray("DRIVER,"))? new HTML\UI\Datagrid\Column("" . ($Caption = "")."UserPhoneMobile" , "Customer Phone", null):null,
 	
 	 new HTML\UI\Datagrid\Column("" . ($Caption = "Route") . "Name", "{$Caption}", null),
+
+	 new HTML\UI\Datagrid\Column("" . ($Caption = "RoutePrice") . "", "{$Caption}"."(tk)", null),
+	 new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "") . "RentedFor", "DATE",FIELD_TYPE_SHORTDATE ),
 	
      new HTML\UI\Datagrid\Column("Vehicle" . ($Caption = "BrandName")  , "{$Caption}", null),
 	 new HTML\UI\Datagrid\Column("Vehicle" . ($Caption = "LicenseNumber") , "{$Caption}", null),
-	 $USR->UserGroupIdentifier()=="DRIVER"? NULL:new HTML\UI\Datagrid\Column("" . ($Caption = "User")."NameLast" , "{$Caption}", null),
+	 
 	
 	new HTML\UI\Datagrid\Column("{$Entity}Is" . ($Caption = "Returned") . "", "{$Caption}", FIELD_TYPE_BOOLEANICON),
 
@@ -90,7 +96,7 @@ $EM->BatchActionHTML([
 
 ]);
 
-$EM->OrderBy("RouteID");
+$EM->OrderBy("RentVehicleRequestRentedFor");
 $EM->Order("ASC");
 $EM->URL($Application->URL($_POST["_Script"]));
 $EM->IconURL($Environment->IconURL());

@@ -1,5 +1,15 @@
 SELECT			{ALIAS}.*, 
-				CONCAT({ALIAS}.RentVehicleRequestComment, '') AS {ENTITY}LookupCaption,VehicleLicenseNumber,VehicleBrandName,VehicleIsActive,RouteName,RoutePrice,US.UserSignInName,USD.UserNameLast,UserGroupID,
+				CONCAT({ALIAS}.RentVehicleRequestComment, '') AS {ENTITY}LookupCaption,
+				V.VehicleLicenseNumber,
+				V.VehicleBrandName,
+				V.VehicleIsActive,
+				RouteName,
+				RoutePrice,
+				US.UserSignInName,
+				USD.UserPhoneWork,
+				US.UserPhoneMobile,
+				USD.UserNameLast,
+				UserGroupID,
 
 				          
 				'' AS _Other

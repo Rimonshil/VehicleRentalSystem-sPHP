@@ -2,7 +2,7 @@
 	namespace sPHP; // Use framework namespace for shortcut to constants
 
     #region Reusable shortcut variable
-    $Name = "Vehicale Rental System";
+    $Name = "Vehicle Rental System";
     $ShortName = "VRS";
     $Domain = $_SERVER["SERVER_NAME"];
 	$LocalHost = "127.0.0.1, ::1, LocalHost, 192.168.1.1, 192.168.1.10, 192.168.137.1";
