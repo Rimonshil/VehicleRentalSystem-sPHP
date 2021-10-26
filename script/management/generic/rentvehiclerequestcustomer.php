@@ -63,10 +63,7 @@ $EM->ListColumn([
 	//new HTML\UI\Datagrid\Column("" . ($Caption = "UserID")."" , "{$Caption}", null),
 	// new HTML\UI\Datagrid\Column("" . ($Caption = "Type") . "Name", "{$Caption}", null),
 	 new HTML\UI\Datagrid\Column("" . ($Caption = "Route") . "Name", "{$Caption}", null),
-	 //New HTML\UI\Datagrid\Column("".($Caption="")."","{$Caption}",null),
-	//  new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "Comment") . "", "{$Caption}", null),
-	// new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "VehicleType ") . "", "{$Caption}", null),
-    // new HTML\UI\Datagrid\Column("Vehicle" . ($Caption = "BrandName")  , "{$Caption}", null),
+	
 	 new HTML\UI\Datagrid\Column("Vehicle" . ($Caption = "LicenseNumber") , "{$Caption}", null),
 	// new HTML\UI\Datagrid\Column("" . ($Caption = "UserIDDriver")."" , "{$Caption}", null),
 	//new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "BirthDate") . "", "{$Caption}", FIELD_TYPE_SHORTDATE),
@@ -159,6 +156,10 @@ if(isset($_POST["btnInput"])){
 	$EM->InputUIHTML([
 		
 		HTML\UI\Field(HTML\UI\Select("" . ($Caption = "Route") . "ID", $Table[$OptionEntity = "{$Caption}"]->Get("{$Table["{$OptionEntity}"]->Alias()}.{$OptionEntity}IsActive = 1", "{$OptionEntity}LookupCaption ASC"), null, "{$OptionEntity}LookupCaption", null, null, null), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
+
+		//HTML\UI\Field(HTML\UI\Select("" . ($Caption = "Route") . "Price", $Table[$OptionEntity = "{$Caption}"]->Get("{$Table["{$OptionEntity}"]->Alias()}.{$OptionEntity}IsActive = 1", "{$OptionEntity}LookupCaption ASC"), null, "{$OptionEntity}LookupCaption", null, null, null), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
+
+		//HTML\UI\Field(HTML\UI\Input("" . ($Caption = "RoutePrice") . "", $EM->InputWidth(), null, null,null,null,null,null,null,null,null,null,true), "{$Caption}", null, null, $EM->FieldCaptionWidth()),
 		
 		HTML\UI\Field(HTML\UI\Input("" . ($Caption = "VehicleID") . "", $EM->InputWidth(), null, true,null,null,null,null,null,null,null,null,true), "{$Caption}", null, null, $EM->FieldCaptionWidth()),
 

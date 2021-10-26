@@ -614,3 +614,16 @@
 2021-10-25 12:37:11	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
 2021-10-25 12:37:30	SECURITY   	Application	User                    	Sign in         	Abu Jaher Neptune (CUSTOMER)                      	{"User":{"Email":"neptuneaj@gmail.com"},"IP":"::1"}	:0
 2021-10-25 12:42:51	SECURITY   	Application	User                    	Sign out        	Abu Jaher Neptune (CUSTOMER)                      	{"User":{"Email":"neptuneaj@gmail.com"}}	:0
+2021-10-25 14:08:41	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-10-25 14:08:58	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
+2021-10-25 14:09:12	SECURITY   	Application	User                    	Sign in         	Abu Jaher Neptune (CUSTOMER)                      	{"User":{"Email":"neptuneaj@gmail.com"},"IP":"::1"}	:0
+2021-10-25 14:12:51	SECURITY   	Application	User                    	Sign out        	Abu Jaher Neptune (CUSTOMER)                      	{"User":{"Email":"neptuneaj@gmail.com"}}	:0
+2021-10-25 14:13:04	SECURITY   	Application	User                    	Sign in         	Authentication failed                             	{"Email":"Administrator@System.Dom","IP":"::1"}	:0
+2021-10-25 14:13:10	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-10-25 14:17:18	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
+2021-10-25 14:17:37	SECURITY   	Application	User                    	Sign in         	Mohammod Jubaer (DRIVER)                          	{"User":{"Email":"jubaer@gmail.com"},"IP":"::1"}	:0
+2021-10-25 15:42:28	SECURITY   	Application	User                    	Sign in         	Abu Jaher Neptune (CUSTOMER)                      	{"User":{"Email":"neptuneaj@gmail.com"},"IP":"::1"}	:0
+2021-10-25 15:58:25	SECURITY   	Application	User                    	Sign out        	Abu Jaher Neptune (CUSTOMER)                      	{"User":{"Email":"neptuneaj@gmail.com"}}	:0
+2021-10-25 15:58:36	SECURITY   	Application	User                    	Sign in         	Mohammod Jubaer (DRIVER)                          	{"User":{"Email":"jubaer@gmail.com"},"IP":"::1"}	:0
+2021-10-25 16:17:56	SECURITY   	Application	User                    	Sign out        	Mohammod Jubaer (DRIVER)                          	{"User":{"Email":"jubaer@gmail.com"}}	:0
+2021-10-25 16:18:15	SECURITY   	Application	User                    	Sign in         	Abu Jaher Neptune (CUSTOMER)                      	{"User":{"Email":"neptuneaj@gmail.com"},"IP":"::1"}	:0

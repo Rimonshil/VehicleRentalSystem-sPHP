@@ -61,13 +61,13 @@ $EM->DefaultFromSearchColumn("xTerminalID, xCustomerID, xCarrierID");
 
 $EM->ListColumn([
 	
-	new HTML\UI\Datagrid\Column("" . ($Caption = "UserID")."" , "{$Caption}", null),
+	$USR->UserGroupIdentifier()=="CUSTOMER"? NULL:new HTML\UI\Datagrid\Column("" . ($Caption = "UserSignInName")."" , "{$Caption}", null),
 	
 	 new HTML\UI\Datagrid\Column("" . ($Caption = "Route") . "Name", "{$Caption}", null),
 	
      new HTML\UI\Datagrid\Column("Vehicle" . ($Caption = "BrandName")  , "{$Caption}", null),
 	 new HTML\UI\Datagrid\Column("Vehicle" . ($Caption = "LicenseNumber") , "{$Caption}", null),
-	 new HTML\UI\Datagrid\Column("" . ($Caption = "UserIDDriver")."" , "{$Caption}", null),
+	 $USR->UserGroupIdentifier()=="DRIVER"? NULL:new HTML\UI\Datagrid\Column("" . ($Caption = "User")."NameLast" , "{$Caption}", null),
 	
 	new HTML\UI\Datagrid\Column("{$Entity}Is" . ($Caption = "Returned") . "", "{$Caption}", FIELD_TYPE_BOOLEANICON),
 

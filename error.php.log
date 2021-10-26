@@ -1180,3 +1180,13 @@ Stack trace:
 #2 [internal function]: sPHP\Application->__destruct()
 #3 {main}
   thrown in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\renntvehicleup.php on line 26
+[25-Oct-2021 15:45:50 Asia/Dhaka] User error: Undefined index: UserName in C:\sphp04oct2021\library\object\html\ui\datagrid.php on line 447
+[25-Oct-2021 15:46:44 Asia/Dhaka] User error: Undefined index: UserNameLast in C:\sphp04oct2021\library\object\html\ui\datagrid.php on line 447
+[25-Oct-2021 15:46:47 Asia/Dhaka] User error: Undefined index: UserNameLast in C:\sphp04oct2021\library\object\html\ui\datagrid.php on line 447
+[25-Oct-2021 15:51:01 Asia/Dhaka] User error: SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'US' in C:\sphp04oct2021\library\object\database.php on line 197
+[25-Oct-2021 15:51:23 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'UserNameFirst' in field list is ambiguous in C:\sphp04oct2021\library\object\database.php on line 197
+[25-Oct-2021 15:51:42 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'UserNameFirst' in field list is ambiguous in C:\sphp04oct2021\library\object\database.php on line 197
+[25-Oct-2021 15:53:03 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'UserNameFirst' in field list is ambiguous in C:\sphp04oct2021\library\object\database.php on line 197
+[25-Oct-2021 15:55:28 Asia/Dhaka] User error: SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'UserNameLast' in C:\sphp04oct2021\library\object\database.php on line 197
+[25-Oct-2021 16:21:20 Asia/Dhaka] User error: Undefined index: RoutePrice in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequestcustomer.php on line 160
+[25-Oct-2021 16:25:44 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'R.Route' in 'where clause' in C:\sphp04oct2021\library\object\database.php on line 197
