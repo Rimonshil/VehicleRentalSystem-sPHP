@@ -42,9 +42,9 @@ $EM->IntermediateEntity("xCategory, xEvent");
 $EM->DefaultFromSearchColumn("xTerminalID, xCustomerID, xCarrierID");
 
 $EM->ListColumn([
-	new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "LicenseNumber") . "", "{$Caption}", null),
-	new HTML\UI\Datagrid\Column("" . ($Caption = "Type") . "Name", "{$Caption}", null),
-	new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "BrandName") . "", "{$Caption}", null),
+	new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "") . "LicenseNumber", "License Number", null,ALIGN_CENTER),
+	new HTML\UI\Datagrid\Column("" . ($Caption = "Type") . "Name", "{$Caption}", null,ALIGN_CENTER),
+	new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "") . "BrandName", "Brand Name", null,ALIGN_CENTER),
 	
 ]);
 
@@ -123,11 +123,11 @@ if(isset($_POST["btnInput"])){
 	#endregion Custom code
 	
 	$EM->InputUIHTML([
-		HTML\UI\Field(HTML\UI\Input("{$Entity}" . ($Caption = "LicenseNumber") . "", $EM->InputWidth(), null, true,null,null,null,null,null,null,null,null,true), "{$Caption}", null, null, 
+		HTML\UI\Field(HTML\UI\Input("{$Entity}" . ($Caption = "") . "LicenseNumber", $EM->InputWidth(), null, true,null,null,null,null,null,null,null,null,true), "License Number", null, null, 
 		//		2nd
 		$EM->FieldCaptionWidth()),
 		
-		HTML\UI\Field(HTML\UI\Input("{$Entity}" . ($Caption = "BrandName") . "", $EM->InputWidth(), null, true,null,null,null,null,null,null,null,null,true), "{$Caption}", null, null, $EM->FieldCaptionWidth()),
+		HTML\UI\Field(HTML\UI\Input("{$Entity}" . ($Caption = "") . "Brand Name", $EM->InputWidth(), null, true,null,null,null,null,null,null,null,null,true), "Brand Name", null, null, $EM->FieldCaptionWidth()),
       
 	   HTML\UI\Field(HTML\UI\Input("" . ($Caption = "Type") . "ID", $EM->InputWidth(),null, null, INPUT_TYPE_TEXT,null,null,null,null,null,null,null,true), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
 		
@@ -161,9 +161,9 @@ $EM->SearchSQL([
 
 //Change Made
 $EM->SearchUIHTML([
-	HTML\UI\Field(HTML\UI\Input("{$Configuration["SearchInputPrefix"]}{$Entity}" . ($Caption = "LicenseNumber") . "", 200), "{$Caption}", null, null),
+	HTML\UI\Field(HTML\UI\Input("{$Configuration["SearchInputPrefix"]}{$Entity}" . ($Caption = "") . "LicenseNumber", 200), "License Number", null, null),
 	
-	HTML\UI\Field(HTML\UI\Input("{$Configuration["SearchInputPrefix"]}{$Entity}" . ($Caption = "BrandName") . "", 200), "{$Caption}", null, null),
+	HTML\UI\Field(HTML\UI\Input("{$Configuration["SearchInputPrefix"]}{$Entity}" . ($Caption = "") . "BrandName", 200), "Brand Name", null, true),
 	
 ]);
 
@@ -181,6 +181,6 @@ if(isset($_POST["btnExport"])){
 }
 
 print "{$EM->ListHTML()}";
-if(SetVariable("SucceededAction") == "Input")print HTML\UI\Toast("{$Table["{$Entity}"]->FormalName()} input successful.");
+if(SetVariable("SucceededAction") == "Input")print HTML\UI\Toast("Rent Request input successfully.");
 #region List
 ?>

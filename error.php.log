@@ -1194,3 +1194,20 @@ Stack trace:
 [26-Oct-2021 17:12:26 Asia/Dhaka] User error: Undefined index: UserUserPhoneMobile in C:\sphp04oct2021\library\object\html\ui\datagrid.php on line 447
 [26-Oct-2021 17:16:04 Asia/Dhaka] User error: SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'UserPhoneMobile' in C:\sphp04oct2021\library\object\database.php on line 197
 [26-Oct-2021 17:24:34 Asia/Dhaka] User error: Use of undefined constant PHP_DATETIME - assumed 'PHP_DATETIME' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\rentvehiclerequest.php on line 71
+[27-Oct-2021 12:21:52 Asia/Dhaka] User error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') AS RouteLookup, 
+				'' AS _Other
+
+FROM			vrs_route AS R
+	/*LEFT JOIN		...' at line 3 in C:\sphp04oct2021\library\object\database.php on line 197
+[27-Oct-2021 12:59:55 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\activevehiclelist.php on line 54
+[27-Oct-2021 12:59:55 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Oct-2021 13:00:14 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\activevehiclelist.php on line 54
+[27-Oct-2021 13:00:14 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Oct-2021 13:00:45 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\activevehiclelist.php on line 54
+[27-Oct-2021 13:00:45 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Oct-2021 13:00:56 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\activevehiclelist.php on line 54
+[27-Oct-2021 13:00:56 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Oct-2021 13:00:57 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\activevehiclelist.php on line 54
+[27-Oct-2021 13:00:57 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Oct-2021 13:01:53 Asia/Dhaka] PHP Parse error:  syntax error, unexpected 'Rent' (T_STRING), expecting ')' in C:\xampp\htdocs\VehicleRentalSystem-sPHP\script\management\generic\activevehiclelist.php on line 184
+[27-Oct-2021 13:01:53 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0

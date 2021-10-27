@@ -27,7 +27,7 @@ $LeftPanelLinkHTML[] = HTML\UI\Accordion("LeftPanelNavigation", [
 		new HTML\UI\Accordion\Item($Caption = "Rent Vehicle", null, $Application->URL("Management/Generic/RentVehicleRequest"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "RentVehicleRequest")) . "", "{$Caption}", null, "{$Key}"),
 		
 		
-		new HTML\UI\Accordion\Item($Caption = "ActiveVehicleList", null, $Application->URL("Management/Generic/ActiveVehicleList"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "ActiveVehicleList")) . "", "{$Caption}", null, "{$Key}"),
+		new HTML\UI\Accordion\Item($Caption = "Active Vehicle List", null, $Application->URL("Management/Generic/ActiveVehicleList"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "ActiveVehicleList")) . "", "{$Caption}", null, "{$Key}"),
 		]): null,
 		
 	$USR->UserGroupIdentifierHighest() == "DRIVER" ? new HTML\UI\Accordion\Pad([

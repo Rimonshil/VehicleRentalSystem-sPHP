@@ -62,17 +62,17 @@ $EM->DefaultFromSearchColumn("xTerminalID, xCustomerID, xCarrierID");
 $EM->ListColumn([
 	
 	$USR->UserGroupIdentifier()=="DRIVER"? NULL:new HTML\UI\Datagrid\Column("" . ($Caption = "")."UserNameLast" , "Driver", null),
-	$USR->UserGroupIdentifier()=="CUSTOMER"? NULL:new HTML\UI\Datagrid\Column("" . ($Caption = "UserSignInName")."" , "{$Caption}", null),
+	$USR->UserGroupIdentifier()=="CUSTOMER"? NULL:new HTML\UI\Datagrid\Column("" . ($Caption = "")."UserSignInName" , "User Name", null),
 	in_array($USR->UserGroupIdentifier(),$UTL->ListToArray("CUSTOMER,"))? new HTML\UI\Datagrid\Column("" . ($Caption = "")."UserPhoneWork" , "Driver Phone", null):null,
 	in_array($USR->UserGroupIdentifier(),$UTL->ListToArray("DRIVER,"))? new HTML\UI\Datagrid\Column("" . ($Caption = "")."UserPhoneMobile" , "Customer Phone", null):null,
 	
 	 new HTML\UI\Datagrid\Column("" . ($Caption = "Route") . "Name", "{$Caption}", null),
 
-	 new HTML\UI\Datagrid\Column("" . ($Caption = "RoutePrice") . "", "{$Caption}"."(tk)", null),
+	 new HTML\UI\Datagrid\Column("" . ($Caption = "") . "RoutePrice", "Route Price"." (tk)", null),
 	 new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "") . "RentedFor", "DATE",FIELD_TYPE_SHORTDATE ),
 	
-     new HTML\UI\Datagrid\Column("Vehicle" . ($Caption = "BrandName")  , "{$Caption}", null),
-	 new HTML\UI\Datagrid\Column("Vehicle" . ($Caption = "LicenseNumber") , "{$Caption}", null),
+     new HTML\UI\Datagrid\Column("Vehicle" . ($Caption = "") ."BrandName" , "Brand Name", null),
+	 new HTML\UI\Datagrid\Column("Vehicle" . ($Caption = "") ."LicenseNumber" , "License Number", null),
 	 
 	
 	new HTML\UI\Datagrid\Column("{$Entity}Is" . ($Caption = "Returned") . "", "{$Caption}", FIELD_TYPE_BOOLEANICON),
@@ -81,7 +81,7 @@ $EM->ListColumn([
 ]);
 //DebugDump($Table[$Entity = "Vehicle"]);
 $EM->Action([
-	new HTML\UI\Datagrid\Action("{$Environment->IconURL()}report.png", null, $Application->URL("Management/report/personreport", "btnReport"), null, null, null, "Report"),
+	// new HTML\UI\Datagrid\Action("{$Environment->IconURL()}report.png", null, $Application->URL("Management/report/personreport", "btnReport"), null, null, null, "Report"),
 	
 	in_array($USR->UserGroupIdentifier(),$UTL->ListToArray("CUSTOMER, DRIVER"))? Null:new HTML\UI\Datagrid\Action("{$Environment->IconURL()}edit.png", null, $Application->URL($_POST["_Script"], "btnInput"), null, null, null, "Edit"),
 	

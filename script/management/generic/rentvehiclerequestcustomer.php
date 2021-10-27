@@ -74,7 +74,7 @@ $EM->ListColumn([
 ]);
 //DebugDump($Table[$Entity = "Vehicle"]);
 $EM->Action([
-	new HTML\UI\Datagrid\Action("{$Environment->IconURL()}report.png", null, $Application->URL("Management/report/personreport", "btnReport"), null, null, null, "Report"),
+	// new HTML\UI\Datagrid\Action("{$Environment->IconURL()}report.png", null, $Application->URL("Management/report/personreport", "btnReport"), null, null, null, "Report"),
 	
 	
 	
@@ -155,7 +155,7 @@ if(isset($_POST["btnInput"])){
 
 	$EM->InputUIHTML([
 		
-		HTML\UI\Field(HTML\UI\Select("" . ($Caption = "Route") . "ID", $Table[$OptionEntity = "{$Caption}"]->Get("{$Table["{$OptionEntity}"]->Alias()}.{$OptionEntity}IsActive = 1", "{$OptionEntity}LookupCaption ASC"), null, "{$OptionEntity}LookupCaption", null, null, null), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
+		HTML\UI\Field(HTML\UI\Select("" . ($Caption = "Route") . "ID" , $Table[$OptionEntity = "{$Caption}"]->Get("{$Table["{$OptionEntity}"]->Alias()}.{$OptionEntity}IsActive = 1", "{$OptionEntity}LookupCaption ASC"), null, "{$OptionEntity}Lookup", null, null, null), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
 
 		//HTML\UI\Field(HTML\UI\Select("" . ($Caption = "Route") . "Price", $Table[$OptionEntity = "{$Caption}"]->Get("{$Table["{$OptionEntity}"]->Alias()}.{$OptionEntity}IsActive = 1", "{$OptionEntity}LookupCaption ASC"), null, "{$OptionEntity}LookupCaption", null, null, null), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
 
@@ -203,6 +203,6 @@ if(isset($_POST["btnExport"])){
 }
 
 //print "{$EM->ListHTML()}";
-if(SetVariable("SucceededAction") == "Input")print HTML\UI\Toast("{$Table["{$Entity}"]->FormalName()} input successful.");
+if(SetVariable("SucceededAction") == "Input")print HTML\UI\Toast("Rent Request input successfully.");
 #region List
 ?>
